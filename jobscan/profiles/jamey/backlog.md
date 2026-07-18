@@ -1,12 +1,12 @@
 # Backlog
 
-Generated 2026-07-18 16:12 UTC. Sources scanned: 6. Postings seen: 7. Filtered out: 4. New since last run: 7.
+Generated 2026-07-18 19:16 UTC. Sources scanned: 6. Postings seen: 7. Filtered out: 4. New since last run: 7.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
 | # | Score | Company | Role | Comp | Where | Age |
 |---|-------|---------|------|------|-------|-----|
-| 1 **P** | 90 | American Bible Society | [Staff Engineer](https://www.christiantechjobs.io/christian-jobs/remote-staff-engineer-american-bible-society-1700) | not stated | ? | 0d old |
+| 1 **P** | 93 | American Bible Society | [Staff Engineer](https://www.christiantechjobs.io/christian-jobs/remote-staff-engineer-american-bible-society-1700) | $99K-$154K | ? | 0d old |
 | 2 **P** | 87 | Samaritan Ministries | [Senior Software Engineer](https://www.christiantechjobs.io/christian-jobs/remote-senior-software-engineer-samaritan-ministries-1651) | $99K-$154K | ? | 0d old |
 | 3 **P** | 76 | 1Password | [Senior .Net/C# Developer, SaaS Manager](https://jobs.lever.co/1password) | $153K-$214K | ? | 0d old |
 
@@ -14,11 +14,11 @@ Review, then say go on the ones worth a kit. Kits are never automatic.
 
 ---
 
-## 1. American Bible Society : Staff Engineer  `90`
+## 1. American Bible Society : Staff Engineer  `93`
 
 https://www.christiantechjobs.io/christian-jobs/remote-staff-engineer-american-bible-society-1700
 
-- **Comp:** not stated
+- **Comp:** $99K-$154K
 - **Location:** not stated
 - **Day shape:** build
 - **Source:** paste
@@ -31,12 +31,12 @@ https://www.christiantechjobs.io/christian-jobs/remote-staff-engineer-american-b
 - stack 35/35: architect, aws, c#, github actions, graphql, postgres, postgresql, python
 - domain 13/15: mission
 - level 15/15: principal/staff tier
-- comp 4/10: not stated, ask
+- comp 7/10: $99,000-$154,400, clears floor
 - freshness 10/10: 0d old
 - remote 8/10: remote
 - ai 5/5: AI-positive language
 
-> Remote - Must be based in United States. Core hours 8:30am-5:00pm EST. As Staff Engineer you will guide the technical architecture, implementation, and delivery of a variety of digital products, across a portfolio of Scripture-centered platforms and web and mobile apps. This is an individual-contributor role; no direct reports, includes mentorship. Lead system architecture design across multiple …
+> Remote - Must be based in United States. Core hours 8:30am-5:00pm EST. Pay: $99,000-$154,400. As Staff Engineer you will guide the technical architecture, implementation, and delivery of a variety of digital products, across a portfolio of Scripture-centered platforms and web and mobile apps. This is an individual-contributor role; no direct reports, includes mentorship. Lead system architecture …
 
 **Go:** `make kit ID=219a0b005d15`
 
