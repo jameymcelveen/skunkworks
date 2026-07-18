@@ -1,0 +1,7 @@
+Tithely | Senior Platform Engineer | https://example.com/tithely
+We build giving software for churches. Fully remote.
+What you'll need
+Expert-level Terraform and infrastructure as code. ArgoCD and Helm for GitOps deploys.
+Kubernetes operations at scale. Participate in on-call rotation and incident response.
+Site reliability engineering background. Build runbooks and improve observability.
+$140,000 - $175,000

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>skunkworks · jobscan</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+  :root { --paper:#FCFAF5; --ink:#2E2A26; --rust:#B94700; --hair:#D9D3CA; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink);
+         font:16px/1.55 Georgia, 'Times New Roman', serif; }
+  header { display:flex; align-items:baseline; gap:14px; padding:22px 28px 10px;
+           border-bottom:1px solid var(--hair); }
+  header h1 { font-size:20px; margin:0; letter-spacing:.5px; font-weight:600; }
+  header h1 b { color:var(--rust); }
+  header .meta { color:#6f675e; font-size:13px; }
+  select { font:inherit; font-size:14px; background:var(--paper); color:var(--ink);
+           border:1px solid var(--hair); padding:3px 8px; margin-left:auto; }
+  main { max-width:1060px; margin:0 auto; padding:18px 28px 60px; }
+  table { width:100%; border-collapse:collapse; font-size:14.5px; }
+  th { text-align:left; font-weight:600; font-size:12px; text-transform:uppercase;
+       letter-spacing:.8px; color:#6f675e; border-bottom:1px solid var(--ink);
+       padding:8px 10px 6px; }
+  td { padding:9px 10px; border-bottom:1px solid var(--hair); vertical-align:top; }
+  tr.pri td:first-child { border-left:3px solid var(--rust); }
+  .score { font-weight:700; font-variant-numeric:tabular-nums; }
+  .pri .score { color:var(--rust); }
+  a { color:var(--ink); }
+  a:hover { color:var(--rust); }
+  .flag { display:block; font-size:12px; color:var(--rust); margin-top:3px; }
+  .why { font-size:12px; color:#6f675e; margin-top:3px; }
+  details { cursor:pointer; }
+  .empty { padding:40px 0; color:#6f675e; font-style:italic; }
+  footer { text-align:center; color:#a49a8e; font-size:12px; padding:20px; }
+</style>
+</head>
+<body>
+<header>
+  <h1><b>skunkworks</b> · jobscan backlog</h1>
+  <span class="meta" id="meta">loading…</span>
+  <select id="profile" aria-label="profile"></select>
+</header>
+<main><div id="out" class="empty">Loading backlog…</div></main>
+<footer>Bill launches, Garfield maintains. Kits are never automatic.</footer>
+<script>
+const out = document.getElementById('out');
+const sel = document.getElementById('profile');
+const meta = document.getElementById('meta');
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+async function loadIndex() {
+  const r = await fetch('/profiles/index.json');
+  const { profiles } = await r.json();
+  sel.innerHTML = profiles.map(p => `<option>${esc(p)}</option>`).join('');
+  sel.onchange = () => loadProfile(sel.value);
+  loadProfile(profiles[0]);
+}
+
+async function loadProfile(name) {
+  out.className = 'empty'; out.textContent = 'Loading ' + name + '…';
+  try {
+    const r = await fetch(`/profiles/${encodeURIComponent(name)}/backlog.json`);
+    if (!r.ok) throw new Error('no backlog.json yet, run a scan');
+    render(await r.json());
+  } catch (e) { out.textContent = String(e.message || e); }
+}
+
+function render(d) {
+  meta.textContent = `${d.hits.length} hits · ${d.stats.Rejected} rejected · ` +
+    `generated ${new Date(d.generated).toLocaleString()}`;
+  if (!d.hits.length) { out.textContent = 'Nothing cleared the filter. See rejected.md.'; return; }
+  out.className = '';
+  out.innerHTML = `<table>
+    <thead><tr><th>Score</th><th>Company · Role</th><th>Comp</th><th>Where</th><th>Notes</th></tr></thead>
+    <tbody>` + d.hits.map(h => `
+      <tr class="${h.priority ? 'pri' : ''}">
+        <td class="score">${h.score}</td>
+        <td><a href="${esc(h.url)}" target="_blank" rel="noopener">${esc(h.company)}</a><br>
+            <span style="font-size:13.5px">${esc(h.title)}</span>
+            ${h.flags.map(f => `<span class="flag">⚑ ${esc(f)}</span>`).join('')}</td>
+        <td>${esc(h.comp)}</td>
+        <td>${esc(h.location || '?')}</td>
+        <td><details><summary style="font-size:12px;color:#6f675e">why ${h.score}</summary>
+            ${h.why.map(w => `<div class="why">${esc(w)}</div>`).join('')}</details></td>
+      </tr>`).join('') + `</tbody></table>`;
+}
+loadIndex();
+</script>
+</body>
+</html>

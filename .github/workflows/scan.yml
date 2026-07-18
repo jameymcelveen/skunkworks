@@ -1,0 +1,72 @@
+name: scan
+
+on:
+  schedule:
+    # 10:30 UTC = 06:30 EDT. Backlog is ready before the coffee is.
+    - cron: "30 10 * * 1-5"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  build-and-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      # No NuGet packages, so no restore step and nothing to cache.
+      - name: Test
+        run: make test
+        working-directory: jobscan
+
+      - name: Scan
+        if: github.event_name != 'push'
+        run: make scan
+        working-directory: jobscan
+
+      - name: Commit backlog
+        if: github.event_name != 'push'
+        run: |
+          git config user.name  "jobscan"
+          git config user.email "actions@github.com"
+          git add jobscan/profiles/*/backlog.md jobscan/profiles/*/backlog.json jobscan/profiles/*/rejected.md jobscan/profiles/*/data/seen.json
+          git diff --staged --quiet || git commit -m "scan: $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Alert on priority hits
+        if: github.event_name != 'push'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const bl = fs.readFileSync('jobscan/profiles/jamey/backlog.md', 'utf8');
+            const rows = [...bl.matchAll(/^\| \d+ \*\*P\*\* \|.*$/gm)].map(m => m[0]);
+            if (!rows.length) {
+              core.info('no priority hits, staying quiet');
+              return;
+            }
+            const header = '| # | Score | Company | Role | Comp | Where | Age |\n|---|---|---|---|---|---|---|';
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `${rows.length} priority hit(s) - ${new Date().toISOString().slice(0,10)}`,
+              labels: ['backlog'],
+              body: [
+                `${rows.length} posting(s) cleared the priority threshold.`,
+                '',
+                header,
+                ...rows,
+                '',
+                `Full list: [backlog.md](${context.payload.repository.html_url}/blob/main/backlog.md)`,
+                '',
+                'Kits are not automatic. Comment `go <id>` on the ones you want.',
+              ].join('\n')
+            });

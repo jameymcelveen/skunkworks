@@ -1,0 +1,10 @@
+Flowers Foods | Cloud Engineer/Architect | https://example.com/flowers
+About the role
+Join our IT team as a Cloud Engineer/Architect supporting our enterprise cloud footprint.
+Requirements
+5+ years administering Office 365 and SharePoint Online. Deep PowerShell scripting.
+Experience with Power Platform, Power Automate, and PowerApps. Active Directory and
+Azure AD administration. Manage tenant configuration, run patching cycles, respond to
+incidents, maintain runbooks. On-call rotation required.
+Compensation
+$90,000 - $105,000 annually.

@@ -1,0 +1,12 @@
+Samaritan Ministries | Senior Software Engineer | https://www.christiantechjobs.io/christian-jobs/remote-senior-software-engineer-samaritan-ministries-1651 | mission
+Remote. Full-time. Pay Range: $99,000-$154,400.
+Samaritan Ministries is a Biblical solution to health care. Serve the members of Samaritan
+Ministries International by constructing and developing software within an Agile process.
+Key responsibilities: build high quality software, full software development life cycle,
+code reviews, Scrum, Pair/Mob programming, Software Craftsman (Clean Code / SOLID / TDD),
+technical training and mentoring of other developers.
+Qualifications and Experience
+Six or more years professional experience in Software Development. Web API (Advanced).
+React (Advanced). Test-driven Development (Advanced). Secure SDLC (Advanced). Git.
+SQL (Advanced). C# (Advanced). JavaScript (Advanced). TypeScript (Advanced).
+Entity Framework (Advanced). .Net Core (Advanced). REST Api (Advanced). Mentoring experience.

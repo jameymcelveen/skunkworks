@@ -1,0 +1,13 @@
+Virtuous | Senior Software Engineer (Full Stack) | https://www.christiantechjobs.io/christian-jobs/remote-senior-software-engineer-full-stack-virtuous-1708
+Remote. Nonprofit CRM and fundraising platform.
+You'll own performance and scalability of the data layer, asynchronous infrastructure
+(Celery), ship revenue-driving features, server-side HTMX frontend migration.
+You Must Have
+6+ years building modern web applications, running and scaling them in production.
+Proficiency in Python and frameworks like Django (or similar). Hands-on experience with AI
+coding agents (Claude Code, Cursor, Copilot) as part of your regular workflow. Experience
+operating cloud infrastructure (AWS, GCP, or Azure) and infrastructure-as-code tooling
+(e.g., Terraform). JavaScript/TypeScript and React or Vue. PostgreSQL tuning: indexing,
+query optimization, read replicas, partitioning, connection pooling. REST and/or GraphQL.
+Solid DevOps fundamentals: CI/CD, containerization, monitoring, scaling under load.
+Observability tooling. Nice to have: Kubernetes, SLOs/SLIs, familiarity with C# / .NET.

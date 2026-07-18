@@ -1,0 +1,93 @@
+// Watchlist. Each entry resolves to a PUBLIC board endpoint. No scraping, no walls.
+//
+//   greenhouse -> https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true
+//   lever      -> https://api.lever.co/v0/postings/{token}?mode=json
+//   ashby      -> https://api.ashbyhq.com/posting-api/job-board/{token}
+//   rss        -> token is a full feed URL
+//
+// TODO(jamey): tokens marked VERIFY are guesses from the company slug and were
+// never tested against the live endpoint. First run logs a [404] for each wrong
+// one. Fix the token or set "active": false.
+{
+  "companies": [
+    {
+      "name": "Thorne",
+      "board": "greenhouse",
+      "token": "thorne", // VERIFY
+      "domain": "healthcare",
+      "notes": "Priority tier. Summerville SC. Taia = LLM+RAG wellness advisor."
+    },
+    {
+      "name": "OPENLANE",
+      "board": "greenhouse",
+      "token": "openlane", // VERIFY
+      "domain": "marketplace",
+      "notes": "Core stack .NET Core/PostgreSQL/K8s-AWS/OTel. Clemson alum inside."
+    },
+    {
+      "name": "Wolters Kluwer",
+      "board": "workday",
+      "token": null,
+      "active": false,
+      "domain": "healthcare",
+      "notes": "Workday tenant, no public JSON. Paste-adapter only."
+    },
+    {
+      "name": "Aledade",
+      "board": "greenhouse",
+      "token": "aledade", // VERIFY
+      "domain": "healthcare"
+    },
+    {
+      "name": "TherapyNotes",
+      "board": "greenhouse",
+      "token": "therapynotes", // VERIFY
+      "domain": "healthcare"
+    },
+    {
+      "name": "GiveDirectly",
+      "board": "lever",
+      "token": "givedirectly", // VERIFY
+      "domain": "mission"
+    },
+    {
+      "name": "Christian Care Ministry",
+      "board": "greenhouse",
+      "token": "christiancareministry", // VERIFY
+      "domain": "mission"
+    },
+    {
+      "name": "Epic",
+      "board": "greenhouse",
+      "token": "epic",
+      "active": false,
+      "domain": "healthcare",
+      "notes": "Madison WI, notoriously onsite. Probably a location reject anyway."
+    }
+    // --- seed slots: fill to 20-25 target companies ---
+  ],
+
+  "feeds": [
+    {
+      "name": "Christian Tech Jobs",
+      "board": "rss",
+      "token": "https://christiantechjobs.io/api/rss",
+      "domain": "mission"
+    }
+  ],
+
+  "aggregators": [
+    {
+      "name": "Remotive",
+      "kind": "remotive",
+      "url": "https://remotive.com/api/remote-jobs?search=.NET",
+      "domain": "saas"
+    },
+    {
+      "name": "RemoteOK",
+      "kind": "remoteok",
+      "url": "https://remoteok.com/api",
+      "domain": "saas"
+    }
+  ]
+}

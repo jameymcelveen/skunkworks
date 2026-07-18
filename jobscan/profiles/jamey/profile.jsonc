@@ -1,0 +1,117 @@
+// Candidate constants. brief.md is the prose and the source of truth;
+// this is the machine-readable slice. If they disagree, brief.md wins
+// and this file has the bug.
+//
+// JSONC: comments and trailing commas are allowed (System.Text.Json,
+// ReadCommentHandling = Skip). Zero NuGet packages needed.
+{
+  "comp": {
+    "salary_floor": 135000,
+    "hourly_floor": 65
+  },
+
+  "location": {
+    "remote_ok": true,
+    "home": "Florence, SC",
+    // Coarse allowlist for onsite/hybrid. ~75mi of Florence, plus the Summerville exception.
+    "onsite_allow": [
+      "florence sc", "darlington", "hartsville", "sumter", "marion sc",
+      "lake city sc", "myrtle beach", "conway sc", "camden sc",
+      "bishopville", "manning sc",
+      "summerville" // 90 min. Accepted exception per brief.md section 12.
+    ],
+    // Look close, are not. Charleston/Columbia are >75mi: require remote.
+    "onsite_deny": [
+      "charleston", "columbia sc", "charlotte", "greenville sc", "raleigh", "atlanta"
+    ]
+  },
+
+  "level": {
+    "accept": ["senior", "staff", "lead", "principal", "architect", "sr.", "distinguished"],
+    "reject": ["junior", "intern", "associate", "entry level"]
+  },
+
+  // Load-bearing stack. Primary is what he ships. Adjacent is credible.
+  // Dated is real but careful (brief.md section 4).
+  "stack": {
+    "primary": {
+      "c#": 5, ".net": 5, "dotnet": 5, "asp.net": 4, "entity framework": 3,
+      "typescript": 4, "angular": 4, "react": 4,
+      "postgresql": 4, "postgres": 4, "sql server": 4, "t-sql": 3,
+      "kubernetes": 3, "eks": 3, "aws": 3, "azure": 3,
+      "rest api": 2, "openapi": 2, "swagger": 2,
+      "microservices": 3, "multi-tenant": 4, "saas": 2,
+      "signalr": 2, "ci/cd": 2, "github actions": 2,
+      "opentelemetry": 3, "snowflake": 2, "etl": 2, "oidc": 2,
+      "architect": 3
+    },
+    "adjacent": {
+      "scala": 2, "react native": 2, "electron": 1, "node": 1, "graphql": 1,
+      "redis": 1, "kafka": 1, "docker": 2, "linux": 1,
+      "mcp": 3, "rag": 2, "llm": 2, "ai agent": 3,
+      "fhir": 2, "hl7": 2, "hipaa": 3, "epic": 2, "oracle": 1, "python": 1
+    },
+    "dated": {
+      "java": 1, "struts": 1, "wcf": 1, "soap": 1
+    }
+  },
+
+  // brief.md section 4. Hard walls, not soft negatives.
+  // A keyword that clears an ATS but collapses in the first technical screen
+  // is worse than not applying. If a posting GATES on these, auto-reject.
+  "gaps_hard": [
+    "terraform", "argocd", "argo cd", "helm", "pulumi", "cloudformation",
+    "salesforce", "mulesoft",
+    "power automate", "powerapps", "power platform", "sharepoint admin",
+    "dbt", "spark", "databricks",
+    "rust", "golang",
+    "langchain", "langgraph"
+  ],
+
+  // Day shape. Jamey builds. He does not run.
+  "day_shape": {
+    "run_signals": [
+      "on-call", "on call", "pagerduty", "sre", "site reliability",
+      "incident response", "runbook", "infrastructure as code",
+      "platform engineer", "devops engineer", "sysadmin", "system administrator",
+      "o365", "office 365", "active directory", "desktop support", "tier 2", "tier 3"
+    ],
+    "build_signals": [
+      "design", "architect", "build", "ship", "develop", "implement",
+      "greenfield", "modernize", "api design", "system design",
+      "code review", "technical lead"
+    ]
+  },
+
+  // brief.md section 13. Must sum to 100.
+  "rubric": {
+    "stack_depth": 35,
+    "domain": 15,
+    "level": 15,
+    "comp": 10,
+    "freshness": 10,
+    "remote_culture": 10,
+    "ai_friendly": 5
+  },
+
+  // healthcare > faith-based/mission > fintech > marketplace/SaaS
+  "domain_affinity": {
+    "healthcare": 1.0,
+    "mission": 0.85,
+    "faith": 0.85,
+    "fintech": 0.6,
+    "marketplace": 0.45,
+    "saas": 0.45,
+    "other": 0.2
+  },
+
+  "ai_friendly_signals": {
+    "positive": ["ai-assisted", "copilot", "cursor", "llm", "ai tooling", "agentic", "mcp"],
+    "negative": ["no ai", "ai is prohibited", "without ai assistance", "ai-free"]
+  },
+
+  "thresholds": {
+    "backlog_min_score": 45,
+    "priority_min_score": 70
+  }
+}

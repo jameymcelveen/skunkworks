@@ -1,0 +1,9 @@
+OPENLANE | Sr. Software Engineer (C# .NET) | https://example.com/openlane
+Remote-first. We run a digital marketplace for wholesale vehicles.
+Qualifications
+7+ years building backend services in C# and .NET Core. Strong PostgreSQL and SQL.
+Design and ship microservices deployed on Kubernetes in AWS. REST API design with
+OpenAPI/Swagger. OpenTelemetry instrumentation. TypeScript and React on the front end.
+You will architect new systems, lead code reviews, and mentor engineers.
+Benefits
+Salary range $112,000 - $155,000 depending on experience.

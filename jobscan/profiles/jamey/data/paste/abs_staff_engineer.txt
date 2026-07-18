@@ -1,0 +1,21 @@
+American Bible Society | Staff Engineer | https://www.christiantechjobs.io/christian-jobs/remote-staff-engineer-american-bible-society-1700 | mission
+Remote - Must be based in United States. Core hours 8:30am-5:00pm EST.
+As Staff Engineer you will guide the technical architecture, implementation, and delivery of a
+variety of digital products, across a portfolio of Scripture-centered platforms and web and
+mobile apps. This is an individual-contributor role; no direct reports, includes mentorship.
+Lead system architecture design across multiple products and platforms. Write and review code.
+Architectural and code review for external development teams. Champion AI adoption.
+Qualifications
+8+ years of full-stack software engineering experience, demonstrated technical leader.
+Tech stack and tools: Agentic Product Development: Claude Code. Languages: TypeScript,
+JavaScript, SQL. Frameworks: React, Next.js. DevOps: AWS CDK preferred, Serverless Framework,
+or CloudFormation. Infrastructure: Lambda, DynamoDB, S3, API Gateway, PostgreSQL. Testing:
+Jest, Cypress, Chromatic, Playwright. Process: Agile Scrum, CICD GitHub Actions, AWS Amplify.
+Proven ability to architect, design, and ship scalable web applications. Strong proficiency
+with JavaScript/TypeScript, React, and AWS serverless. Proficiency with relational databases
+such as PostgreSQL; confident writing SQL. REST or GraphQL APIs. Overseeing external teams.
+Mentoring engineers, code reviews, leading engineering discussions.
+Preferred
+Familiarity with offline-first, cross-platform, or mobile web app development.
+Internationalization and accessibility. Exposure to other languages (Python, Go, C#, etc.).
+Experience in a non-profit, faith-based, or ministry tech environment.

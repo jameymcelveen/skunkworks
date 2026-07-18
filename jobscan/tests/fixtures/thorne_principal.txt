@@ -1,0 +1,10 @@
+Thorne | Principal Software Engineer | https://example.com/thorne
+Location: Summerville, SC. Hybrid.
+We are a health and wellness company serving 47,000+ practitioners.
+What we're looking for
+10+ years designing and building distributed systems. C#/.NET and TypeScript.
+PostgreSQL. AWS. Experience with LLM and RAG systems a strong plus; our Taia advisor
+is built on retrieval over our internal knowledge base. You will architect the platform,
+build greenfield services, and lead technical direction. HIPAA-adjacent data handling.
+We encourage AI-assisted development and use Copilot across the org.
+$150,000 - $180,000
