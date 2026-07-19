@@ -166,6 +166,10 @@ public static class Program
 
     private static string FindRepoRoot()
     {
+        // Containers set this explicitly; the directory walk is the dev-machine path.
+        if (Environment.GetEnvironmentVariable("JOBSCAN_ROOT") is { Length: > 0 } env)
+            return env;
+
         var dir = new DirectoryInfo(AppContext.BaseDirectory);
         while (dir is not null)
         {
