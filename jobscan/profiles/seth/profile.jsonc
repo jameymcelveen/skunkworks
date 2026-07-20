@@ -1,0 +1,64 @@
+// Seth McElveen, 19. ERAU Daytona Beach, B.S. Astronautical Engineering (2025-).
+// Goal: part-time, close to campus, SAFE, experience + spending money.
+// Campus jobs beat off-campus. Remote is BANNED for this profile on purpose:
+// the remote part-time listing pool aimed at students is scam-saturated.
+{
+  "comp": { "salary_floor": 22000, "hourly_floor": 12 },
+
+  "location": {
+    "remote_ok": false,
+    "home": "Daytona Beach, FL (ERAU)",
+    "onsite_allow": [
+      "daytona", "embry", "erau", "on campus", "on-campus",
+      "port orange", "ormond", "holly hill", "south daytona"
+    ],
+    "onsite_deny": []
+  },
+
+  "level": {
+    "accept": ["part-time", "part time", "student", "associate", "team member", "tutor", "assistant", "aide", "crew"],
+    "reject": ["senior ", "principal", "director of", "manager,"]
+  },
+
+  "stack": {
+    "primary": {
+      "tutor": 5, "tutoring": 5, "work study": 5, "work-study": 5,
+      "lab assistant": 5, "cad": 5, "solidworks": 4, "student": 4,
+      "math": 4, "physics": 4, "engineering": 4, "campus": 4, "robotics": 4,
+      "cashier": 4, "customer service": 4, "grocery": 4, "part-time": 3,
+      "part time": 3, "retail": 3, "team member": 3, "stock": 3,
+      "warehouse": 3, "delivery": 3, "food safety": 3, "library": 3, "mentor": 3
+    },
+    "adjacent": {
+      "3d printing": 3, "machine shop": 3, "prototyping": 3,
+      "excel": 2, "inventory": 2, "safety": 2, "barista": 2
+    },
+    "dated": {}
+  },
+
+  "gaps_hard": [],
+
+  "day_shape": { "run_signals": [], "build_signals": [] },
+
+  // brief.md section 11 taxonomy, posting-side. Any of these = hard reject.
+  "scam_signals": [
+    "daily payout", "per day cash", "crypto", "bitcoin", "wire transfer",
+    "reshipping", "package inspector", "mystery shopper", "check deposit",
+    "pay a fee", "training fee", "starter kit", "registration fee",
+    "whatsapp", "telegram", "text this number"
+  ],
+
+  "rubric": {
+    "stack_depth": 35, "domain": 15, "level": 15, "comp": 10,
+    "freshness": 10, "remote_culture": 10, "ai_friendly": 5
+  },
+
+  "domain_affinity": {
+    "campus": 1.0, "education": 0.9, "retail": 0.75, "food": 0.7,
+    "logistics": 0.6, "other": 0.5
+  },
+
+  "ai_friendly_signals": { "positive": [], "negative": [] },
+
+  "thresholds": { "backlog_min_score": 30, "priority_min_score": 55 }
+}

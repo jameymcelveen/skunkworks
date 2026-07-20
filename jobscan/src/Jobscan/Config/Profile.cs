@@ -14,6 +14,7 @@ public sealed class Profile
     public LevelConfig Level { get; set; } = new();
     public StackConfig Stack { get; set; } = new();
     public List<string> GapsHard { get; set; } = [];
+    public List<string> ScamSignals { get; set; } = [];
     public DayShapeConfig DayShape { get; set; } = new();
     public Rubric Rubric { get; set; } = new();
     public Dictionary<string, double> DomainAffinity { get; set; } = [];

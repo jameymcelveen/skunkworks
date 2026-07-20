@@ -38,3 +38,13 @@ Ascension (Salesforce+manager), Virtuous (Terraform gate).
 - Live board token verification (greenhouse/lever tokens still VERIFY).
 - O'Reilly wrap-tolerant gate script into scripts/verify-kit.sh (spec in handoff 2.3).
 - SQLite: deferred until a real query needs it.
+
+## Session addendum, 2026-07-18 evening (Bill)
+- Profiles seth + slater live (configs, watchlists, NOTES.md hunting maps).
+- Engine: remote_ok=false enforcement (Seth: remote banned, scam surface),
+  scam-signal hard gate from brief section 11, ordered ABOVE location/level so
+  the audit trail names the real reason. Tests now 20/20.
+- Deployed: https://jobscan.up.railway.app (single container, daemon mode).
+- Garfield queue additions: USAJOBS API adapter (free key) for Slater,
+  Adzuna keys for both boys, Workday adapter now unlocks Duke/Dominion/
+  Google-Moncks-Corner/SRS for Slater in addition to Philips/Wolters Kluwer.

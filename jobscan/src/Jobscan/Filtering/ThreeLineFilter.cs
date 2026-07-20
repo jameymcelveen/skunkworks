@@ -53,7 +53,12 @@ public static partial class ThreeLineFilter
         if (loc.Contains("remote") || head.Contains("remote") || loc.Contains("anywhere"))
         {
             // "Remote" sometimes means "remote (India)". Coarse sanity check.
-            return RegionLocked().IsMatch(loc) ? "location: remote but region-locked outside US" : null;
+            if (RegionLocked().IsMatch(loc)) return "location: remote but region-locked outside US";
+            // Profiles can exclude remote entirely (e.g. student profiles: the
+            // remote part-time listing pool is heavily scam-contaminated).
+            if (!prof.Location.RemoteOk && !Any(prof.Location.OnsiteAllow, loc))
+                return "location: remote-only posting, profile excludes remote";
+            return null;
         }
 
         if (Any(prof.Location.OnsiteAllow, loc)) return null;
@@ -81,6 +86,12 @@ public static partial class ThreeLineFilter
         var hay = p.Haystack;
         var req = Requirements.Block(p.Body).ToLowerInvariant();
         var compText = $"{p.CompRaw} {p.Body}";
+
+        // scam gate FIRST: brief.md section 11 taxonomy, posting-side. It outranks
+        // location and level so rejected.md names the real reason, not "wrong city".
+        var scam = Hits(prof.ScamSignals, hay);
+        if (scam.Count > 0)
+            return Verdict.Reject($"scam signals: {string.Join(", ", scam.Take(3))}");
 
         // line 0: cheap pre-checks
         if (CheckLocation(p, prof) is { } locFail) return Verdict.Reject(locFail);

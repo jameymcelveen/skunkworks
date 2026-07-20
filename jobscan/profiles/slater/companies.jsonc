@@ -1,0 +1,50 @@
+// Slater's market: data centers, utilities, DOE sites, defense, shipyards.
+// Best sources are Workday tenants (adapter pending) and USAJOBS (public API,
+// needs a free key). Both on Garfield's list. Until then: paste adapter + the
+// two Greenhouse guesses below.
+{
+  "companies": [
+    {
+      "name": "SpaceX",
+      "board": "greenhouse",
+      "token": "spacex", // VERIFY
+      "domain": "defense",
+      "notes": "Cape Canaveral ~55mi from Daytona. Electrical/facilities techs; vets welcome."
+    },
+    {
+      "name": "Anduril",
+      "board": "greenhouse",
+      "token": "anduril", // VERIFY
+      "domain": "defense",
+      "notes": "Cleared technician roles; mostly not FL/SC. Watch for remote-adjacent."
+    },
+    {
+      "name": "Duke Energy",
+      "board": "workday", "token": null, "active": false,
+      "domain": "energy",
+      "notes": "H.B. Robinson plant is IN HARTSVILLE SC. Non-licensed operator pipeline loves Navy EMs. Workday adapter pending."
+    },
+    {
+      "name": "Dominion Energy",
+      "board": "workday", "token": null, "active": false,
+      "domain": "energy",
+      "notes": "V.C. Summer + SC grid. Workday adapter pending."
+    },
+    {
+      "name": "Savannah River (SRNS/SRMC)",
+      "board": "workday", "token": null, "active": false,
+      "domain": "federal",
+      "notes": "Aiken SC. DOE site, hires Navy electrical ratings constantly. Clearance synergy. Own portal: paste for now."
+    },
+    {
+      "name": "Google (Berkeley County data center)",
+      "board": "workday", "token": null, "active": false,
+      "domain": "datacenter",
+      "notes": "Moncks Corner SC. Critical facilities technician roles. Own careers portal: paste for now."
+    }
+  ],
+  "feeds": [],
+  "aggregators": [
+    { "name": "Adzuna trades", "kind": "adzuna", "url": "", "active": false, "domain": "industrial" }
+  ]
+}

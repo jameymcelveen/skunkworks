@@ -1,0 +1,12 @@
+// Seth's market (campus + Daytona retail part-time) barely lives on public JSON
+// boards: it lives on the ERAU student employment portal, Handshake, and store
+// career pages. Those are paste-adapter territory. See NOTES.md for the map.
+{
+  "companies": [],
+  "feeds": [],
+  "aggregators": [
+    // Adzuna covers retail/part-time well. Needs free API keys (env vars).
+    // Garfield task: wire ADZUNA_APP_ID / ADZUNA_APP_KEY and activate.
+    { "name": "Adzuna Daytona part-time", "kind": "adzuna", "url": "", "active": false, "domain": "retail" }
+  ]
+}

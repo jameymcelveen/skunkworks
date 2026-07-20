@@ -102,6 +102,30 @@ var md = Jobscan.Reporting.Reports.Backlog(hits, profile, new Jobscan.Reporting.
 Check(!md.Contains('\u2014'), "backlog.md contains no em dashes");
 Check(md.IndexOf("reilly", StringComparison.OrdinalIgnoreCase) < 0, "backlog.md contains no 'reilly'");
 
+// -- profile-level safety rules (student profiles) ---------------------------
+Console.WriteLine("\n[profile safety]");
+var studentProf = ConfigLoader.Load<Profile>("profiles/jamey/profile.jsonc");
+studentProf.Location.RemoteOk = false;
+studentProf.ScamSignals = ["daily payout", "telegram", "pay a fee"];
+var remoteBait = new Jobscan.Model.Posting
+{
+    Source = "test", Company = "Acme", Title = "Senior .NET Engineer",
+    Url = "https://example.com/r", Location = "Remote",
+    Body = "Requirements: 5+ years C# .NET, PostgreSQL. Fully remote. $150,000-$170,000.",
+};
+var rb = ThreeLineFilter.Evaluate(remoteBait, studentProf);
+Check(!rb.Passed && rb.Reason.Contains("excludes remote"),
+    $"remote_ok=false rejects remote-only: {rb.Reason}");
+var scamBait = new Jobscan.Model.Posting
+{
+    Source = "test", Company = "Totally Real Co", Title = "Package Inspector",
+    Url = "https://example.com/s", Location = "Daytona Beach, FL",
+    Body = "Earn cash with daily payout. Message us on telegram to start today. Requirements: none.",
+};
+var sb2 = ThreeLineFilter.Evaluate(scamBait, studentProf);
+Check(!sb2.Passed && sb2.Reason.StartsWith("scam"),
+    $"scam gate fires: {sb2.Reason}");
+
 // -- verdict ---------------------------------------------------------------
 Console.WriteLine();
 if (fails.Count > 0)
