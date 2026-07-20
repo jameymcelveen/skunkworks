@@ -1,0 +1,63 @@
+// Constance McElveen, LPN, 23+ years. Currently REMOTE at Curana Health
+// (value-based care for senior living). Timmonsville SC.
+// This is a PASSIVE profile: she is employed. Only-if-clearly-better applies:
+// floors are set above churn level, and nothing here implies she is looking.
+{
+  "comp": { "salary_floor": 55000, "hourly_floor": 26 },
+
+  "location": {
+    "remote_ok": true, // remote IS the market for her
+    "home": "Timmonsville, SC",
+    "onsite_allow": [
+      "florence", "timmonsville", "darlington", "hartsville", "sumter", "lake city"
+    ],
+    "onsite_deny": []
+  },
+
+  "level": {
+    "accept": ["lpn", "licensed practical nurse", "nurse", "care coordinator", "triage"],
+    // RN-titled roles require a license she does not hold; cut them at the title.
+    "reject": ["registered nurse", " rn ", "nurse practitioner", "physician", "intern"]
+  },
+
+  "stack": {
+    "primary": {
+      "lpn": 5, "licensed practical nurse": 5, "triage": 5,
+      "telephone triage": 5, "telehealth": 5, "care coordination": 5,
+      "prior authorization": 5, "home health": 4, "long-term care": 4,
+      "chronic care": 4, "remote patient monitoring": 4, "case management": 4,
+      "epic": 4, "emr": 4, "ehr": 4, "medication": 4, "patient care": 4,
+      "referrals": 4, "senior living": 4, "value-based": 4,
+      "medicare": 3, "medicaid": 3, "utilization": 3, "scheduling": 3, "hospice": 3
+    },
+    "adjacent": {
+      "hipaa": 3, "snf": 3, "assisted living": 3, "documentation": 2,
+      "vital signs": 2, "injections": 2, "phlebotomy": 2, "wound care": 2
+    },
+    "dated": {}
+  },
+
+  "gaps_hard": [],
+  "day_shape": { "run_signals": [], "build_signals": [] },
+
+  "scam_signals": [
+    "daily payout", "per day cash", "crypto", "bitcoin", "wire transfer",
+    "reshipping", "package inspector", "mystery shopper", "check deposit",
+    "pay a fee", "training fee", "starter kit", "registration fee",
+    "whatsapp", "telegram", "text this number"
+  ],
+
+  "rubric": {
+    "stack_depth": 35, "domain": 15, "level": 15, "comp": 10,
+    "freshness": 10, "remote_culture": 10, "ai_friendly": 5
+  },
+
+  "domain_affinity": {
+    "healthcare": 1.0, "telehealth": 1.0, "payer": 0.9,
+    "senior-care": 1.0, "other": 0.4
+  },
+
+  "ai_friendly_signals": { "positive": [], "negative": [] },
+
+  "thresholds": { "backlog_min_score": 35, "priority_min_score": 60 }
+}

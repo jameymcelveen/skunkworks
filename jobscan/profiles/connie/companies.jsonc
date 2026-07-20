@@ -1,0 +1,22 @@
+// Remote LPN market lives mostly on big-payer Workday tenants (adapter pending)
+// and a handful of VC-backed care companies with public boards (tokens VERIFY).
+{
+  "companies": [
+    { "name": "Devoted Health", "board": "greenhouse", "token": "devoted", "domain": "payer",
+      "notes": "VERIFY token. Medicare Advantage, big remote clinical ops org." },
+    { "name": "Included Health", "board": "greenhouse", "token": "includedhealth", "domain": "telehealth",
+      "notes": "VERIFY token. Virtual care, hires LPN care coordinators." },
+    { "name": "Oscar Health", "board": "greenhouse", "token": "oscarhealth", "domain": "payer",
+      "notes": "VERIFY token." },
+    { "name": "Humana", "board": "workday", "token": null, "active": false, "domain": "payer",
+      "notes": "Major remote LPN employer (triage, care mgmt). Workday adapter pending." },
+    { "name": "CVS Health / Aetna", "board": "workday", "token": null, "active": false, "domain": "payer",
+      "notes": "Workday adapter pending." },
+    { "name": "UnitedHealth / Optum", "board": "workday", "token": null, "active": false, "domain": "payer",
+      "notes": "Workday adapter pending." },
+    { "name": "Centene", "board": "workday", "token": null, "active": false, "domain": "payer",
+      "notes": "Workday adapter pending. Big SC presence." }
+  ],
+  "feeds": [],
+  "aggregators": []
+}
