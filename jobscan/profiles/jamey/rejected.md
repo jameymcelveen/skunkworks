@@ -1,261 +1,39 @@
-# Rejected  (918)
+# Rejected  (22)
 
-Generated 2026-07-20 12:31 UTC. Audit trail for the three-line filter.
+Generated 2026-07-21 12:08 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## quals  (313)
+## location  (17)
 
-- **Christian Tech Jobs** : Marketing Data & Tracking Specialist <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/marketing-data-tracking-specialist-family-first-1723
-- **Christian Tech Jobs** : SEO / AEO Specialist <br> `quals: only adjacent overlap (llm), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-seo-aeo-specialist-faithonline-1720
-- **Christian Tech Jobs** : YouTube Channel Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-youtube-channel-manager-trinity-broadcasting-network-1718
-- **Christian Tech Jobs** : Senior UI/UX Designer <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-ui-ux-designer-desiring-god-1716
-- **Christian Tech Jobs** : Senior Email Marketing Specialist <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-email-marketing-specialist-desiring-god-1714
-- **Christian Tech Jobs** : Broadcast Studio Engineer I <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/broadcast-studio-engineer-i-k-love-1705
-- **Christian Tech Jobs** : Product Owner <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-product-owner-24-7-prayer-1704
-- **Christian Tech Jobs** : Customer Support Retention Specialist <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-support-retention-specialist-hallow-1699
-- **Christian Tech Jobs** : Christian Music Marketing Specialist <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-christian-music-marketing-specialist-meta-ads-manager-heaven-bound-music-marketing-1695
-- **Christian Tech Jobs** : Social Media & Community Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/social-media-community-manager-templar-media-1692
-- **Christian Tech Jobs** : Project Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-project-manager-preborn-1681
-- **Christian Tech Jobs** : Video Specialist – Capture <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/video-specialist-capture-desiring-god-1647
-- **Christian Tech Jobs** : Project Manager <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-project-manager-lausanne-movement-1632
-- **Christian Tech Jobs** : Central Technical Director <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/central-technical-director-the-journey-1607
-- **Christian Tech Jobs** : Sr. Project Manager <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/sr-project-manager-the-chosen-1595
-- **Christian Tech Jobs** : Senior Database Administrator <br> `quals: only adjacent overlap (llm), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-database-administrator-billy-graham-evangelistic-association-1584
-- **Christian Tech Jobs** : Enterprise Customer Success Manager <br> `quals: only adjacent overlap (scala), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-enterprise-customer-success-manager-virtuous-1581
-- **Christian Tech Jobs** : Head of Product Design <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-head-of-product-design-tithe-ly-1577
-- **Christian Tech Jobs** : Church Success Specialist (Catholic) <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-church-success-specialist-catholic-communio-1573
-- **Christian Tech Jobs** : Project Manager-Technology <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-project-manager-technology-ascension-1567
-- **Christian Tech Jobs** : Manager, Technology & Data, U.S Rebuild <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/manager-technology-data-u-s-rebuild-samaritan-s-purse-1565
-- **Christian Tech Jobs** : Chief of Staff to the CEO <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/chief-of-staff-to-the-ceo-hallow-1559
-- **Christian Tech Jobs** : Marketing Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-marketing-manager-24-7-prayer-1553
-- **Christian Tech Jobs** : Data Science & Analytics Director <br> `quals: only adjacent overlap (python), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-data-science-analytics-director-global-media-outreach-1551
-- **Christian Tech Jobs** : Music Marketing & Content Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-music-marketing-content-manager-heaven-bound-music-marketing-1550
-- **Christian Tech Jobs** : UX Designer (1-Month Contract, Full-Time) <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-ux-designer-1-month-contract-full-time-within-media-1547
-- **Christian Tech Jobs** : Accounting Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-accounting-manager-tithe-ly-1541
-- **Christian Tech Jobs** : Bookkeeper <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-bookkeeper-faithonline-1540
-- **Christian Tech Jobs** : Data Analyst <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/data-analyst-life-church-1539
-- **Christian Tech Jobs** : Typesetter and Graphic Designer <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/typesetter-and-graphic-designer-our-daily-bread-1532
-- **Christian Tech Jobs** : Brand Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-brand-manager-salem-church-products-1522
-- **Christian Tech Jobs** : Care Coordinator <br> `quals: only adjacent overlap (scala), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/care-coordinator-amazing-life-foundation-1519
-- **Christian Tech Jobs** : Senior Database Administrator <br> `quals: only adjacent overlap (llm), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-database-administrator-billy-graham-evangelistic-association-1515
-- **Christian Tech Jobs** : Technical Operations Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-technical-operations-manager-faithonline-1513
-- **Christian Tech Jobs** : Church Growth Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/church-growth-manager-amazing-life-foundation-1512
-- **Christian Tech Jobs** : UX/UI Designer <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-ux-ui-designer-faithonline-1508
-- **Christian Tech Jobs** : Multimedia Specialist <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-multimedia-specialist-the-gospel-coalition-1506
-- **Christian Tech Jobs** : Sales Development Representative <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-sales-development-representative-shiloh-1501
-- **Christian Tech Jobs** : Product Manager <br> `quals: only adjacent overlap (scala), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/product-manager-givelify-1500
-- **Christian Tech Jobs** : Graphic Designer <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/graphic-designer-shoreline-city-church-1498
-- _...and 273 more_
+- **Simon and Schuster Books** : Designer <br> `location: onsite in New York, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-designer-simon-and-schuster-books-1135107
+- **Expeditors** : Test ABC <br> `location: onsite in éå², , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-test-abc-expeditors-1135138
+- **Kennflik** : I will create chrome extension for you <br> `location: onsite in Moor, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-i-will-create-chrome-extension-for-you-kennflik-1135121
+- **iPiD** : Sales Director Europe <br> `location: onsite in Madrid, Madrid, Comunidad de Madrid, EspaÃ±a, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sales-director-europe-ipid-1135117
+- **Mr Pape** : MyBuilder <br> `location: onsite in Penzance, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-mybuilder-mr-pape-1135122
+- **Mr Pape** : Freenow <br> `location: onsite in Tilhar, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-freenow-mr-pape-1135140
+- **Mr Pape** : Papaya <br> `location: onsite in Swing Bridge, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-papaya-mr-pape-1135083
+- **Mr Pape** : Uber Eats <br> `location: onsite in Luck Enough, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-uber-eats-mr-pape-1135082
+- **Mr Pape** : KFC <br> `location: onsite in Kalka, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-kfc-mr-pape-1135139
+- **Hibernis** : Open sollicitatie <br> `location: onsite in Content, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-open-sollicitatie-hibernis-1135101
+- **SuperlÃ³gica Tecnologias** : Analista CobranÃ§a Jr Remoto <br> `location: onsite in Brasil, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-analista-cobranca-jr-remoto-superlogica-tecnologias-1135077
+- **Kodland** : Representante de Vendas Educacionais <br> `location: onsite in Brasil, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-representante-de-vendas-educacionais-kodland-1135076
+- **Billings Family YMCA** : Night Cleaning Crew <br> `location: onsite in Good Night, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-night-cleaning-crew-billings-family-ymca-1135067
+- **Prime Intellect** : Applied AI Product Strategy & Revenue Lead <br> `location: onsite in San Francisco, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-applied-ai-product-strategy-revenue-lead-prime-intellect-1135061
+- **Buzzmonitor** : Closer SaaS B2B <br> `location: onsite in Brasil, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-closer-saas-b2b-buzzmonitor-1135060
+- **Bling** : Analista Comercial Jr I Vendas & Relacionam… <br> `location: onsite in Brasil, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-analista-comercial-jr-i-vendas-relacionamento-bling-1135059
+- **Partner Service** : Asesor de AtenciÃ³n al Cliente Remoto Sueld… <br> `location: onsite in Santa Anita, Santa Anita, PerÃº, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-asesor-de-atencion-al-cliente-remoto-sueldo-fijo-variable-capacitacion-pagadas-partner-service-1135127
 
-## comp  (224)
+## quals  (3)
 
-- **Christian Tech Jobs** : Marketing Coordinator – Graphic Design <br> `comp: tops out at $22/hr, floor is $65/hr` <br> https://www.christiantechjobs.io/christian-jobs/marketing-coordinator-graphic-design-habitat-for-humanity-1719
-- **Christian Tech Jobs** : Graphic Designer <br> `comp: tops out at $85,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-graphic-designer-desiring-god-1715
-- **Christian Tech Jobs** : Director of Technology and Online Learning <br> `comp: tops out at $65,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-director-of-technology-and-online-learning-forum-of-christian-leaders-1712
-- **Christian Tech Jobs** : Web Designer <br> `comp: tops out at $55,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-web-designer-operation-blessing-1707
-- **Christian Tech Jobs** : Support Coordinator <br> `comp: tops out at $28/hr, floor is $65/hr` <br> https://www.christiantechjobs.io/christian-jobs/remote-support-coordinator-glass-canvas-1697
-- **Christian Tech Jobs** : Senior Data Scientist <br> `comp: tops out at $127,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-data-scientist-nelnet-business-services-1670
-- **Christian Tech Jobs** : Sr. Integrations Engineer <br> `comp: tops out at $120,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-sr-integrations-engineer-ligonier-ministries-1668
-- **Christian Tech Jobs** : Sr. Dynamics 365 Administrator <br> `comp: tops out at $100,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-sr-dynamics-365-administrator-ligonier-ministries-1667
-- **Christian Tech Jobs** : Producer II <br> `comp: tops out at $73,608, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/producer-ii-intervarsity-christian-fellowship-1650
-- **Christian Tech Jobs** : Director of Innovation Operations <br> `comp: tops out at $112,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-director-of-innovation-operations-biblica-1649
-- **Christian Tech Jobs** : Customer Success Manager, Nurture <br> `comp: tops out at $76,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-success-manager-nurture-pushpay-1645
-- **Christian Tech Jobs** : Senior Project Manager <br> `comp: tops out at $115,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-project-manager-mercy-ships-1640
-- **Christian Tech Jobs** : Customer Support Specialist <br> `comp: tops out at $70,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-support-specialist-anedot-1637
-- **Christian Tech Jobs** : Product Designer III <br> `comp: tops out at $125,010, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-product-designer-iii-compassion-1631
-- **Christian Tech Jobs** : Sales BDR <br> `comp: tops out at $100,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/sales-bdr-webconnex-1629
-- **Christian Tech Jobs** : Marketing Manager <br> `comp: tops out at $95,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/marketing-manager-easyworship-1628
-- **Christian Tech Jobs** : Digital Formation Journey Designer <br> `comp: tops out at $55/hr, floor is $65/hr` <br> https://www.christiantechjobs.io/christian-jobs/remote-digital-formation-journey-designer-practicing-the-way-1627
-- **Christian Tech Jobs** : Sales Development Representative <br> `comp: tops out at $60,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-sales-development-representative-subsplash-1626
-- **Christian Tech Jobs** : Full Stack Developer <br> `comp: tops out at $92,400, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/full-stack-developer-the-christian-and-missionary-alliance-1615
-- **Christian Tech Jobs** : Social Media Specialist <br> `comp: tops out at $62,400, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/social-media-specialist-seed-company-1594
-- **Christian Tech Jobs** : Applied Data Scientist III <br> `comp: tops out at $125,010, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-applied-data-scientist-iii-compassion-1575
-- **Christian Tech Jobs** : Church Partnership / Faith Ecosystem Manager <br> `comp: tops out at $70,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/church-partnership-faith-ecosystem-manager-hailo-1552
-- **Christian Tech Jobs** : Program and Content Manager <br> `comp: tops out at $70,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/program-and-content-manager-faithtech-1545
-- **Christian Tech Jobs** : HubSpot Technical Support Specialist <br> `comp: tops out at $91,100, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-hubspot-technical-support-specialist-samaritan-ministries-1533
-- **Christian Tech Jobs** : Director, Marketing Technology <br> `comp: tops out at $133,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/director-marketing-technology-feeding-america-1525
-- **Christian Tech Jobs** : Principal Product Marketing Manager <br> `comp: tops out at $100,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-principal-product-marketing-manager-ministry-brands-1521
-- **Christian Tech Jobs** : Graphic Designer <br> `comp: tops out at $24/hr, floor is $65/hr` <br> https://www.christiantechjobs.io/christian-jobs/remote-graphic-designer-colorado-christian-university-1510
-- **Christian Tech Jobs** : Google Workspace Administrator <br> `comp: tops out at $82,770, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-google-workspace-administrator-young-life-1507
-- **Christian Tech Jobs** : UX/UI Designer <br> `comp: tops out at $67,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-ux-ui-designer-mercy-ships-1492
-- **Christian Tech Jobs** : ERP Application Support Analyst – JD Edwards <br> `comp: tops out at $75,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/erp-application-support-analyst-jd-edwards-tyndale-house-publishers-1491
-- **Christian Tech Jobs** : Software Project Manager <br> `comp: tops out at $93,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/software-project-manager-willow-creek-community-church-1482
-- **Christian Tech Jobs** : Distribution Logistics Manager <br> `comp: tops out at $95,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/distribution-logistics-manager-tyndale-house-publishers-1481
-- **Christian Tech Jobs** : VP of Marketing <br> `comp: tops out at $45,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-vp-of-marketing-gather25-1479
-- **Christian Tech Jobs** : Project Manager <br> `comp: tops out at $75,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-project-manager-prison-fellowship-1463
-- **Christian Tech Jobs** : IT End User Services Specialist <br> `comp: tops out at $44/hr, floor is $65/hr` <br> https://www.christiantechjobs.io/christian-jobs/it-end-user-services-specialist-commonspirit-health-1459
-- **Christian Tech Jobs** : HR/Office Administrator <br> `comp: tops out at $60,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-hr-office-administrator-servant-keeper-1458
-- **Christian Tech Jobs** : Senior Growth Marketing Manager <br> `comp: tops out at $115,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-growth-marketing-manager-logos-1456
-- **Christian Tech Jobs** : Account Executive <br> `comp: tops out at $64,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-account-executive-fundeasy-1455
-- **Christian Tech Jobs** : UX/UI Designer - Independent Contractor <br> `comp: tops out at $60,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-ux-ui-designer-independent-contractor-come-and-see-foundation-1452
-- **Christian Tech Jobs** : Creative Director <br> `comp: tops out at $95,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-creative-director-awana-1449
-- _...and 184 more_
+- **Buyers Edge Platform, L…** : Data Mapping Analyst <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-data-mapping-analyst-buyers-edge-platform-llc-1135069
+- **Skinnify** : HR Manager Fast Growing E Commerce Startup <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-hr-manager-fast-growing-e-commerce-startup-skinnify-1135063
+- **Uber** : Safety Investigation Specialist II <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-safety-investigation-specialist-ii-uber-1135064
 
-## score  (171)
+## gap-gated on required quals  (1)
 
-- **Christian Care Ministry** : Resume Dropbox <br> `score: 32, below backlog threshold 45` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=2205896
-- **Christian Tech Jobs** : Chief Technology Officer <br> `score: 42, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/chief-technology-officer-k-love-1722
-- **Christian Tech Jobs** : Data Analyst <br> `score: 44, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-data-analyst-avail-1703
-- **Christian Tech Jobs** : Product Marketing Manager <br> `score: 41, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-product-marketing-manager-overflow-1690
-- **Christian Tech Jobs** : Community Manager <br> `score: 42, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-community-manager-come-near-1671
-- **Christian Tech Jobs** : Customer Support Advocate <br> `score: 42, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-support-advocate-tithe-ly-1644
-- **Christian Tech Jobs** : DevOps Developer <br> `score: 40, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/devops-developer-hobby-lobby-1636
-- **Christian Tech Jobs** : ERP Developer-Oracle Fusion <br> `score: 40, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-erp-developer-oracle-fusion-lifeway-1635
-- **Christian Tech Jobs** : Sales Executive <br> `score: 31, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/sales-executive-atrium-1605
-- **Christian Tech Jobs** : Graphic Webpage Designer <br> `score: 30, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/graphic-webpage-designer-family-first-1597
-- **Christian Tech Jobs** : Product Owner, Delivery & Execution <br> `score: 38, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-product-owner-delivery-execution-come-and-see-foundation-1591
-- **Christian Tech Jobs** : Back-end Software Engineer <br> `score: 31, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-back-end-software-engineer-desiring-god-1586
-- **Christian Tech Jobs** : Customer Success Manager <br> `score: 44, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-success-manager-cloverleaf-1583
-- **Christian Tech Jobs** : Account Executive, Mid-Market <br> `score: 40, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-account-executive-mid-market-pushpay-1563
-- **Christian Tech Jobs** : Executive Project Manager <br> `score: 30, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/executive-project-manager-ourcalling-1558
-- **Christian Tech Jobs** : Customer Support Agent <br> `score: 37, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-support-agent-planning-center-1544
-- **Christian Tech Jobs** : Digital Format Manager <br> `score: 31, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/digital-format-manager-daily-grace-co-1543
-- **Christian Tech Jobs** : Managing Partner M&A Services <br> `score: 33, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/managing-partner-m-a-services-transworld-business-advisors-of-san-jose-east-1531
-- **Christian Tech Jobs** : CX Enablement Specialist <br> `score: 38, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-cx-enablement-specialist-virtuous-1524
-- **Christian Tech Jobs** : Product Designer <br> `score: 37, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-product-designer-planning-center-1517
-- **Christian Tech Jobs** : Software Developer III <br> `score: 43, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-software-developer-iii-liberty-university-1516
-- **Christian Tech Jobs** : Chief Technical Officer <br> `score: 41, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-chief-technical-officer-sync-with-god-1511
-- **Christian Tech Jobs** : UI / UX Designer <br> `score: 37, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-ui-ux-designer-tithe-ly-1509
-- **Christian Tech Jobs** : Senior Infrastructure Engineer <br> `score: 43, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-infrastructure-engineer-the-christian-broadcasting-network-1505
-- **Christian Tech Jobs** : Marketing Data Specialist <br> `score: 41, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-marketing-data-specialist-masterworks-1489
-- **Christian Tech Jobs** : Marketing Operations Lead <br> `score: 40, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/marketing-operations-lead-passion-1486
-- **Christian Tech Jobs** : Director of Translations <br> `score: 35, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/director-of-translations-gospel-in-life-1483
-- **Christian Tech Jobs** : Senior Salesforce Developer <br> `score: 43, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-salesforce-developer-medi-share-1475
-- **Christian Tech Jobs** : Operations Manager <br> `score: 31, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/operations-manager-christian-vision-1471
-- **Christian Tech Jobs** : Outside Sales Hunter <br> `score: 36, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/outside-sales-hunter-rubico-tech-1468
-- **Christian Tech Jobs** : Outside Sales Hunter <br> `score: 38, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-outside-sales-hunter-rubico-tech-1454
-- **Christian Tech Jobs** : Account Executive 1, Enterprise <br> `score: 37, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-account-executive-1-enterprise-pushpay-1448
-- **Christian Tech Jobs** : Game Producer <br> `score: 33, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/game-producer-templar-media-1433
-- **Christian Tech Jobs** : Production Engineer <br> `score: 32, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/production-engineer-st-mellitus-college-1431
-- **Christian Tech Jobs** : Online Community Manager <br> `score: 43, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-online-community-manager-planning-center-1407
-- **Christian Tech Jobs** : Ministry Systems Administrator <br> `score: 39, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/ministry-systems-administrator-red-rocks-church-1403
-- **Christian Tech Jobs** : Customer Marketing Manager <br> `score: 40, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-marketing-manager-virtuous-1389
-- **Christian Tech Jobs** : Marketing Director <br> `score: 33, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/marketing-director-pure-desire-ministries-1379
-- **Christian Tech Jobs** : Social & Community Manager <br> `score: 38, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-social-community-manager-faithonline-1373
-- **Christian Tech Jobs** : Director of Accounting <br> `score: 41, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/remote-director-of-accounting-anedot-1334
-- _...and 131 more_
+- **Christian Tech Jobs** : AI Transformation Lead <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-ai-transformation-lead-hallow-1725
 
-## gap-gated on required quals  (93)
+## level  (1)
 
-- **Christian Tech Jobs** : Marketing Manager, Brand & Advocacy <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-marketing-manager-brand-advocacy-planning-center-1713
-- **Christian Tech Jobs** : Senior Software Engineer (Full Stack) <br> `gap-gated on required quals: terraform` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-software-engineer-full-stack-virtuous-1708
-- **Christian Tech Jobs** : Senior Product Manager, CRM <br> `gap-gated on required quals: helm` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-product-manager-crm-donorbox-1702
-- **Christian Tech Jobs** : Design Manager <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-design-manager-planning-center-1701
-- **Christian Tech Jobs** : Go-to-Market Coordinator <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-go-to-market-coordinator-planning-center-1686
-- **Christian Tech Jobs** : Vice President, Product & Experience <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-vice-president-product-experience-young-life-1680
-- **Christian Tech Jobs** : Director of Engineering <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-director-of-engineering-givedirectly-1672
-- **Christian Tech Jobs** : Cloud Engineer (SRE) <br> `gap-gated on required quals: argocd` <br> https://www.christiantechjobs.io/christian-jobs/remote-cloud-engineer-sre-samaritan-s-purse-1638
-- **Christian Tech Jobs** : Creator & Growth Partnerships Lead <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-creator-growth-partnerships-lead-faithonline-1634
-- **Christian Tech Jobs** : Full Stack Engineer - Ruby on Rails and Rea… <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-full-stack-engineer-ruby-on-rails-and-react-planning-center-1619
-- **Christian Tech Jobs** : Principal AI Software Architect <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/principal-ai-software-architect-cass-information-systems-1618
-- **Christian Tech Jobs** : Senior Platform Engineer <br> `gap-gated on required quals: terraform, argocd, helm` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-platform-engineer-tithe-ly-1614
-- **Christian Tech Jobs** : Director, Community Systems <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/director-community-systems-praxis-1610
-- **Christian Tech Jobs** : Linux Systems Engineer <br> `gap-gated on required quals: terraform` <br> https://www.christiantechjobs.io/christian-jobs/linux-systems-engineer-venus-aerospace-1604
-- **Christian Tech Jobs** : Lead Data Platform Engineer <br> `gap-gated on required quals: dbt` <br> https://www.christiantechjobs.io/christian-jobs/remote-lead-data-platform-engineer-virtuous-1598
-- **Christian Tech Jobs** : AI Software Engineer <br> `gap-gated on required quals: dbt, rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-ai-software-engineer-upsmith-1587
-- **Christian Tech Jobs** : DevOps Engineer <br> `gap-gated on required quals: power platform` <br> https://www.christiantechjobs.io/christian-jobs/remote-devops-engineer-the-christian-broadcasting-network-1580
-- **Christian Tech Jobs** : Customer Success Manager <br> `gap-gated on required quals: salesforce` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-success-manager-servant-keeper-1566
-- **Christian Tech Jobs** : Lead Graphic Designer <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/lead-graphic-designer-givelify-1561
-- **Christian Tech Jobs** : Senior Product Designer, Giving & Payments <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-product-designer-giving-payments-apollos-1534
-- **Christian Tech Jobs** : Director of Sales <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/director-of-sales-barna-group-1523
-- **Christian Tech Jobs** : Digital Marketing Manager <br> `gap-gated on required quals: salesforce` <br> https://www.christiantechjobs.io/christian-jobs/digital-marketing-manager-amazing-life-foundation-1514
-- **Christian Tech Jobs** : Azure Data Architect <br> `gap-gated on required quals: terraform, spark` <br> https://www.christiantechjobs.io/christian-jobs/remote-azure-data-architect-harpercollins-christian-publishing-1504
-- **Christian Tech Jobs** : Customer Success Specialist - Account Manag… <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-customer-success-specialist-account-management-apollos-1493
-- **Christian Tech Jobs** : AI / ML Research Engineer <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/ai-ml-research-engineer-rejoice-1488
-- **Christian Tech Jobs** : Sr. SDET <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-sr-sdet-virtuous-1446
-- **Christian Tech Jobs** : Lifecycle Marketing Manager <br> `gap-gated on required quals: salesforce, rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-lifecycle-marketing-manager-ministry-brands-1427
-- **Christian Tech Jobs** : Senior Account Executive, Enterprise AI <br> `gap-gated on required quals: salesforce, rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-account-executive-enterprise-ai-gloo-1405
-- **Christian Tech Jobs** : Cloud Engineer <br> `gap-gated on required quals: argocd` <br> https://www.christiantechjobs.io/christian-jobs/remote-cloud-engineer-samaritan-s-purse-1341
-- **Christian Tech Jobs** : Platform Architect - Open-Source, Linux, an… <br> `gap-gated on required quals: pulumi` <br> https://www.christiantechjobs.io/christian-jobs/remote-platform-architect-open-source-linux-and-cloud-devops-shiloh-1339
-- **Christian Tech Jobs** : Digital Asset Manager <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-digital-asset-manager-come-and-see-foundation-1330
-- **Christian Tech Jobs** : Data Engineer <br> `gap-gated on required quals: dbt` <br> https://www.christiantechjobs.io/christian-jobs/remote-data-engineer-tithe-ly-1324
-- **Christian Tech Jobs** : Software Reliability & Platform Engineer <br> `gap-gated on required quals: terraform` <br> https://www.christiantechjobs.io/christian-jobs/remote-software-reliability-platform-engineer-renewed-vision-1312
-- **Christian Tech Jobs** : Quality Assurance Test Engineer <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/quality-assurance-test-engineer-christian-healthcare-ministries-1303
-- **Christian Tech Jobs** : Sr. Product Marketing Manager, Protestant <br> `gap-gated on required quals: salesforce, rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-sr-product-marketing-manager-protestant-ministry-brands-1286
-- **Christian Tech Jobs** : Software Engineer - DevOps, Platform <br> `gap-gated on required quals: terraform, argocd, rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-software-engineer-devops-platform-givelify-1258
-- **Christian Tech Jobs** : Enterprise Tech Sales Representative (AI + … <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-enterprise-tech-sales-representative-ai-finance-100-commission-octopus-ai-1253
-- **Christian Tech Jobs** : Data Scientist IV <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-data-scientist-iv-ligonier-ministries-1252
-- **Christian Tech Jobs** : Software Development Engineer II (Back-end) <br> `gap-gated on required quals: terraform, rust, golang` <br> https://www.christiantechjobs.io/christian-jobs/remote-software-development-engineer-ii-back-end-subsplash-1223
-- **Christian Tech Jobs** : Product Reliability Engineer (.Net) <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-product-reliability-engineer-net-virtuous-1219
-- _...and 53 more_
-
-## location  (87)
-
-- **Christian Care Ministry** : Customer Service Advocate <br> `location: onsite in Orlando, FL, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8072451
-- **Christian Care Ministry** : Customer Service Advocate <br> `location: onsite in Melbourne, FL, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8072253
-- **Christian Care Ministry** : Member Advocate - Negotiator <br> `location: onsite in Orlando, FL | Hybrid, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=7990879
-- **Christian Care Ministry** : Member Advocate - Negotiator <br> `location: onsite in Melbourne, FL | Hybrid, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8036333
-- **A.Team** : Senior Independent Software Developer <br> `location: onsite in Americas, Europe, Israel, not remote and not in range` <br> https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265
-- **garden3d** : Head of Marketing & Communications <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068
-- **Mitre Media** : Tech Lead Full-Stack Rails Engineer <br> `location: onsite in USA, Canada, USA timezones, not remote and not in range` <br> https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746
-- **Clipster** : Senior Product Engineer (Fullstack) <br> `location: onsite in Europe, UK, Germany, France, European timezones, not remote and not in range` <br> https://remotive.com/remote-jobs/software-development/senior-product-engineer-fullstack-2091062
-- **The Obesity Society** : Assistant Account Payable <br> `location: onsite in USA, not remote and not in range` <br> https://remotive.com/remote-jobs/medical/assistant-account-payable-2090989
-- **Tribe Wellness** : Product Sales Specialist - Pet Health <br> `location: onsite in USA, CST (UTC-6), not remote and not in range` <br> https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048
-- **TELUS Digital** : Online Data Analyst Canada (French Language… <br> `location: onsite in Canada, not remote and not in range` <br> https://remotive.com/remote-jobs/all-others/online-data-analyst-canada-french-language-c-2091047
-- **Unio Digital** : Tier III Service Desk Engineer <br> `location: onsite in USA, not remote and not in range` <br> https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045
-- **IAPWE** : Freelance Writer <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remotive.com/remote-jobs/writing/freelance-writer-1185979
-- **Coalition Technologies** : Freelance Copywriter <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306
-- **Clerky, Inc.** : Customer Operations & Writing Specialist <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remotive.com/remote-jobs/customer-service/customer-operations-writing-specialist-2090942
-- **Workada** : Data Labeling Specialists <br> `location: onsite in USA, not remote and not in range` <br> https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903
-- **Lemon.io** : Communications Manager <br> `location: onsite in LATAM, Europe, not remote and not in range` <br> https://remotive.com/remote-jobs/communications/communications-manager-2090985
-- **EverAI** : Mid/Senior AI Cinematic Video Editor <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remotive.com/remote-jobs/artificial-intelligence/mid-senior-ai-cinematic-video-editor-2091035
-- **EverAI** : Mid/Senior AI Cinematic Video Editor <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remotive.com/remote-jobs/artificial-intelligence/mid-senior-ai-cinematic-video-editor-2090887
-- **Kodland** : Consultor Comercial <br> `location: onsite in Brasil, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-consultor-comercial-kodland-1135054
-- **Alloy** : Pitch us a role <br> `location: onsite in Greater Sydney Area, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-pitch-us-a-role-alloy-1135062
-- **Majer Unternehmens-Grup…** : Details <br> `location: onsite in Jarretville, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-details-majer-unternehmens-gruppe-1135040
-- **HireTalentt** : Shafqat <br> `location: onsite in Mohammadbazar, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-shafqat-hiretalentt-1135048
-- **Dade Medical College-Hi…** : Administrative Specialist <br> `location: onsite in Florida, Florida, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-administrative-specialist-dade-medical-college-hialeah-1135042
-- **Flash Free Lancer** : OJALA <br> `location: onsite in Evansville, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ojala-flash-free-lancer-1135035
-- **Allied Packaging Corpor…** : MANUFACTURING POSITIONS <br> `location: onsite in Malerkotla, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-manufacturing-positions-allied-packaging-corporation-1135065
-- **Grey Sim Learnings Foun…** : Placement Officer <br> `location: onsite in Guwahati, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-placement-officer-grey-sim-learnings-foundation-1135032
-- **LOTHIAN BUSES LIMITED** : Job Summary <br> `location: onsite in Livingston, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-job-summary-lothian-buses-limited-1135017
-- **PeopleLink Collaboratio…** : Technical Specialist <br> `location: onsite in Bhopal, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-technical-specialist-peoplelink-collaboration-inc-1135029
-- **INFUSE** : Presentation Designer <br> `location: onsite in Warszawa, Warszawa, Woj. Mazowieckie, Polska, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-presentation-designer-infuse-1135025
-- **White Peak Digital** : Expression Of Interest <br> `location: onsite in High Peak, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-expression-of-interest-white-peak-digital-1135019
-- **BuscarVagas - Empregos …** : Operador de Portaria Remota Recife PE Profi… <br> `location: onsite in Recife, Recife, Pernambuco, Brasil, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-operador-de-portaria-remota-recife-pe-profissionais-solicitados-buscarvagas-empregos-brasil-1135037
-- **RideTEGO** : Designer <br> `location: onsite in Haridwar, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-designer-ridetego-1135030
-- **Adani Skills &amp; Educ…** : Contribute Building a Secure Nation <br> `location: onsite in Defence Colony, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-contribute-building-a-secure-nation-adani-skills-amp-education-1135010
-- **Blanco Silva ConsultorÃ…** : Asistente Administrativo <br> `location: onsite in Comunidad El Ãxito, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-asistente-administrativo-blanco-silva-consultoria-informatica-bsci-1135036
-- **Accor** : Plumber <br> `location: onsite in Greater Vijayawada District, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-plumber-accor-1135047
-- **ren** : UGC Creator <br> `location: onsite in San Francisco Bay Area, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ugc-creator-ren-1135016
-- **Travelopia** : Yacht Cleaner <br> `location: onsite in Nassau, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-yacht-cleaner-travelopia-1135004
-- **CasinÃ² Lugano SA** : Addetto a Customer Service <br> `location: onsite in Lugano, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-addetto-a-customer-service-casino-lugano-sa-1135023
-- **Empathy** : Care Specialist <br> `location: onsite in San Francisco, San Francisco, California, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-care-specialist-empathy-1134999
-- _...and 47 more_
-
-## level  (29)
-
-- **Christian Tech Jobs** : Junior Software Engineer <br> `level: 'Junior Software Engineer' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/junior-software-engineer-remodel-health-1642
-- **Christian Tech Jobs** : Associate Full Stack Product Engineer <br> `level: 'Associate Full Stack Product Engineer' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-associate-full-stack-product-engineer-called-1613
-- **Christian Tech Jobs** : Junior Developer <br> `level: 'Junior Developer' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/junior-developer-joyce-meyer-ministries-1609
-- **Christian Tech Jobs** : Associate Editor <br> `level: 'Associate Editor' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-associate-editor-missionary-1606
-- **Christian Tech Jobs** : Founder's Associate/Executive Assistant <br> `level: 'Founder's Associate/Executive Assistant' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-founder-s-associate-executive-assistant-faithonline-1499
-- **Christian Tech Jobs** : Audience Care Associate <br> `level: 'Audience Care Associate' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-audience-care-associate-practicing-the-way-1465
-- **Christian Tech Jobs** : Junior Video Editor (Contract) <br> `level: 'Junior Video Editor (Contract)' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-junior-video-editor-contract-hallow-1390
-- **Christian Tech Jobs** : Full Stack Developer - Intern <br> `level: 'Full Stack Developer - Intern' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-full-stack-developer-intern-ascend-1378
-- **Christian Tech Jobs** : Full Stack Developer - Intern <br> `level: 'Full Stack Developer - Intern' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-full-stack-developer-intern-ascend-1336
-- **Christian Tech Jobs** : Associate Media Director <br> `level: 'Associate Media Director' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/associate-media-director-fisher-of-men-direct-hire-agency-1308
-- **Christian Tech Jobs** : UI/UX Designer (Contract/Intern Position) <br> `level: 'UI/UX Designer (Contract/Intern Position)' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-ui-ux-designer-contract-intern-position-ascend-1292
-- **Christian Tech Jobs** : Junior Mobile Developer <br> `level: 'Junior Mobile Developer' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/junior-mobile-developer-elevation-church-1264
-- **Christian Tech Jobs** : Junior Front-End Web Developer <br> `level: 'Junior Front-End Web Developer' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-junior-front-end-web-developer-prison-fellowship-1244
-- **Christian Tech Jobs** : Associate Product Manager <br> `level: 'Associate Product Manager' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/associate-product-manager-fisher-of-men-direct-hire-agency-1207
-- **Christian Tech Jobs** : Junior Software Developer <br> `level: 'Junior Software Developer' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/junior-software-developer-the-lutheran-church-missouri-synod-1175
-- **Christian Tech Jobs** : International Digital Strategies Manager <br> `level: 'International Digital Strategies Manager' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-international-digital-strategies-manager-launch-global-1145
-- **Christian Tech Jobs** : Junior Salesforce Administrator <br> `level: 'Junior Salesforce Administrator' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/junior-salesforce-administrator-dynamic-catholic-1136
-- **Christian Tech Jobs** : UI/UX App Designer Intern (Bubble.io Focus) <br> `level: 'UI/UX App Designer Intern (Bubble.io Focus)' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-ui-ux-app-designer-intern-bubble-io-focus-forte-878
-- **Christian Tech Jobs** : Junior IT Solutions Specialist <br> `level: 'Junior IT Solutions Specialist' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/junior-it-solutions-specialist-pioneers-735
-- **Christian Tech Jobs** : Associate CRM Administrator <br> `level: 'Associate CRM Administrator' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/associate-crm-administrator-shalom-ministries-international-inc-651
-- **Christian Tech Jobs** : Sales Associate <br> `level: 'Sales Associate' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/remote-sales-associate-the-church-co-628
-- **Christian Tech Jobs** : Junior Designer <br> `level: 'Junior Designer' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/junior-designer-educational-media-foundation-623
-- **Christian Tech Jobs** : Associate Product Manager <br> `level: 'Associate Product Manager' reads junior` <br> https://www.christiantechjobs.io/christian-jobs/associate-product-manager-gloo-569
-- **JobsInMass.com** : Entry Level Data Entry Clerk Admin <br> `level: 'Entry Level Data Entry Clerk Admin' reads junior` <br> https://remoteOK.com/remote-jobs/remote-entry-level-data-entry-clerk-admin-jobsinmass-com-1135071
-- **JobsInMass.com** : Entry Level Data Entry Clerk <br> `level: 'Entry Level Data Entry Clerk' reads junior` <br> https://remoteOK.com/remote-jobs/remote-entry-level-data-entry-clerk-jobsinmass-com-1135072
-- **Huntress Talent** : Public Relations Associate <br> `level: 'Public Relations Associate' reads junior` <br> https://remoteOK.com/remote-jobs/remote-public-relations-associate-huntress-talent-1134984
-- **Obelisk Support** : Business Operations Associate <br> `level: 'Business Operations Associate' reads junior` <br> https://remoteOK.com/remote-jobs/remote-business-operations-associate-obelisk-support-1135078
-- **Work Force Nexus** : Junior QA Tester <br> `level: 'Junior QA Tester' reads junior` <br> https://remoteOK.com/remote-jobs/remote-junior-qa-tester-work-force-nexus-1134935
-- **Lockwood Publishing Ltd** : Junior Software Engineer <br> `level: 'Junior Software Engineer' reads junior` <br> https://remoteOK.com/remote-jobs/remote-junior-software-engineer-lockwood-publishing-ltd-1134921
-
-## day shape  (1)
-
-- **Christian Tech Jobs** : DevOps Engineer <br> `day shape: run-the-system role (on-call, site reliability, incident response, platform engineer)` <br> https://www.christiantechjobs.io/christian-jobs/devops-engineer-life-church-823
+- **Re Lytics HR** : Entry Level Administrative Assistant <br> `level: 'Entry Level Administrative Assistant' reads junior` <br> https://remoteOK.com/remote-jobs/remote-entry-level-administrative-assistant-re-lytics-hr-1135111
 
