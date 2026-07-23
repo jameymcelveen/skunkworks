@@ -1,63 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-07-22T12:11:51.2094623+00:00",
+  "generated": "2026-07-23T12:10:07.1267092+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 1079,
-    "New": 48,
-    "Rejected": 46
+    "Seen": 1082,
+    "New": 76,
+    "Rejected": 76
   },
-  "hits": [
-    {
-      "id": "879e0222f603",
-      "score": 55,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Sr. Website Designer",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-sr-website-designer-tithe-ly-1724",
-      "location": "",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
-      "why": [
-        "stack 4/35: saas, scala",
-        "domain 13/15: mission",
-        "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 1d old",
-        "remote 10/10: remote-first language",
-        "ai 2/5: neutral"
-      ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
-    },
-    {
-      "id": "91c6c09f3f0a",
-      "score": 51,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Director of Sales",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-director-of-sales-outreach-1726",
-      "location": "",
-      "comp": "$90K-$135K",
-      "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
-      "why": [
-        "stack 5/35: aws, saas, scala",
-        "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 7/10: $90,000-$135,000, clears floor",
-        "freshness 10/10: 0d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
-    }
-  ]
+  "hits": []
 }
