@@ -48,3 +48,40 @@ Ascension (Salesforce+manager), Virtuous (Terraform gate).
 - Garfield queue additions: USAJOBS API adapter (free key) for Slater,
   Adzuna keys for both boys, Workday adapter now unlocks Duke/Dominion/
   Google-Moncks-Corner/SRS for Slater in addition to Philips/Wolters Kluwer.
+
+## 2026-07-22 board deltas (Bill)
+- ABS: APPLIED. AI review opted in, $150K stated, Q7 led with calling.
+- Samaritan Senior SWE: CLOSED at the source (careers portal ground truth). Kit archived,
+  threads recyclable on repost. Their open AWS SWE role evaluated and SKIPPED: 2-5yr
+  mid-level band ($87.9-135.3K, lower-half start), IaC-gated (Terraform/CloudFormation
+  in requirements), run-shaped. Three-line filter fails on all three lines.
+- PROCESS RULE (learned today): posting liveness is verified ONLY at the employer's own
+  ATS/careers portal. Aggregators (CTJ company pages, LinkedIn, ZipRecruiter) cache
+  stale listings for weeks. Garfield: encode a "verify at source" flag on any hit older
+  than 14 days.
+- Watch item: Samaritan senior seat may repost (was real 22d ago). Monthly portal glance.
+- Samaritan history: Jamey applied in the past and was passed over (timing/stage TBD).
+  Repost playbook updated: referral-first re-entry, not cold re-apply; new-candidate
+  framing (SecureGive/Christ Medical/agentic practice postdate prior application).
+  Do not relitigate; mine any prior feedback if it exists.
+- Samaritan prior feedback (few months ago, email stage): "went with someone with more
+  experience." Read: near-certain overqualification decline in polite phrasing, the
+  exact failure mode brief section 5 addresses. Current kit pre-answers it (senior IC
+  by choice + explicit floor). Repost play: referral-first, objection named early.
+- Take Command: APPLIED 7/22, day-of-posting. Office-cadence question answered NO
+  (truthfully; Florence SC vs Richardson/Austin). If auto-rejected on it, the posting
+  was TX-hybrid in a remote costume and the filter worked. Kit archived.
+- Day tally 7/22: ABS applied, Take Command applied, Samaritan closed/archived.
+  Remaining queue: Thorne Rohan tap (due today), Hallow, 1Password, OPENLANE staleness check.
+- Hallow: APPLIED 7/22 evening. No cover slot; theses delivered via form essays
+  (why-Hallow, role-fit, AI-native project example featuring the three-seat jobscan
+  build with humans-as-gate framing). Kit archived alongside.
+- FINAL 7/22 TALLY: three applications sent (ABS 93, Take Command 69/top-band,
+  Hallow 60/human-override), Samaritan closed and decoded, kits built: 4 total.
+- Tomorrow's queue: 1Password kit + apply, OPENLANE staleness check, Rohan follow-through.
+- REPO NOTE for Garfield: this checkout IS the latest state (packaged 7/22 evening
+  with full git history). GitHub is behind it by one commit. Step zero of your first
+  session: `git push origin main` from this checkout, which also triggers the Railway
+  redeploy. The commit includes the quals-fallback filter fix (primary-stack
+  whole-body fallback runs whenever req-block primary is empty, regardless of
+  adjacent count; born from "rag" substring-matching inside "pragmatic").

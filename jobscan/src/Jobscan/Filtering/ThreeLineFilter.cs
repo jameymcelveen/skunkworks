@@ -110,14 +110,18 @@ public static partial class ThreeLineFilter
         var primary = Hits(prof.Stack.Primary.Keys, req);
         var adjacent = Hits(prof.Stack.Adjacent.Keys, req);
 
-        if (primary.Count == 0 && adjacent.Count == 0)
+        if (primary.Count == 0)
         {
             // Some boards bury the stack in a "Tech we use" section outside the
-            // requirements block. Check the whole body before giving up.
+            // requirements block. ALWAYS check the whole body for primary stack
+            // before any adjacent-only judgment: a stray adjacent substring hit
+            // must never block this fallback (learned from "rag" matching inside
+            // "pragmatic" and nearly killing a $235K posting).
             primary = Hits(prof.Stack.Primary.Keys, hay);
-            if (primary.Count == 0)
-                return Verdict.Reject("quals: no load-bearing stack overlap in requirements", comp);
         }
+
+        if (primary.Count == 0 && adjacent.Count == 0)
+            return Verdict.Reject("quals: no load-bearing stack overlap in requirements", comp);
 
         if (primary.Count == 0 && adjacent.Count < 2)
             return Verdict.Reject(

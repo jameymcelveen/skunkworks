@@ -1,0 +1,11 @@
+Come Near | AI Research Engineer | https://www.christiantechjobs.io/christian-jobs/ai-research-engineer-come-near-1728 | mission
+Location not stated in posting (VERIFY remote policy). Statement of Faith required.
+"He Gets Us" campaign organization. Build personalized digital experience systems:
+take AI-powered systems from prototype to functional, iterate until shippable. Run
+experiments, instrument systems, own diagnosis. Focus: personalization engine and Come
+Near Intelligence (CNI), internal AI knowledge system.
+Education and Experience
+Masters Degree in Computer Science, Engineering or another technical field, or
+equivalent research experience (approximately 2 or more years). Demonstrated experience
+building ML systems that shipped and ran in production. Range across data pipelines,
+modeling, and serving infrastructure. Builds with AI as a natural part of workflow.

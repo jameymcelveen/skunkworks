@@ -1,0 +1,15 @@
+Take Command Health | Staff Software Engineer, Payments & Ledger | https://www.christiantechjobs.io/christian-jobs/remote-staff-software-engineer-payments-ledger-take-command-health-1737 | fintech
+Remote-flexible (offices Richardson and Austin TX; posting says "hope to see you around the office on a regular basis": VERIFY remote policy for SC). $165,000 - $235,000 + 10% bonus.
+Staff Engineer for ledger, payments, and money movement systems. Full-stack but heavily
+backend-leaning: Java, Postgres, AWS, occasional React; stack expected to move toward
+TypeScript over time. Senior role with influence over technical direction of financial
+systems. Mentor engineers. People management optional, not required.
+What We're Looking For
+Significant experience building and operating production financial systems. Hands-on
+experience with ledgers, payment systems, card payments, banking integrations,
+reimbursements, or similar money movement infrastructure. Strong backend engineering
+experience, ideally with Java or a similar language. Strong relational database
+experience, especially data models requiring accuracy, traceability, and long-term
+maintainability. Ability to lead through technical judgment, communication, mentorship,
+and execution. Product-minded approach. Pragmatic tradeoffs without losing financial
+integrity.
