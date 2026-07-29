@@ -1,65 +1,77 @@
-# Rejected  (61)
+# Rejected  (58)
 
-Generated 2026-07-28 12:20 UTC. Audit trail for the three-line filter.
+Generated 2026-07-29 12:28 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## location  (51)
+## location  (45)
 
-- **Workada** : Data Labeling Specialists <br> `location: onsite in USA, not remote and not in range` <br> https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903
-- **Carexroads.com, Inc.** : SCALE PLAN <br> `location: onsite in Golmuri Cum Jugsalai, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-scale-plan-carexroads-com-inc-1135498
-- **Fdc Builders** : Supporting Veterans <br> `location: onsite in Sydney, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-supporting-veterans-fdc-builders-1135481
-- **UNITE** : Chief Human Resources Officer <br> `location: onsite in Boston, Boston, Massachusetts, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-chief-human-resources-officer-unite-1135520
-- **ALEH Writing Services (…** : Moving Handy Man <br> `location: onsite in Kitchener, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-moving-handy-man-aleh-writing-services-aws-1135475
-- **US Gove** : From the Office of the Mayor <br> `location: onsite in Chiasson Office, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-from-the-office-of-the-mayor-us-gove-1135473
-- **US Gove** : Budget <br> `location: onsite in Dehradun, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-budget-us-gove-1135487
-- **US Gove** : Master Plan <br> `location: onsite in Raghurajnagar, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-master-plan-us-gove-1135496
-- **US Gove** : Stream Clearing <br> `location: onsite in Clearing, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-stream-clearing-us-gove-1135479
-- **US Gove** : Sports and Recreation <br> `location: onsite in Sports Park, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sports-and-recreation-us-gove-1135549
-- **US Gove** : Recreation &amp; Culture <br> `location: onsite in Prince George, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-recreation-amp-culture-us-gove-1135474
-- **US Gove** : Water and Sewers <br> `location: onsite in Water, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-water-and-sewers-us-gove-1135508
-- **US Gove** : Education <br> `location: onsite in Bakersfield, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-education-us-gove-1135480
-- **VU Bioinformatics** : Open Positions <br> `location: onsite in Wideopen, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-open-positions-vu-bioinformatics-1135510
-- **Smile Digital Health** : Software Developer Intermediate <br> `location: onsite in Toronto, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-software-developer-intermediate-smile-digital-health-1135459
-- **DSD Recruitment** : Chief Operating Officer <br> `location: onsite in Tampa, Tampa, Florida, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-chief-operating-officer-dsd-recruitment-1135519
-- **Digital** : Social Media Strategist <br> `location: onsite in Pennsylvania, Pennsylvania, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-social-media-strategist-digital-1135524
-- **Go Voices** : Andrea Crook <br> `location: onsite in Australian Capital Territory, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-andrea-crook-go-voices-1135472
-- **OnlineJobs.PH** : Instagram VA <br> `location: onsite in Virginia, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-instagram-va-onlinejobs-ph-1135521
-- **AdConversion** : Trend <br> `location: onsite in Bhopal, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-trend-adconversion-1135488
-- **AdConversion** : Touchpoint <br> `location: onsite in Bhopal, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-touchpoint-adconversion-1135491
-- **Smith Robinson Limited** : Getting touch <br> `location: onsite in Leeds, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-getting-touch-smith-robinson-limited-1135512
-- **Norsk senter for CERN-r…** : v <br> `location: onsite in Vilattikulam, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-v-norsk-senter-for-cern-relatert-forskning-norcc-1135499
-- **J Group Corporation** : Join Our Team <br> `location: onsite in Sydney, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-join-our-team-j-group-corporation-1135465
-- **J Group Corporation** : Skilled Labourer <br> `location: onsite in Sydney, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-skilled-labourer-j-group-corporation-1135471
-- **Pet Health Insurance Se…** : Who We Are <br> `location: onsite in Nellore Mandal, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-who-we-are-pet-health-insurance-services-1135494
-- **Team Panamera** : NUNAVUT <br> `location: onsite in March, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-nunavut-team-panamera-1135511
-- **Indi Connect** : Job Details <br> `location: onsite in å®ä½, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-job-details-indi-connect-1135557
-- **Kamsons** : Other <br> `location: onsite in Other Side Of The Moon, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-other-kamsons-1135470
-- **TRS Investments LLC** : Courtney Shires <br> `location: onsite in Excellence Estates 2, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-courtney-shires-trs-investments-llc-1135553
-- **LEAKPRO** : Ottawa ON <br> `location: onsite in Ottawa, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ottawa-on-leakpro-1135476
-- **The VETS** : Candidate Requirements <br> `location: onsite in Behat, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-candidate-requirements-the-vets-1135500
-- **HandySpot** : Full <br> `location: onsite in Marion County, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-full-handyspot-1135462
-- **HandySpot** : Free <br> `location: onsite in Elkhart County, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-free-handyspot-1135464
-- **Gander Ecommerce Soluti…** : DesiMixTape <br> `location: onsite in Discovery Bay, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-desimixtape-gander-ecommerce-solutions-1135551
-- **CareStream Advisory Gro…** : Medical Scheduler <br> `location: onsite in United States, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-medical-scheduler-carestream-advisory-group-1135449
-- **DutchTechX** : Mews <br> `location: onsite in Sydney, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-mews-dutchtechx-1135468
-- **BEMapps.com** : Innovate with Came <br> `location: onsite in Indiana, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-innovate-with-came-bemapps-com-1135463
-- **nidup** : Expertise Path and Manager Path <br> `location: onsite in Dooru, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-expertise-path-and-manager-path-nidup-1135495
-- **nidup** : Rent the Runway <br> `location: onsite in Bharatpur, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-rent-the-runway-nidup-1135490
-- _...and 11 more_
+- **inDrive** : Moderator of Orders Feed <br> `location: onsite in Jakarta, Jakarta, Jakarta Raya, Indonesia, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-moderator-of-orders-feed-indrive-1135573
+- **ETL Systems** : Speculative CV <br> `location: onsite in Hereford, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-speculative-cv-etl-systems-1135585
+- **Bridges - Trusted Intel…** : Expression of Interest <br> `location: onsite in Poole, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-expression-of-interest-bridges-trusted-intelligent-engineering-partner-1135583
+- **CertifyOS** : AI Intern <br> `location: onsite in Pune, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ai-intern-certifyos-1135555
+- **Sundayy** : Administrative Assistant <br> `location: onsite in United States, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-administrative-assistant-sundayy-1135547
+- **Bapcor Limited** : Driver <br> `location: onsite in Shepparton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-driver-bapcor-limited-1135601
+- **Town of Westbrook** : Groundman II <br> `location: onsite in Uluberia-II, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-groundman-ii-town-of-westbrook-1135542
+- **G13 Advertising** : PUSHDOWN <br> `location: onsite in Content, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-pushdown-g13-advertising-1135550
+- **Sundayy** : Graphic Designer <br> `location: onsite in United States, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-graphic-designer-sundayy-1135532
+- **Hoxton Circle** : Human Resources Benefits Coordinator <br> `location: onsite in Greater Chicago Area, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-human-resources-benefits-coordinator-hoxton-circle-1135548
+- **Newhouse** : Influencer Marketing Associate Director <br> `location: onsite in Los Angeles Metropolitan Area, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-influencer-marketing-associate-director-newhouse-1135546
+- **Evio** : People Operations Manager <br> `location: onsite in Denver, Denver, Colorado, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-people-operations-manager-evio-1135545
+- **Seekistry** : NootCode <br> `location: onsite in Vijayawada East, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-nootcode-seekistry-1135540
+- **Symbiotic** : Brand Designer <br> `location: onsite in New York, New York, New York, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-brand-designer-symbiotic-1135528
+- **Country Hills** : Tortilla Chips <br> `location: onsite in The Chips, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-tortilla-chips-country-hills-1135598
+- **Country Hills** : 5 Tenders <br> `location: onsite in Anupgarh, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-5-tenders-country-hills-1135544
+- **Country Hills** : Rock Nâ Rol <br> `location: onsite in Rock, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-rock-n-rol-country-hills-1135582
+- **Country Hills** : Deep Ocean <br> `location: onsite in Ocean, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-deep-ocean-country-hills-1135561
+- **Empresa Confidencial** : Auxiliar Administrativo Recepcionista Remoto <br> `location: onsite in GoiÃ¡s, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-auxiliar-administrativo-recepcionista-remoto-empresa-confidencial-1135517
+- **Road Ranger** : Maintenance <br> `location: onsite in Vidor, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-maintenance-road-ranger-1135589
+- **Jizr** : The GREEN Program <br> `location: onsite in North Lakhimpur, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-the-green-program-jizr-1135541
+- **Red Effect Infrared Fit…** : Hiring for all locations <br> `location: onsite in All Cannings, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-hiring-for-all-locations-red-effect-infrared-fitness-troy-mi-1135507
+- **Unbuffered** : Security <br> `location: onsite in Code, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-security-unbuffered-1135509
+- **Tata Consultancy Servic…** : SAP CALM + ILM + LAMA <br> `location: onsite in Visakhapatnam, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sap-calm-ilm-lama-tata-consultancy-services-1135567
+- **Tata Consultancy Servic…** : SAP S 4HANA PC <br> `location: onsite in Visakhapatnam, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sap-s-4hana-pc-tata-consultancy-services-1135564
+- **CourtHive** : Competition Factory <br> `location: onsite in Magrahat-II, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-competition-factory-courthive-1135543
+- **CourtHive** : TMX <br> `location: onsite in Roorkee, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-tmx-courthive-1135539
+- **Ajaia | AI Consultancy** : Social Media and Video Content Manager <br> `location: onsite in New York, New York, New York, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-social-media-and-video-content-manager-ajaia-ai-consultancy-1135536
+- **MMX Solutions Sdn Bhd** : The Ledbury <br> `location: onsite in Ledbury, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-the-ledbury-mmx-solutions-sdn-bhd-1135506
+- **InPost Group** : Packer Driver <br> `location: onsite in Indore, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-packer-driver-inpost-group-1135566
+- **Tom Fawbush Creative** : Pretty redible <br> `location: onsite in Pretty Pine, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-pretty-redible-tom-fawbush-creative-1135597
+- **EJOT Kuwait** : GRADUATES &amp; YOUNG PROFESSIONALS <br> `location: onsite in Young, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-graduates-amp-young-professionals-ejot-kuwait-1135602
+- **EJOT Kuwait** : SENIOR PROFESSIONALS <br> `location: onsite in Senior, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-professionals-ejot-kuwait-1135599
+- **Monobrow** : Join us <br> `location: onsite in Rough and Ready, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-join-us-monobrow-1135503
+- **Mongoose** : VP Revenue <br> `location: onsite in New York, New York, New York, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-vp-revenue-mongoose-1135531
+- **DHL Express** : Cashier MBJ <br> `location: onsite in Montego Bay, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-cashier-mbj-dhl-express-1135484
+- **Blue Rock Technology Gr…** : The Atlas Project <br> `location: onsite in æ¸, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-the-atlas-project-blue-rock-technology-group-1135497
+- **Brand Hackers** : Junior Graphic Designer <br> `location: onsite in London Area, London Area, United Kingdom, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-junior-graphic-designer-brand-hackers-1135514
+- **Dhanush kumar** : Why You Should Promote From Within Your Com… <br> `location: onsite in Laura, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-why-you-should-promote-from-within-your-company-dhanush-kumar-1135482
+- **Future Beauty Brands (f…** : Junior Account Manager <br> `location: onsite in New York, New York, New York, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-junior-account-manager-future-beauty-brands-formerly-ppi-beauty-1135518
+- _...and 5 more_
 
-## quals  (9)
+## quals  (8)
 
-- **FractionalFinders** : CFO Controller <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-cfo-controller-fractionalfinders-1135530
-- **Sailor Health** : Patient Intake Specialist Mental Health <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-patient-intake-specialist-mental-health-sailor-health-1135461
-- **Twine** : Illustrator Childrenâs Book Art <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-illustrator-childrens-book-art-twine-1135458
-- **Hired** : HR Operations Generalist <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-hr-operations-generalist-hired-1135450
-- **IT Resources** : Administrative Assistant <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-administrative-assistant-it-resources-1135448
-- **UpTye** : No positions currently available <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-no-positions-currently-available-uptye-1135504
-- **Center for Sports Medic…** : Procedure Scheduler <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-procedure-scheduler-center-for-sports-medicine-amp-orthopaedics-1135525
-- **Revlytic** : Digital Designer <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://remoteOK.com/remote-jobs/remote-digital-designer-revlytic-1135456
-- **Renewable Careers** : Graduate Analyst <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-graduate-analyst-renewable-careers-1135440
+- **Fulchester Consultants** : Senior Vice President Coach <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-senior-vice-president-coach-fulchester-consultants-1135537
+- **CapitexAI** : Procurement Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-procurement-manager-capitexai-1135533
+- **Hired** : English Language Specialist <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-english-language-specialist-hired-1135529
+- **CXD Ventures** : Head of Operations <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-head-of-operations-cxd-ventures-1135527
+- **CORMAC** : Public Health Administrator <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-public-health-administrator-cormac-1135526
+- **YO AI Labs** : Data Analyst <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-data-analyst-yo-ai-labs-1135558
+- **Numotion** : Documentation Review Specialist <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-documentation-review-specialist-numotion-1135522
+- **Blend** : Market Research Analyst <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-market-research-analyst-blend-1135535
+
+## level  (2)
+
+- **Atom Partners** : Entry Level Junior Trader <br> `level: 'Entry Level Junior Trader' reads junior` <br> https://remoteOK.com/remote-jobs/remote-entry-level-junior-trader-atom-partners-1135478
+- **Re Cruit Lytics HR** : Entry Level Administrative Assistant <br> `level: 'Entry Level Administrative Assistant' reads junior` <br> https://remoteOK.com/remote-jobs/remote-entry-level-administrative-assistant-re-cruit-lytics-hr-1135572
 
 ## gap-gated on required quals  (1)
 
-- **Huzzle** : Bilingual Sales Development Representative … <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-bilingual-sales-development-representative-german-english-huzzle-1135460
+- **Christian Tech Jobs** : Software Development Engineer III (Backend … <br> `gap-gated on required quals: rust, golang` <br> https://www.christiantechjobs.io/christian-jobs/remote-software-development-engineer-iii-backend-ai-subsplash-1746
+
+## score  (1)
+
+- **Milemarker, Inc.** : VP of Operations <br> `score: 36, below backlog threshold 45` <br> https://remoteOK.com/remote-jobs/remote-vp-of-operations-milemarker-inc-1135523
+
+## comp  (1)
+
+- **RemoteFront** : Transportation Analyst <br> `comp: tops out at $73,400, floor is $135,000` <br> https://remoteOK.com/remote-jobs/remote-transportation-analyst-remotefront-1135538
 

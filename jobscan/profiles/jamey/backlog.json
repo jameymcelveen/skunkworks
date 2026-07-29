@@ -1,38 +1,36 @@
 {
   "profile": "jamey",
-  "generated": "2026-07-28T12:20:27.9182444+00:00",
+  "generated": "2026-07-29T12:28:18.1002255+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 1084,
-    "New": 62,
-    "Rejected": 61
+    "Seen": 1083,
+    "New": 59,
+    "Rejected": 58
   },
   "hits": [
     {
-      "id": "321d8bd0c70d",
-      "score": 70,
-      "priority": true,
-      "company": "Christian Tech Jobs",
-      "title": "Senior Software Developer - Full Stack",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-senior-software-developer-full-stack-differential-1745",
-      "location": "",
+      "id": "d0d2b63988f5",
+      "score": 51,
+      "priority": false,
+      "company": "Bjak ",
+      "title": "Android Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-android-developer-bjak-1135486",
+      "location": "Austria",
       "comp": "not stated",
       "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
+      "source": "remoteok",
+      "domain": "saas",
       "why": [
-        "stack 21/35: graphql, node, postgres, postgresql, react, react native",
+        "stack 5/35: architect",
         "domain 13/15: mission",
-        "level 12/15: senior/lead tier",
+        "level 6/15: level unclear from title",
         "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
+        "freshness 10/10: 1d old",
         "remote 8/10: remote",
-        "ai 2/5: neutral"
+        "ai 5/5: AI-positive language"
       ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
+      "flags": []
     }
   ]
 }
