@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Scope — Tenant / Clinic / Shared — Christ Medical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* page-local: static containment diagram */
+  .wrap{max-width:1080px;margin:0 auto;padding:30px 26px 46px;}
+  .nav{display:flex;gap:14px;flex-wrap:wrap;margin:0 0 18px;font-family:var(--font-mono);font-size:11px;letter-spacing:.04em;}
+  .nav a{color:var(--brick);text-decoration:none;border-bottom:1px solid transparent;}
+  .nav a:hover{border-bottom-color:var(--brick);}
+  .nav .here{color:var(--ink);border-bottom-color:var(--ink);}
+  .lede{margin:0 0 18px;color:#6b645c;font-size:14px;max-width:70ch;}
+  .diagram{
+    border:1px solid var(--hair);border-radius:10px;background:var(--paper);
+    padding:22px 20px 20px;
+  }
+  .db{
+    border:1.5px solid var(--brick);border-radius:12px;background:#fff;
+    padding:16px 16px 14px;
+  }
+  .db > .hdr{
+    display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+    margin-bottom:14px;
+  }
+  .db > .hdr h2{
+    font-family:var(--font-head);font-size:18px;font-weight:700;margin:0;
+  }
+  .db > .hdr .meta{
+    font-family:var(--font-mono);font-size:11px;color:#8a8378;letter-spacing:.04em;
+  }
+  .tenants{display:flex;flex-direction:column;gap:14px;}
+  .tenant{
+    border:1.5px solid var(--hair);border-radius:10px;background:var(--paper-2);
+    padding:14px 14px 12px;
+  }
+  .tenant.focus{border-color:var(--brick);background:#fff;}
+  .tenant.dim{opacity:.55;}
+  .tenant > .hdr{
+    display:flex;align-items:baseline;gap:10px;margin-bottom:12px;
+  }
+  .tenant > .hdr h3{
+    font-family:var(--font-head);font-size:15px;font-weight:700;margin:0;
+  }
+  .badge{
+    font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--brick);border:1px solid var(--hair);border-radius:4px;padding:2px 7px;
+    background:var(--paper);
+  }
+  .shared{
+    border:1.5px dashed var(--sage);border-radius:8px;background:rgba(84,98,35,.06);
+    padding:12px 12px 10px;margin-bottom:12px;
+  }
+  .shared .label{
+    font-family:var(--font-mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--sage);margin:0 0 8px;
+  }
+  .chips{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{
+    font-family:var(--font-mono);font-size:11px;letter-spacing:.03em;
+    padding:7px 11px;border-radius:6px;border:1.5px solid var(--sage);
+    background:#fff;color:var(--sage);
+  }
+  .chip.brick{
+    border-color:var(--brick);color:var(--brick);
+  }
+  .clinics{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  @media (max-width:700px){.clinics{grid-template-columns:1fr;}}
+  .clinic{
+    border:1.5px solid var(--brick);border-radius:8px;background:#fff;
+    padding:12px 12px 10px;
+  }
+  .clinic > .hdr{
+    display:flex;align-items:baseline;justify-content:space-between;gap:8px;
+    margin-bottom:8px;
+  }
+  .clinic > .hdr h4{
+    font-family:var(--font-head);font-size:14px;font-weight:700;margin:0;
+  }
+  .clinic .scope{
+    font-family:var(--font-mono);font-size:10px;color:#8a8378;letter-spacing:.04em;
+  }
+  .legend{display:flex;gap:22px;flex-wrap:wrap;margin-top:16px;font-size:12.5px;color:#6b645c;}
+  .legend span{display:inline-flex;align-items:center;gap:7px;}
+  .sw{width:14px;height:14px;border-radius:3px;border:1.5px solid;display:inline-block;}
+  .note{
+    margin-top:18px;padding:14px 16px;background:var(--paper-2);
+    border-left:3px solid var(--sage);border-radius:4px;font-size:13.5px;line-height:1.55;
+  }
+  .note b{color:var(--sage);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Deck">
+    <a href="index.html">Hub walkthrough</a>
+    <a href="architecture.html">Hub reference</a>
+    <a class="here" href="data.html">Data scope</a>
+    <a href="data-demo.html">Data walkthrough</a>
+  </nav>
+
+  <p class="eyebrow">Christ Medical · Data Model</p>
+  <h1 style="font-family:var(--font-head);font-weight:700;font-size:25px;margin:0 0 4px;">One database · tenants · clinics · shared</h1>
+  <p class="lede">A church is a tenant. A clinic is a mission trip. Patients stay in one clinic. Formulary, workers, and treatments are shared across clinics inside the same church so trips do not invent parallel catalogs.</p>
+
+  <div class="diagram">
+    <div class="db">
+      <div class="hdr">
+        <h2>ChristMed</h2>
+        <span class="meta">one Postgres · cloud master</span>
+      </div>
+
+      <div class="tenants">
+        <section class="tenant focus" aria-label="Cornerstone Church tenant">
+          <div class="hdr">
+            <h3>Cornerstone Church</h3>
+            <span class="badge">tenant</span>
+          </div>
+
+          <div class="shared">
+            <p class="label">Shared across clinics in this church</p>
+            <div class="chips">
+              <span class="chip">formulary / meds</span>
+              <span class="chip">mission workers</span>
+              <span class="chip">treatments</span>
+            </div>
+          </div>
+
+          <div class="clinics">
+            <div class="clinic">
+              <div class="hdr">
+                <h4>Belize 2026</h4>
+                <span class="scope">clinic · mission</span>
+              </div>
+              <div class="chips">
+                <span class="chip brick">patients</span>
+                <span class="chip brick">encounters</span>
+                <span class="chip brick">vitals / Rx</span>
+              </div>
+            </div>
+            <div class="clinic">
+              <div class="hdr">
+                <h4>Honduras 2026</h4>
+                <span class="scope">clinic · mission</span>
+              </div>
+              <div class="chips">
+                <span class="chip brick">patients</span>
+                <span class="chip brick">encounters</span>
+                <span class="chip brick">vitals / Rx</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="tenant dim" aria-label="First Baptist tenant">
+          <div class="hdr">
+            <h3>First Baptist</h3>
+            <span class="badge">tenant</span>
+          </div>
+          <p style="margin:0;font-size:13px;color:#6b645c;">Same shape: shared catalog at the church, clinics as mission trips, patients scoped to a clinic. Other tenants never see Cornerstone data.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><span class="sw" style="border-color:#546223;background:rgba(84,98,35,.08)"></span> Tenant-shared (sage)</span>
+    <span><span class="sw" style="border-color:#B94700;background:#fff"></span> Clinic-scoped clinical (brick)</span>
+  </div>
+
+  <div class="note">
+    <b>Checkout payload for Belize:</b> the Belize clinic slice (patients, encounters) plus a snapshot of the tenant shared band (formulary, workers, treatments). Honduras stays home. On check-in, clinical records reconcile with checkout winning; shared rows merge additively so neither trip clobbers the other or the home office.
+  </div>
+</div>
+</body>
+</html>
