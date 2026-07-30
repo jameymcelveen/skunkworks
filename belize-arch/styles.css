@@ -1,0 +1,151 @@
+/* Christ Medical — Belize Hub Architecture
+   Field Clinical design system (established in the Christ Medical build).
+   Warm paper, campus brick, college ink, bowman sage. */
+
+:root {
+  --paper:   #FAF7F0;   /* warm paper */
+  --paper-2: #F1ECE0;   /* recessed panel */
+  --brick:   #B94700;   /* campus brick — the accent, used with restraint */
+  --ink:     #2E2A26;   /* college avenue ink */
+  --sage:    #546223;   /* bowman field sage */
+  --hair:    #D9D3CA;   /* hairline */
+  --ghost:   #C9C2B6;   /* not-yet-reached elements */
+  --shadow:  rgba(46, 42, 38, 0.18);
+
+  --font-head: 'Bricolage Grotesque', 'Public Sans', system-ui, sans-serif;
+  --font-body: 'Public Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'DejaVu Sans Mono', ui-monospace, 'SF Mono', monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.stage-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 28px 48px;
+}
+
+/* --- header --- */
+.masthead { border-bottom: 1px solid var(--hair); padding-bottom: 16px; margin-bottom: 8px; }
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--brick); margin: 0 0 6px;
+}
+.masthead h1 {
+  font-family: var(--font-head);
+  font-weight: 700; font-size: 27px; letter-spacing: -0.01em;
+  margin: 0; color: var(--ink);
+}
+.masthead p { margin: 6px 0 0; font-size: 14px; color: #6b645c; max-width: 62ch; }
+
+/* --- caption strip: what the current step means --- */
+.caption {
+  min-height: 44px;
+  margin: 18px 0 10px;
+  padding: 12px 16px;
+  background: var(--paper-2);
+  border-left: 3px solid var(--brick);
+  border-radius: 4px;
+  font-size: 14.5px; line-height: 1.5;
+}
+.caption b { color: var(--brick); }
+
+/* --- the diagram stage --- */
+.stage {
+  position: relative;
+  min-height: 430px;
+  padding: 20px 6px;
+}
+
+/* rows the story lays out on */
+.row { display: flex; align-items: center; gap: 18px; margin-bottom: 30px; flex-wrap: wrap; }
+.row .label {
+  font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: #8a8378; width: 74px; flex-shrink: 0;
+}
+
+/* --- press-button web component styling (styles its shadow parts) --- */
+press-button {
+  --pb-fill: #ffffff;
+  --pb-edge: var(--brick);
+  display: inline-block;
+}
+
+/* connectors */
+.arrow {
+  flex-shrink: 0;
+  width: 46px; height: 2px; background: var(--ghost);
+  position: relative; transition: background .35s ease;
+}
+.arrow::after {
+  content: ''; position: absolute; right: -1px; top: -4px;
+  border-left: 8px solid var(--ghost); border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent; transition: border-left-color .35s ease;
+}
+.arrow.lit { background: var(--brick); }
+.arrow.lit::after { border-left-color: var(--brick); }
+.arrow.down {
+  width: 2px; height: 34px; margin-left: 34px;
+}
+.arrow.down::after {
+  right: -3px; top: auto; bottom: -1px;
+  border-left: 5px solid transparent; border-right: 5px solid transparent;
+  border-top: 8px solid var(--ghost); border-bottom: none;
+}
+.arrow.down.lit::after { border-top-color: var(--brick); }
+
+.arrow .arrow-note {
+  position: absolute; top: -20px; left: 50%; transform: translateX(-50%);
+  white-space: nowrap; font-family: var(--font-mono);
+  font-size: 10px; letter-spacing: .04em; color: #8a8378;
+}
+.arrow.lit .arrow-note { color: var(--brick); }
+
+/* device fan-out under the hub */
+.devices { display: flex; gap: 12px; margin-left: 20px; }
+.device {
+  width: 84px; height: 40px; border-radius: 5px;
+  background: var(--paper-2); border: 1.5px solid var(--ghost);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono); font-size: 9px; color: #8a8378;
+  opacity: .35; transition: opacity .4s ease, border-color .4s ease, color .4s ease;
+}
+.device.lit { opacity: 1; border-color: var(--sage); color: var(--sage); }
+
+/* --- controls --- */
+.controls {
+  display: flex; align-items: center; gap: 12px;
+  margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--hair);
+}
+.btn {
+  font-family: var(--font-body); font-size: 13px; font-weight: 600;
+  padding: 9px 18px; border-radius: 7px; cursor: pointer;
+  border: 1px solid var(--hair); background: #fff; color: var(--ink);
+  transition: transform .08s ease, background .2s ease;
+}
+.btn:hover { background: var(--paper-2); }
+.btn:active { transform: translateY(1px); }
+.btn.primary { background: var(--brick); color: #fff; border-color: var(--brick); }
+.btn.primary:hover { background: #a13e00; }
+.btn:disabled { opacity: .4; cursor: default; }
+.step-count { font-family: var(--font-mono); font-size: 12px; color: #8a8378; margin-left: auto; }
+
+.hint { font-size: 12.5px; color: #8a8378; margin-top: 10px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+@media (max-width: 640px) {
+  .row .label { width: 100%; }
+  .masthead h1 { font-size: 22px; }
+}

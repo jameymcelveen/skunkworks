@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Belize Hub Architecture — Christ Medical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stage-wrap">
+
+  <div class="masthead">
+    <p class="eyebrow">Christ Medical · Field Architecture</p>
+    <h1>The Belize Hub: connected in bursts, on a schedule</h1>
+    <p>Belize now routes all internet through official channels, so there is no legitimate live cloud link at the clinic. The answer is a local hub that becomes master for the trip and reconciles home at night. Walk it step by step.</p>
+  </div>
+
+  <div class="caption" id="caption"></div>
+
+  <div class="stage">
+
+    <div class="row">
+      <span class="label">Home</span>
+      <press-button id="christmed" label="ChristMed" sub="cloud master"></press-button>
+      <div class="arrow" id="a-christmed-cornerstone"><span class="arrow-note">tables →</span></div>
+      <press-button id="cornerstone" label="Cornerstone Church" sub="tenant · trip"></press-button>
+      <div class="arrow" id="a-cornerstone-firstbaptist"></div>
+      <press-button id="firstbaptist" label="First Baptist" sub="tenant · trip"></press-button>
+    </div>
+
+    <div class="row">
+      <span class="label">Checkout</span>
+      <div class="arrow" id="a-checkout"><span class="arrow-note">hub becomes master →</span></div>
+      <press-button id="hub" label="Belize Hub" sub="API + Postgres · on-site"></press-button>
+      <div class="arrow" id="a-hub-cloud"><span class="arrow-note">← nightly push</span></div>
+      <div class="arrow" id="a-release"><span class="arrow-note">← check-in / release</span></div>
+    </div>
+
+    <div class="row" style="align-items:flex-start;">
+      <span class="label">Field</span>
+      <div style="display:flex;flex-direction:column;align-items:flex-start;">
+        <div class="arrow down" id="a-hub-location"><span class="arrow-note" style="left:14px;top:6px;transform:none;">hub arrives on-site</span></div>
+        <div class="devices">
+          <div class="device" id="dev1">tablet · reg</div>
+          <div class="device" id="dev2">tablet · nurse</div>
+          <div class="device" id="dev3">tablet · doctor</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="controls">
+    <button class="btn" id="prev">Back</button>
+    <button class="btn primary" id="next">Advance</button>
+    <button class="btn" id="reset">Reset</button>
+    <span class="step-count" id="count"></span>
+  </div>
+  <p class="hint">Space bar or → to advance · ← to step back. The buttons depress as the data moves through them.</p>
+
+</div>
+<script src="demo.js"></script>
+</body>
+</html>
