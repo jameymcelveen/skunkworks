@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Belize Hub — Full Architecture — Christ Medical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF7F0; --paper2:#F1ECE0; --brick:#B94700; --ink:#2E2A26;
+    --sage:#546223; --hair:#D9D3CA; --ghost:#C9C2B6;
+    --head:'Bricolage Grotesque','Public Sans',system-ui,sans-serif;
+    --body:'Public Sans',system-ui,sans-serif;
+    --mono:'DejaVu Sans Mono',ui-monospace,monospace;
+  }
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);}
+  .wrap{max-width:1080px;margin:0 auto;padding:30px 26px 46px;}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--brick);margin:0 0 6px;}
+  h1{font-family:var(--head);font-weight:700;font-size:25px;margin:0 0 4px;}
+  .lede{margin:0 0 18px;color:#6b645c;font-size:14px;max-width:70ch;}
+  svg{width:100%;height:auto;display:block;background:var(--paper);border:1px solid var(--hair);border-radius:10px;}
+  .legend{display:flex;gap:22px;flex-wrap:wrap;margin-top:16px;font-size:12.5px;color:#6b645c;}
+  .legend span{display:inline-flex;align-items:center;gap:7px;}
+  .sw{width:22px;height:0;border-top-width:3px;border-top-style:solid;display:inline-block;}
+  .note{margin-top:18px;padding:14px 16px;background:var(--paper2);border-left:3px solid var(--sage);border-radius:4px;font-size:13.5px;line-height:1.55;}
+  .note b{color:var(--sage);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Christ Medical · System Architecture</p>
+  <h1>Belize Hub — checkout / check-in field model</h1>
+  <p class="lede">A local hub becomes the master record for the duration of a mission trip. Tablets connect over a local network with no internet; the hub reconciles to the cloud once a day over the legally sanctioned connection at the hotel.</p>
+
+  <svg viewBox="0 0 1000 574" role="img" aria-label="Belize hub architecture diagram">
+    <defs>
+      <!-- Solid heads, tip exactly on the path endpoint, sized in user units so the
+           stem is fully covered and never shows through the pointer. -->
+      <marker id="ah" viewBox="0 0 12 12" refX="12" refY="6"
+              markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse"
+              orient="auto-start-reverse">
+        <path d="M0 1 L12 6 L0 11 Z" fill="#B94700"/>
+      </marker>
+      <marker id="ahs" viewBox="0 0 12 12" refX="12" refY="6"
+              markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse"
+              orient="auto-start-reverse">
+        <path d="M0 1 L12 6 L0 11 Z" fill="#546223"/>
+      </marker>
+      <style>
+        .box{fill:#fff;stroke:#B94700;stroke-width:1.5;}
+        .box-sage{fill:#fff;stroke:#546223;stroke-width:1.5;}
+        .panel{fill:#F1ECE0;stroke:#D9D3CA;stroke-width:1;}
+        .t{font-family:var(--head, 'Bricolage Grotesque');font-weight:700;font-size:15px;fill:#2E2A26;}
+        .ts{font-family:'DejaVu Sans Mono',monospace;font-size:10.5px;fill:#8a8378;letter-spacing:.03em;}
+        .tl{font-family:'DejaVu Sans Mono',monospace;font-size:10.5px;fill:#B94700;letter-spacing:.05em;}
+        .tls{font-family:'DejaVu Sans Mono',monospace;font-size:10.5px;fill:#546223;letter-spacing:.05em;}
+        .zone{font-family:'DejaVu Sans Mono',monospace;font-size:11px;fill:#8a8378;letter-spacing:.14em;text-transform:uppercase;}
+        .conn{stroke:#B94700;stroke-width:2;fill:none;stroke-linejoin:round;stroke-linecap:round;}
+        .conn-sage{stroke:#546223;stroke-width:2;fill:none;stroke-linejoin:round;stroke-linecap:round;}
+        .conn-dash{stroke:#B94700;stroke-width:2;fill:none;stroke-dasharray:6 5;stroke-linejoin:round;stroke-linecap:round;}
+        .ah{fill:#B94700;}
+        .ahs{fill:#546223;}
+      </style>
+    </defs>
+
+    <!-- ================= ZONE: Home / cloud ================= -->
+    <text x="40" y="32" class="zone">Home · Cloud</text>
+    <line x1="40" y1="42" x2="960" y2="42" stroke="#D9D3CA" stroke-width="1"/>
+
+    <rect class="box" x="60" y="70" width="160" height="70" rx="11"/>
+    <text class="t" x="140" y="100" text-anchor="middle">ChristMed</text>
+    <text class="ts" x="140" y="120" text-anchor="middle">cloud master</text>
+
+    <!-- churches -->
+    <rect class="panel" x="300" y="64" width="190" height="36" rx="7"/>
+    <text class="t" x="395" y="88" text-anchor="middle" font-size="13">Cornerstone Church</text>
+    <rect class="panel" x="300" y="110" width="190" height="36" rx="7"/>
+    <text class="t" x="395" y="134" text-anchor="middle" font-size="13">First Baptist</text>
+    <text class="ts" x="418" y="164" text-anchor="end">tenants · each runs trips</text>
+
+    <!-- christmed -> churches -->
+    <path class="conn" d="M220 105 H300" marker-end="url(#ah)"/>
+    <text class="tl" x="260" y="88" text-anchor="middle">tables</text>
+
+    <!-- checkout: straight drop across the zone boundary into the hub -->
+    <path class="conn" d="M430 178 V300" marker-end="url(#ah)"/>
+    <text class="tl" x="470" y="220">checkout: hub = master</text>
+
+    <!-- reconcile / release target -->
+    <rect class="panel" x="680" y="86" width="250" height="78" rx="9"/>
+    <text class="t" x="805" y="112" text-anchor="middle" font-size="13">Reconcile on check-in</text>
+    <text class="ts" x="805" y="132" text-anchor="middle">clinical records win</text>
+    <text class="ts" x="805" y="148" text-anchor="middle">dictionary rows merge additively</text>
+
+    <!-- ================= ZONE: Field / Belize ================= -->
+    <text x="40" y="250" class="zone">Field · Belize (no live internet at clinic)</text>
+    <line x1="40" y1="260" x2="960" y2="260" stroke="#D9D3CA" stroke-width="1"/>
+
+    <!-- hub -->
+    <rect class="box" x="380" y="300" width="200" height="90" rx="11"/>
+    <text class="t" x="480" y="330" text-anchor="middle">Belize Hub</text>
+    <text class="ts" x="480" y="352" text-anchor="middle">API + Postgres · on-site</text>
+    <text class="ts" x="480" y="368" text-anchor="middle">travel router · local net</text>
+
+    <!-- tablets -->
+    <text class="tls" x="173" y="282" text-anchor="middle">local network · live cross-device</text>
+    <g>
+      <rect class="box-sage" x="110" y="296" width="126" height="50" rx="8"/>
+      <text class="tls" x="173" y="325" text-anchor="middle">tablet · reg</text>
+      <rect class="box-sage" x="110" y="368" width="126" height="50" rx="8"/>
+      <text class="tls" x="173" y="397" text-anchor="middle">tablet · nurse</text>
+      <rect class="box-sage" x="110" y="440" width="126" height="50" rx="8"/>
+      <text class="tls" x="173" y="469" text-anchor="middle">tablet · doctor</text>
+    </g>
+    <!-- tablets <-> hub: each head on its own stub; elbows on separate risers
+         (no shared bus) so corners don't double-stroke into a +. -->
+    <path class="conn-sage" d="M248 321 H368"/>
+    <path class="ahs" d="M236 321 L248 316 L248 326 Z"/>
+    <path class="ahs" d="M380 321 L368 316 L368 326 Z"/>
+
+    <path class="conn-sage" d="M248 393 H295 V345 H368"/>
+    <path class="ahs" d="M236 393 L248 388 L248 398 Z"/>
+    <path class="ahs" d="M380 345 L368 340 L368 350 Z"/>
+
+    <path class="conn-sage" d="M248 465 H335 V369 H368"/>
+    <path class="ahs" d="M236 465 L248 460 L248 470 Z"/>
+    <path class="ahs" d="M380 369 L368 364 L368 374 Z"/>
+
+    <!-- nightly push: long horizontal past the label, vertical stem into the tip -->
+    <path class="conn-dash" d="M580 340 H880 V176"/>
+    <path class="ah" d="M880 164 L875 176 L885 176 Z"/>
+    <text class="tl" x="760" y="292" text-anchor="end">nightly one-way push</text>
+    <text class="ts" x="760" y="308" text-anchor="end">(hotel · legal link)</text>
+
+    <!-- caption bottom -->
+    <text class="ts" x="500" y="528" text-anchor="middle" font-size="12">Checkout: the hub owns clinical records for the trip.</text>
+    <text class="ts" x="500" y="546" text-anchor="middle" font-size="12">Check-in: records reconcile home, dictionary rows merge additively, the Belize hold releases.</text>
+  </svg>
+
+  <div class="legend">
+    <span><span class="sw" style="border-top-color:#B94700"></span> Cloud / checkout path (brick)</span>
+    <span><span class="sw" style="border-top-color:#546223"></span> Local field network (sage)</span>
+    <span><span class="sw" style="border-top-color:#B94700;border-top-style:dashed"></span> Nightly reconcile (dashed)</span>
+  </div>
+
+  <div class="note">
+    <b>Why a hub and not per-device sync:</b> a clinic runs registration → nurse → doctor → pharmacy across different people on different tablets. The hub gives live cross-device visibility during the day; without it, the doctor can't see the nurse's vitals until the nightly sync. The only actual sync is one writer (the hub), one direction, once a day, at rest — roughly a fifth of the complexity of bidirectional per-device sync. The government mandate pushed the design toward the architecture the workflow needed anyway.
+  </div>
+</div>
+</body>
+</html>
