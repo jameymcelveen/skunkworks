@@ -14,8 +14,13 @@ static one-slide reference for the repo.
   drive it. This is the **story** diagram, for presenting.
 - `architecture.html` — the full architecture on one static slide, everything visible,
   no narration needed. This is the **reference** diagram.
+- `data.html` — static data-scope containment: one DB → tenants (churches) → shared
+  band + clinics (missions). Patients clinic-scoped; formulary/workers/treatments
+  shared inside a tenant.
+- `data-demo.html` + `data-demo.js` — progressive ownership walkthrough ending in a
+  Belize checkout / nightly / check-in. Same Advance/Back/Reset kit as the hub demo.
 - `styles.css` — Field Clinical design tokens + pressable-button styling.
-- `demo.js` — the `<press-button>` web component and the `STEPS` reveal sequence.
+- `demo.js` — the `<press-button>` web component and the hub `STEPS` reveal sequence.
 - `README.md` — human-facing description and click order.
 
 No build, no dependencies, no server. Open the HTML directly. Fonts load from Google

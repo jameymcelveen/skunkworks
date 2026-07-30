@@ -1,8 +1,10 @@
 # belize-arch — launcher. No dependencies, no build; python3's stdlib server only.
 #
-#   make run     click-through demo (index.html)
-#   make arch    static reference diagram (architecture.html)
-#   make stop    free the port if a server was left running
+#   make run       hub click-through (index.html)
+#   make arch      hub static reference (architecture.html)
+#   make data      data-scope static (data.html)
+#   make data-demo data ownership walkthrough (data-demo.html)
+#   make stop      free the port if a server was left running
 #
 # Overrides:  make run PORT=9000  ·  make serve PAGE=architecture.html
 #             make serve HOST=0.0.0.0   (present from a tablet on the same wifi)
@@ -13,21 +15,29 @@ PAGE ?= index.html
 PY   := $(shell command -v python3 2>/dev/null)
 
 .DEFAULT_GOAL := help
-.PHONY: help run arch serve open stop
+.PHONY: help run arch data data-demo serve open stop
 
 help:
 	@echo "belize-arch"
-	@echo "  make run     serve + open the click-through demo (index.html)"
-	@echo "  make arch    serve + open the static diagram (architecture.html)"
-	@echo "  make serve   serve only, no browser  [PAGE= PORT= HOST=]"
-	@echo "  make open    open index.html straight off disk, no server"
-	@echo "  make stop    kill whatever is listening on port $(PORT)"
+	@echo "  make run        hub click-through demo (index.html)"
+	@echo "  make arch       hub static diagram (architecture.html)"
+	@echo "  make data       data-scope containment (data.html)"
+	@echo "  make data-demo  data ownership walkthrough (data-demo.html)"
+	@echo "  make serve      serve only, no browser  [PAGE= PORT= HOST=]"
+	@echo "  make open       open PAGE straight off disk, no server"
+	@echo "  make stop       kill whatever is listening on port $(PORT)"
 
 run: PAGE := index.html
 run: serve
 
 arch: PAGE := architecture.html
 arch: serve
+
+data: PAGE := data.html
+data: serve
+
+data-demo: PAGE := data-demo.html
+data-demo: serve
 
 serve:
 ifeq ($(PY),)

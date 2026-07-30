@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Walkthrough — Checkout Scope — Christ Medical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="stage-wrap">
+
+  <nav class="deck-nav" aria-label="Deck">
+    <a href="index.html">Hub walkthrough</a>
+    <a href="architecture.html">Hub reference</a>
+    <a href="data.html">Data scope</a>
+    <a class="here" href="data-demo.html">Data walkthrough</a>
+  </nav>
+
+  <div class="masthead">
+    <p class="eyebrow">Christ Medical · Data Model</p>
+    <h1>What gets checked out — and what stays home</h1>
+    <p>Walk the ownership tree, then watch a Belize checkout pull clinic records plus the church shared band, leave Honduras alone, push nightly, and merge back on check-in.</p>
+  </div>
+
+  <div class="caption" id="caption"></div>
+
+  <div class="stage data-stage">
+
+    <div class="data-shell" id="db">
+      <div class="data-shell-hdr">
+        <press-button id="christmed" label="ChristMed" sub="one database"></press-button>
+        <span class="data-meta">cloud master</span>
+      </div>
+
+      <div class="data-tenant" id="tenant">
+        <div class="data-tenant-hdr">
+          <press-button id="cornerstone" label="Cornerstone Church" sub="tenant"></press-button>
+          <span class="data-meta" id="tenant-note">other tenants stay out of this trip</span>
+        </div>
+
+        <div class="data-shared" id="shared">
+          <p class="data-band-label">Shared @ church</p>
+          <div class="data-chips">
+            <div class="dchip" id="chip-formulary">formulary / meds</div>
+            <div class="dchip" id="chip-workers">mission workers</div>
+            <div class="dchip" id="chip-treatments">treatments</div>
+          </div>
+        </div>
+
+        <div class="data-clinics">
+          <div class="data-clinic" id="clinic-belize">
+            <press-button id="belize" label="Belize 2026" sub="clinic · mission"></press-button>
+            <div class="data-chips">
+              <div class="dchip brick" id="chip-bz-patients">patients</div>
+              <div class="dchip brick" id="chip-bz-encounters">encounters</div>
+              <div class="dchip brick" id="chip-bz-rx">vitals / Rx</div>
+            </div>
+          </div>
+          <div class="data-clinic" id="clinic-honduras">
+            <press-button id="honduras" label="Honduras 2026" sub="clinic · mission"></press-button>
+            <div class="data-chips">
+              <div class="dchip brick" id="chip-hn-patients">patients</div>
+              <div class="dchip brick" id="chip-hn-encounters">encounters</div>
+              <div class="dchip brick" id="chip-hn-rx">vitals / Rx</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="data-tenant dim-peer" id="peer">
+        <press-button id="firstbaptist" label="First Baptist" sub="tenant · not on this trip"></press-button>
+      </div>
+    </div>
+
+    <div class="data-flow">
+      <div class="arrow down" id="a-checkout"><span class="arrow-note" style="left:14px;top:6px;transform:none;">checkout →</span></div>
+      <press-button id="hub" label="Belize Hub" sub="trip master on-site"></press-button>
+      <div class="hub-payload" id="payload">
+        <div class="dchip brick" id="pay-clinic">Belize clinic slice</div>
+        <div class="dchip" id="pay-shared">shared snapshot</div>
+      </div>
+      <div class="arrow" id="a-nightly"><span class="arrow-note">nightly push →</span></div>
+      <div class="arrow" id="a-checkin"><span class="arrow-note">← check-in merge</span></div>
+    </div>
+
+  </div>
+
+  <div class="controls">
+    <button class="btn" id="prev">Back</button>
+    <button class="btn primary" id="next">Advance</button>
+    <button class="btn" id="reset">Reset</button>
+    <span class="step-count" id="count"></span>
+  </div>
+  <p class="hint">Space bar or → to advance · ← to step back. Sage = tenant-shared · brick = clinic-scoped.</p>
+
+</div>
+<script src="data-demo.js"></script>
+</body>
+</html>
