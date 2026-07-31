@@ -1,64 +1,69 @@
-# Rejected  (50)
+# Rejected  (49)
 
-Generated 2026-07-30 12:11 UTC. Audit trail for the three-line filter.
+Generated 2026-07-31 12:26 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## location  (44)
+## location  (39)
 
-- **Lindos Group Of Compani…** : Butcher <br> `location: onsite in Hamilton city, Hamilton city, Bermuda, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-butcher-lindos-group-of-companies-1135653
-- **Kindred** : Patient Access and Intake Coordinator <br> `location: onsite in Philadelphia, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-patient-access-and-intake-coordinator-kindred-1135670
-- **UztexGroup** : test <br> `location: onsite in Ð Ð°Ð·Ð²ÑÐ·ÐºÐ° Ð¢Ð°ÑÐºÐµÐ½Ñ-ÐÐ¶Ð¸Ð·Ð°Ðº, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-test-uztexgroup-1135624
-- **Amal Semiconductor** : BUSINESS &amp; SUPPORT <br> `location: onsite in Wideopen, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-business-amp-support-amal-semiconductor-1135617
-- **Universia Brasil** : Auxiliar de Recursos Humanos <br> `location: onsite in Tlalnepantla de Baz, Tlalnepantla de Baz, MÃ©xico, MÃ©xico, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-auxiliar-de-recursos-humanos-universia-brasil-1135612
-- **Everyday Dose** : Chief of Staff the CEO <br> `location: onsite in Austin, Austin, Texas, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-chief-of-staff-the-ceo-everyday-dose-1135608
-- **Hometown Deli &amp; Gro…** : Hospice <br> `location: onsite in Puducherry, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-hospice-hometown-deli-amp-grocery-1135592
-- **Hometown Deli &amp; Gro…** : Acoustical Management <br> `location: onsite in Roorkee, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-acoustical-management-hometown-deli-amp-grocery-1135593
-- **Tarsu AlÄ±ÅveriÅ Merk…** : REEDER <br> `location: onsite in Dhanarua, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-reeder-tarsu-alisveris-merkezi-1135628
-- **Tarsu AlÄ±ÅveriÅ Merk…** : FLO <br> `location: onsite in Dhanarua, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-flo-tarsu-alisveris-merkezi-1135625
-- **Joi AI** : Empathetic Friend <br> `location: onsite in Amber, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-empathetic-friend-joi-ai-1135594
-- **Joi AI** : Supportive Gardener <br> `location: onsite in Bella Bella, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-supportive-gardener-joi-ai-1135666
-- **Miranda Creative, Inc.** : Graphic Designer <br> `location: onsite in Norwich, Norwich, Connecticut, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-graphic-designer-miranda-creative-inc-1135610
-- **Yo-Bar** : ACT Application Form <br> `location: onsite in Australian Capital Territory, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-act-application-form-yo-bar-1135603
-- **Lsn** : Handyman Jobs <br> `location: onsite in Livingston, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-handyman-jobs-lsn-1135595
-- **Lsn** : Drivers wanted <br> `location: onsite in Cookeville, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-drivers-wanted-lsn-1135596
-- **La Subasta App** : Â¡Empieza a trabajar de inmediato <br> `location: onsite in Meerut, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-empieza-a-trabajar-de-inmediato-la-subasta-app-1135627
-- **PUCRS Carreiras** : Bolsa de IniciaÃ§Ã£o CientÃ­fica PUCRS BIC … <br> `location: onsite in Porto Alegre e RegiÃ£o, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-bolsa-de-iniciacao-cientifica-pucrs-bic-2026-2027-pucrs-carreiras-1135613
-- **Oula** : Product Manager Â· New York Chicago Charlot… <br> `location: onsite in New York, New York, New York, United States, outside 75mi and not remote` <br> https://remoteOK.com/remote-jobs/remote-product-manager-new-york-chicago-charlotte-oula-1135672
-- **Engenharia de PetrÃ³leo…** : Udesc Faed terÃ¡ atividades remotas nesta s… <br> `location: onsite in Feira de Santana, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-udesc-faed-tera-atividades-remotas-nesta-sexta-feira-24-devido-a-dedetizacao-engenharia-de-petroleo-udesc-bc-1135579
-- **Ermes - Gas &amp; Power** : Area Manager Freelance Sviluppo Territorial… <br> `location: onsite in Pescara, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-area-manager-freelance-sviluppo-territoriale-energia-ermes-gas-amp-power-1135604
-- **Grow Wabash County** : MJV Group Multiple Positions <br> `location: onsite in Lafayette, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-mjv-group-multiple-positions-grow-wabash-county-1135587
-- **Seguin Morris** : Spontaneous application <br> `location: onsite in Cambridge, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-spontaneous-application-seguin-morris-1135662
-- **FORWARD (Forward Teleco…** : Forward Rewards <br> `location: onsite in Roorkee, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-forward-rewards-forward-forward-telecom-1135577
-- **FORWARD (Forward Teleco…** : Forward DMP <br> `location: onsite in Ajmer, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-forward-dmp-forward-forward-telecom-1135576
-- **The Buckle, Inc.** : Not Finding Your Fit Apply Here <br> `location: onsite in Kearney, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-not-finding-your-fit-apply-here-the-buckle-inc-1135588
-- **americanas s.a.** : Analista de Projetos JÃºnior DEP <br> `location: onsite in Rio de Janeiro, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-analista-de-projetos-junior-dep-americanas-s-a-1135615
-- **MrBeast** : Video Editor Reacts <br> `location: onsite in Greenville, Greenville, North Carolina, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-video-editor-reacts-mrbeast-1135607
-- **Confitec** : Analista de Dados Junior Exclusiva SÃ£o Pau… <br> `location: onsite in SÃ£o Paulo, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-analista-de-dados-junior-exclusiva-sao-paulo-confitec-1135641
-- **Hustler Marketing** : Sales &amp; Marketing Director <br> `location: onsite in Madrid, Madrid, Comunidad de Madrid, EspaÃ±a, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sales-amp-marketing-director-hustler-marketing-1135575
-- **Awesome Entertainment** : AWESOME LIFE <br> `location: onsite in Recruit, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-awesome-life-awesome-entertainment-1135631
-- **Monterail** : LLM Engineer Freelancer <br> `location: onsite in KrakÃ³w, KrakÃ³w, Woj. MaÅopolskie, Polska, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-llm-engineer-freelancer-monterail-1135638
-- **Koorier** : Jop posting title <br> `location: onsite in Location, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-jop-posting-title-koorier-1135560
-- **eStoreLabs** : Web Publisher Half time US Timezone <br> `location: onsite in Lima, Lima, PerÃº, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-web-publisher-half-time-us-timezone-estorelabs-1135642
-- **Pearster** : Executive Assistant <br> `location: onsite in BogotÃ¡, BogotÃ¡, Distrito Capital, Colombia, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-executive-assistant-pearster-1135643
-- **TownPost** : Odd Jobs <br> `location: onsite in Yorkton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-odd-jobs-townpost-1135661
-- **TownPost** : Swamper Position <br> `location: onsite in Slave Lake, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-swamper-position-townpost-1135659
-- **Country Hills** : Hills County <br> `location: onsite in Saddle Hills County, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-hills-county-country-hills-1135663
-- **Ardsley Facilities &amp…** : Search <br> `location: onsite in Thorpe On The Hill, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-search-ardsley-facilities-amp-outdoor-management-ltd-1135618
-- **Jurnal Presipitasi** : TATALOKA <br> `location: onsite in Coimbatore South, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-tataloka-jurnal-presipitasi-1135626
-- _...and 4 more_
+- **Christian Care Ministry** : Healthcare Payment Navigator <br> `location: onsite in Orlando, FL | Hybrid, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=7990879
+- **Christian Care Ministry** : Healthcare Payment Navigator <br> `location: onsite in Melbourne, FL | Hybrid, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8036333
+- **JAKSON Group** : Site Operation <br> `location: onsite in Roorkee, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-site-operation-jakson-group-1135727
+- **Donnington Group** : Current Vacancies <br> `location: onsite in Swift Current, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-current-vacancies-donnington-group-1135678
+- **Marmend** : Vacancy <br> `location: onsite in Kyiv, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-vacancy-marmend-1135725
+- **Miss Amara** : Supply Chain &amp; Operations Specialist <br> `location: onsite in Metro Manila, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-supply-chain-amp-operations-specialist-miss-amara-1135691
+- **Filmtheater Cinecenter** : Trafic <br> `location: onsite in Namkum, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-trafic-filmtheater-cinecenter-1135731
+- **Atoms &amp; Space** : Other <br> `location: onsite in Content, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-other-atoms-amp-space-1135667
+- **Lancashire Careers Hub** : READ MORE <br> `location: onsite in Resource, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-read-more-lancashire-careers-hub-1135652
+- **VARUN BEVERAGES LIMITED** : Deputy Manager Sales HR <br> `location: onsite in Ahmedabad, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-deputy-manager-sales-hr-varun-beverages-limited-1135737
+- **Pioneer Navigation Glob…** : At Office <br> `location: onsite in Landry Office, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-at-office-pioneer-navigation-global-1135665
+- **Driscoll's EMEA** : Technical Grower <br> `location: onsite in Vijayawada East, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-technical-grower-driscolls-emea-1135644
+- **Bavarian Capital** : Project Administrator <br> `location: onsite in Valencia/ValÃ¨ncia, Valencia/ValÃ¨ncia, Comunidad Valenciana / Comunitat Valenciana, EspaÃ±a, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-project-administrator-bavarian-capital-1135720
+- **MissionStaff** : Copy Editor <br> `location: onsite in Pennsylvania, Pennsylvania, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-copy-editor-missionstaff-1135668
+- **Section on Emergency an…** : Ecology and Society <br> `location: onsite in Society, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ecology-and-society-section-on-emergency-and-crisis-management-secm-1135655
+- **Jubin FrÃ¨res** : Postuler chez nous <br> `location: onsite in Chez Nous, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-postuler-chez-nous-jubin-freres-1135632
+- **TALENT Software Services** : HR Generalist 1 <br> `location: onsite in California, California, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-hr-generalist-1-talent-software-services-1135696
+- **NestlÃ©** : Customer Account Associate Albertsons <br> `location: onsite in Seattle, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-customer-account-associate-albertsons-nestle-1135671
+- **Carnival Corporation** : Ship to Shore Technician <br> `location: onsite in East Grand Bahama, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ship-to-shore-technician-carnival-corporation-1135651
+- **Wipro** : FDE Lead <br> `location: onsite in Bengaluru, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-fde-lead-wipro-1135645
+- **PowerPlay** : Political <br> `location: onsite in Naobaricha, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-political-powerplay-1135622
+- **LSP Association** : Program &amp; Events Coordinator <br> `location: onsite in Massachusetts, Massachusetts, United States, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-program-amp-events-coordinator-lsp-association-1135669
+- **Ambit Tax and Accounting** : US Tax Preparer <br> `location: onsite in Vijayawada, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-us-tax-preparer-ambit-tax-and-accounting-1135646
+- **KaizenworldAI** : Lean Practitioner <br> `location: onsite in Sydney, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-lean-practitioner-kaizenworldai-1135629
+- **KaizenworldAI** : Continuous Improvement Lead <br> `location: onsite in Adelaide Lead, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-continuous-improvement-lead-kaizenworldai-1135630
+- **EY** : SSG NEP <br> `location: onsite in London, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ssg-nep-ey-1135620
+- **Ocean Hotels Group BARB…** : Houseman <br> `location: onsite in Christ Church, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-houseman-ocean-hotels-group-barbados-1135654
+- **JW Grand** : Job Title <br> `location: onsite in Location, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-job-title-jw-grand-1135636
+- **Mailivery.io** : Join our team <br> `location: onsite in Looking Glass, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-join-our-team-mailivery-io-1135637
+- **BiFlorica** : Lion King <br> `location: onsite in Shamli, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-lion-king-biflorica-1135623
+- **TUS Media** : TÃ©lÃ©travail Professeur Particulier <br> `location: onsite in Nice, Nice, Provence-Alpes-CÃ´te dâAzur, France, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-teletravail-professeur-particulier-tus-media-1135639
+- **ASSOCIAÃÃO TEMPOS BRI…** : Mentor Apoio ao Estudo Online <br> `location: onsite in Aveiro, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-mentor-apoio-ao-estudo-online-associacao-tempos-brilhantes-1135718
+- **FindTutors** : Become a Arabic Language Tutor In Person Fl… <br> `location: onsite in Preston, Preston, England, United Kingdom, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-become-a-arabic-language-tutor-in-person-flexible-hours-20-40-hr-findtutors-1135717
+- **Arabian Private Holdings** : Project Management Coordinator <br> `location: onsite in Ø¯Ø¨Ù, Ø¯Ø¨Ù Ø¯Ø¨Ù Ø§ÙØ¥ÙØ§Ø±Ø§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© Ø§ÙÙØªØ­Ø¯Ø©, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-project-management-coordinator-arabian-private-holdings-1135692
+- **Belle Muse Agency** : Reels Editor <br> `location: onsite in Lisboa, Lisboa, Portugal, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-reels-editor-belle-muse-agency-1135716
+- **RippedBoxStation** : Virtual Assistant <br> `location: onsite in Manila, Manila, National Capital Region, Philippines, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-virtual-assistant-rippedboxstation-1135685
+- **WeTalent: GestÃ£o de Pe…** : Recrutador <br> `location: onsite in Blumenau, Blumenau, Santa Catarina, Brasil, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-recrutador-wetalent-gestao-de-pessoas-1135677
+- **Landscape Collective** : Account Management <br> `location: onsite in Well, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-account-management-landscape-collective-1135726
+- **ImmobiliÃ¨re 3F** : Controleur de gestion et financier F H <br> `location: onsite in Paris, Paris, Ãle-de-France, France, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-controleur-de-gestion-et-financier-f-h-immobiliere-3f-1135722
+
+## quals  (4)
+
+- **CLANX** : Growth Marketer <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-growth-marketer-clanx-1135656
+- **Wakacje.pl** : Software Engineer GO <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-software-engineer-go-wakacje-pl-1135634
+- **Weekday AI** : Legal Expert <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-legal-expert-weekday-ai-1135616
+- **Snapscale** : Healthcare Virtual Assistant Registered Nur… <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-healthcare-virtual-assistant-registered-nurse-snapscale-1135684
 
 ## comp  (3)
 
-- **TestGorilla** : Senior Demand Generation Manager <br> `comp: tops out at $100,000, floor is $135,000` <br> https://remoteOK.com/remote-jobs/remote-senior-demand-generation-manager-testgorilla-1135606
-- **Adams &amp; Martin Group** : Legal Receptionist Fully <br> `comp: tops out at $40/hr, floor is $65/hr` <br> https://remoteOK.com/remote-jobs/remote-legal-receptionist-fully-adams-amp-martin-group-1135609
-- **ROAR Organic** : Area Sales Manager <br> `comp: tops out at $80,000, floor is $135,000` <br> https://remoteOK.com/remote-jobs/remote-area-sales-manager-roar-organic-1135611
+- **Harvey Nash** : Human Resources Specialist <br> `comp: tops out at $29/hr, floor is $65/hr` <br> https://remoteOK.com/remote-jobs/remote-human-resources-specialist-harvey-nash-1135675
+- **Ready** : Care Navigator Level 1 <br> `comp: tops out at $22/hr, floor is $65/hr` <br> https://remoteOK.com/remote-jobs/remote-care-navigator-level-1-ready-1135674
+- **Greenlight Action** : Program Administration Manager <br> `comp: tops out at $100,000, floor is $135,000` <br> https://remoteOK.com/remote-jobs/remote-program-administration-manager-greenlight-action-1135738
 
 ## gap-gated on required quals  (2)
 
-- **Lemon.io** : Senior Graphic Designer <br> `gap-gated on required quals: rust, golang` <br> https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081
-- **Lemon.io** : Senior DevOps Engineer <br> `gap-gated on required quals: terraform, pulumi, rust, golang` <br> https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-lemon-io-1135562
+- **Christian Tech Jobs** : Chief Technology Officer <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-chief-technology-officer-mercy-ships-1748
+- **Christian Tech Jobs** : Senior Data Scientist <br> `gap-gated on required quals: spark, databricks, rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-data-scientist-givelify-1747
 
-## level  (1)
+## score  (1)
 
-- **HiredBuddy** : Junior Data Analyst <br> `level: 'Junior Data Analyst' reads junior` <br> https://remoteOK.com/remote-jobs/remote-junior-data-analyst-hiredbuddy-1135673
+- **Zicasso** : Traveler Care Specialist Luxury Travel <br> `score: 43, below backlog threshold 45` <br> https://remoteOK.com/remote-jobs/remote-traveler-care-specialist-luxury-travel-zicasso-1135640
 

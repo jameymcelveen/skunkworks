@@ -1,12 +1,36 @@
 {
   "profile": "jamey",
-  "generated": "2026-07-30T12:11:47.8512309+00:00",
+  "generated": "2026-07-31T12:26:03.5400362+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 1083,
+    "Seen": 1082,
     "New": 50,
-    "Rejected": 50
+    "Rejected": 49
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "681966e48802",
+      "score": 49,
+      "priority": false,
+      "company": "Snapscale Philippines",
+      "title": "Healthcare Virtual Assistant Athena EMR Experience",
+      "url": "https://remoteOK.com/remote-jobs/remote-healthcare-virtual-assistant-athena-emr-experience-snapscale-philippines-1135688",
+      "location": "Davao, ",
+      "comp": "not stated",
+      "day_shape": "unclear",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 4/35: rag, react",
+        "domain 15/15: healthcare",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 2d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
+    }
+  ]
 }
