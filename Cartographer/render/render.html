@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cartographer Sentinel Render</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <script src="https://unpkg.com/pmtiles@3.2.0/dist/pmtiles.js"></script>
+  <style>
+    html, body, #map { margin: 0; padding: 0; width: 100%; height: 100%; background: #885533; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script>
+    // Deterministic headless render host for Cartographer.Worker.
+    // Query params:
+    //   style   - URL of sentinel-style.json (required)
+    //   pmtiles - URL of the self-hosted .pmtiles extract (required)
+    //   minLng,minLat,maxLng,maxLat - bbox to fit (required)
+    //   ready   - set window.__cartographerReady = true after idle + settle
+    (function () {
+      const params = new URLSearchParams(location.search);
+      const styleUrl = params.get("style");
+      const pmtilesUrl = params.get("pmtiles");
+      const minLng = parseFloat(params.get("minLng"));
+      const minLat = parseFloat(params.get("minLat"));
+      const maxLng = parseFloat(params.get("maxLng"));
+      const maxLat = parseFloat(params.get("maxLat"));
+      const settleMs = parseInt(params.get("settleMs") || "250", 10);
+
+      if (!styleUrl || !pmtilesUrl || [minLng, minLat, maxLng, maxLat].some(Number.isNaN)) {
+        document.body.textContent = "Missing required query params: style, pmtiles, minLng, minLat, maxLng, maxLat";
+        return;
+      }
+
+      // Block commercial tile origins. Only our pmtiles URL may be used.
+      const blocked = ["mapbox.com", "googleapis.com", "google.com", "bing.com", "virtualearth.net", "tile.openstreetmap.org"];
+      try {
+        const host = new URL(pmtilesUrl, location.href).hostname.toLowerCase();
+        if (blocked.some((b) => host === b || host.endsWith("." + b))) {
+          document.body.textContent = "Refused: commercial or third-party tile host is not allowed.";
+          return;
+        }
+      } catch (e) {
+        document.body.textContent = "Invalid pmtiles URL.";
+        return;
+      }
+
+      const protocol = new pmtiles.Protocol();
+      maplibregl.addProtocol("pmtiles", protocol.tile);
+
+      window.__cartographerReady = false;
+      window.__cartographerError = null;
+
+      fetch(styleUrl)
+        .then((r) => {
+          if (!r.ok) throw new Error("Failed to fetch style: " + r.status);
+          return r.json();
+        })
+        .then((style) => {
+          if (!style.sources || !style.sources.protomaps) {
+            throw new Error("Style missing sources.protomaps");
+          }
+          style.sources.protomaps.url = "pmtiles://" + pmtilesUrl;
+          // No labels / transitions
+          style.transition = { duration: 0, delay: 0 };
+          delete style.sprite;
+
+          const map = new maplibregl.Map({
+            container: "map",
+            style: style,
+            attributionControl: false,
+            fadeDuration: 0,
+            pixelRatio: 1,
+            interactive: false,
+            preserveDrawingBuffer: true,
+            antialias: false,
+            bounds: [[minLng, minLat], [maxLng, maxLat]],
+            fitBoundsOptions: { padding: 0, animate: false }
+          });
+
+          map.once("error", (e) => {
+            window.__cartographerError = (e && e.error && e.error.message) || "map error";
+          });
+
+          map.once("load", () => {
+            map.fitBounds([[minLng, minLat], [maxLng, maxLat]], { padding: 0, animate: false });
+          });
+
+          map.once("idle", () => {
+            setTimeout(() => {
+              window.__cartographerReady = true;
+            }, settleMs);
+          });
+
+          window.__cartographerMap = map;
+        })
+        .catch((err) => {
+          window.__cartographerError = String(err);
+          document.body.textContent = String(err);
+        });
+    })();
+  </script>
+</body>
+</html>

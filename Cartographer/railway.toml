@@ -1,0 +1,13 @@
+# Railway: define two services (api, worker) pointing at this repo.
+# Set Dockerfile path and override start command / build args per service.
+# API:  ARG PROJECT=Cartographer.Api  (default)
+# Worker: ARG PROJECT=Cartographer.Worker and use worker stage.
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+healthcheckPath = "/health"
+healthcheckTimeout = 30

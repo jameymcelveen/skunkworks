@@ -10,9 +10,3 @@ Experimentation Lab. Each lab lives in its own folder with its own README.
 | `iFlame/` | Pitch-black ambient focus workspace: quiet fire, rain, and noise. |
 
 Bill launches, Garfield maintains. See `jobscan/CLAUDE.md` for the agent brief.
-
-`Cartographer` and `iFlame` are git submodules (own remotes). After clone:
-
-```bash
-git submodule update --init --recursive
-```

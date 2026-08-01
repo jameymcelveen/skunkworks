@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="iFlame - ambient focus workspace with fire, rain, and noise." />
+  <meta name="theme-color" content="#000000" />
+  <title>iFlame</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="stage" id="stage">
+    <div class="fire" id="fire" aria-hidden="true">
+      <svg class="fire-svg" viewBox="0 0 120 140" role="img" aria-label="">
+        <defs>
+          <radialGradient id="emberGlow" cx="50%" cy="70%" r="55%">
+            <stop offset="0%" stop-color="#ff6a1a" stop-opacity="0.55" />
+            <stop offset="45%" stop-color="#c43a0a" stop-opacity="0.22" />
+            <stop offset="100%" stop-color="#000" stop-opacity="0" />
+          </radialGradient>
+          <linearGradient id="flameCore" x1="50%" y1="100%" x2="50%" y2="0%">
+            <stop offset="0%" stop-color="#7a1508" />
+            <stop offset="35%" stop-color="#e84d12" />
+            <stop offset="70%" stop-color="#ffb347" />
+            <stop offset="100%" stop-color="#ffd28a" stop-opacity="0.35" />
+          </linearGradient>
+          <linearGradient id="flameOuter" x1="50%" y1="100%" x2="50%" y2="0%">
+            <stop offset="0%" stop-color="#4a0a06" stop-opacity="0.9" />
+            <stop offset="40%" stop-color="#c23410" stop-opacity="0.65" />
+            <stop offset="100%" stop-color="#ff8c2a" stop-opacity="0.15" />
+          </linearGradient>
+        </defs>
+        <ellipse class="glow" cx="60" cy="108" rx="48" ry="22" fill="url(#emberGlow)" />
+        <path class="flame flame-a" fill="url(#flameOuter)"
+          d="M60 118 C42 100 36 78 44 58 C48 70 56 72 58 58 C60 42 52 28 60 12 C68 28 60 42 62 58 C64 72 72 70 76 58 C84 78 78 100 60 118 Z" />
+        <path class="flame flame-b" fill="url(#flameCore)"
+          d="M60 114 C48 98 46 82 52 66 C55 74 59 74 60 64 C61 52 56 42 60 28 C64 42 59 52 60 64 C61 74 65 74 68 66 C74 82 72 98 60 114 Z" />
+        <ellipse class="ember" cx="52" cy="112" rx="3" ry="2" fill="#ff6a1a" opacity="0.55" />
+        <ellipse class="ember ember-delay" cx="68" cy="110" rx="2.5" ry="1.8" fill="#e84d12" opacity="0.4" />
+        <ellipse class="ember ember-delay2" cx="60" cy="116" rx="4" ry="2" fill="#ffb347" opacity="0.35" />
+      </svg>
+    </div>
+
+    <aside class="tray" id="tray" aria-label="Ambient mixer">
+      <button type="button" class="ignite" id="ignite" aria-pressed="false">
+        Light the fire
+      </button>
+
+      <div class="channels" id="channels" hidden>
+        <label class="channel">
+          <span class="channel-label">Fire</span>
+          <input type="range" id="gain-fire" min="0" max="100" value="55" step="1"
+            aria-label="Fire volume" orient="vertical" />
+        </label>
+        <label class="channel">
+          <span class="channel-label">Rain</span>
+          <input type="range" id="gain-rain" min="0" max="100" value="35" step="1"
+            aria-label="Rain volume" orient="vertical" />
+        </label>
+        <label class="channel">
+          <span class="channel-label">Noise</span>
+          <input type="range" id="gain-noise" min="0" max="100" value="20" step="1"
+            aria-label="Noise volume" orient="vertical" />
+        </label>
+        <button type="button" class="mute" id="mute" aria-pressed="false" aria-label="Master mute">
+          Mute
+        </button>
+      </div>
+    </aside>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

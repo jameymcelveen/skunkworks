@@ -1,6 +1,0 @@
-[submodule "Cartographer"]
-	path = Cartographer
-	url = https://github.com/jameymcelveen/Cartographer.git
-[submodule "iFlame"]
-	path = iFlame
-	url = https://github.com/jameymcelveen/iFlame.git

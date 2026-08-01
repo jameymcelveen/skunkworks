@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cartographer class grid debug</title>
+  <style>
+    :root {
+      --bg: #1a1814;
+      --ink: #e8e0d4;
+      --muted: #9a9080;
+      --panel: #2a261f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "IBM Plex Mono", "SF Mono", ui-monospace, monospace;
+      background: radial-gradient(ellipse at top, #2c261c, var(--bg));
+      color: var(--ink);
+      min-height: 100vh;
+    }
+    header {
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid #3a342a;
+    }
+    h1 {
+      margin: 0 0 0.25rem;
+      font-size: 1.1rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .attr { color: var(--muted); font-size: 0.75rem; }
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding: 1rem 1.25rem;
+      background: var(--panel);
+      align-items: end;
+    }
+    label { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.7rem; color: var(--muted); }
+    input {
+      background: #18150f;
+      border: 1px solid #4a4030;
+      color: var(--ink);
+      padding: 0.4rem 0.5rem;
+      min-width: 12rem;
+      font: inherit;
+    }
+    button {
+      background: #c4a35a;
+      color: #1a1814;
+      border: 0;
+      padding: 0.5rem 0.9rem;
+      font: inherit;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    #meta { padding: 0.75rem 1.25rem; color: var(--muted); font-size: 0.75rem; }
+    #grid {
+      display: grid;
+      gap: 1px;
+      padding: 1rem 1.25rem 2rem;
+      width: max-content;
+      max-width: 100%;
+      overflow: auto;
+    }
+    .cell {
+      width: 14px;
+      height: 14px;
+    }
+    .cell.missing { outline: 1px dashed #555; background: transparent; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cartographer</h1>
+    <div class="attr">Debug class grid (colored divs). Map data © OpenStreetMap contributors (ODbL).</div>
+  </header>
+  <form id="form">
+    <label>API base <input id="api" value="http://localhost:5080" /></label>
+    <label>gridId <input id="gridId" placeholder="from /health" style="min-width:28rem" /></label>
+    <label>bbox minLng,minLat,maxLng,maxLat
+      <input id="bbox" value="-79.06,35.90,-79.04,35.92" style="min-width:22rem" />
+    </label>
+    <button type="submit">Load</button>
+  </form>
+  <div id="meta"></div>
+  <div id="grid"></div>
+  <script>
+    const COLORS = {
+      water: "#0000FF",
+      swamp: "#00FFFF",
+      trees: "#007700",
+      grass: "#00FF00",
+      field: "#AAFF00",
+      sand: "#FFFF00",
+      dirt_road: "#AA5500",
+      paved_road: "#FF00FF",
+      structure: "#FF0000",
+      dirt: "#885533",
+      unknown: "#333333",
+    };
+
+    async function boot() {
+      const api = document.getElementById("api").value.replace(/\/$/, "");
+      try {
+        const h = await fetch(api + "/health").then((r) => r.json());
+        if (!document.getElementById("gridId").value) {
+          document.getElementById("gridId").value = h.gridId || "";
+        }
+      } catch (_) { /* offline until API is up */ }
+    }
+
+    document.getElementById("form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const api = document.getElementById("api").value.replace(/\/$/, "");
+      const gridId = document.getElementById("gridId").value.trim();
+      const bbox = document.getElementById("bbox").value.trim();
+      const url = `${api}/grids/${encodeURIComponent(gridId)}/cells?bbox=${encodeURIComponent(bbox)}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      if (!res.ok) {
+        document.getElementById("meta").textContent = data.error || res.statusText;
+        return;
+      }
+      document.getElementById("meta").textContent =
+        `origin=(${data.originX},${data.originY}) ${data.width}x${data.height}` +
+        ` pending=${data.pending} stale=${data.stale} enqueued=${data.enqueued}`;
+      const grid = document.getElementById("grid");
+      grid.style.gridTemplateColumns = `repeat(${data.width}, 14px)`;
+      grid.innerHTML = "";
+      // API is row-major with y ascending (north). CSS grid flows top-first,
+      // so reverse rows for a north-up view.
+      for (let y = data.height - 1; y >= 0; y--) {
+        for (let x = 0; x < data.width; x++) {
+          const cls = data.classes[y * data.width + x];
+          const el = document.createElement("div");
+          el.className = "cell" + (cls ? "" : " missing");
+          el.title = cls || "missing";
+          el.style.background = cls ? (COLORS[cls] || "#333") : "transparent";
+          grid.appendChild(el);
+        }
+      }
+    });
+
+    boot();
+  </script>
+</body>
+</html>

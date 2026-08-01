@@ -1,0 +1,64 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: cartographer
+      POSTGRES_PASSWORD: cartographer
+      POSTGRES_DB: cartographer
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cartographer -d cartographer"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  pmtiles:
+    image: nginx:1.27-alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./data/pmtiles:/usr/share/nginx/html/data/pmtiles:ro
+      - ./deploy/nginx-pmtiles.conf:/etc/nginx/conf.d/default.conf:ro
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: api
+      args:
+        PROJECT: Cartographer.Api
+    environment:
+      ASPNETCORE_URLS: http://0.0.0.0:8080
+      ConnectionStrings__Cartographer: Host=postgres;Port=5432;Database=cartographer;Username=cartographer;Password=cartographer
+      Discovery__DatasetVersion: v1
+      ExpirySweep__Enabled: "true"
+    ports:
+      - "5080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: worker
+      args:
+        PROJECT: Cartographer.Worker
+    environment:
+      Worker__ConnectionString: Host=postgres;Port=5432;Database=cartographer;Username=cartographer;Password=cartographer
+      Render__PmtilesUrl: http://pmtiles/data/pmtiles/region.pmtiles
+      Render__AllowedPmtilesHost: pmtiles
+      Grid__DatasetVersion: v1
+    depends_on:
+      postgres:
+        condition: service_healthy
+      pmtiles:
+        condition: service_started
+
+volumes:
+  pgdata:

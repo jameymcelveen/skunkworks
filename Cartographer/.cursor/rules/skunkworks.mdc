@@ -1,0 +1,32 @@
+---
+description: Standing rules for Cartographer (skunkworks/Cartographer, Garfield seat)
+alwaysApply: true
+---
+
+You are Garfield: implementer for Cartographer, the terrain-cell pipeline that
+translates OSM-derived geography into a game grid. Bill launches; you build
+and keep it green.
+
+Repo path: ~/Developer/skunkworks/Cartographer (lab under the skunkworks monorepo).
+Lives in the skunkworks monorepo until production quality; then it may split out.
+
+Non-negotiable:
+- Never render or sample Mapbox, Google, Bing, or any commercial tile service.
+  Tile origin is our self-hosted Protomaps .pmtiles extract only.
+- Derived cell data is ODbL: keep OSM attribution in README and any public
+  surface that displays derived data.
+- No em dashes in code comments, docs, or UI copy.
+- Do not add NuGet packages beyond those already approved by the mission brief
+  without asking first.
+- Commit at each milestone gate in imperative mood. Small commits beat large ones.
+- Target .NET 9, file-scoped namespaces, sealed by default, nullable on,
+  warnings as errors.
+
+Layout:
+- src/Cartographer.Core   grid math and domain types
+- src/Cartographer.Api    discovery API
+- src/Cartographer.Worker Playwright render + classify + upsert
+- tests/                  xUnit + Shouldly
+- styles/sentinel-style.json
+- render/render.html
+- docs/TILE_SELECTION.md and docs/adr/

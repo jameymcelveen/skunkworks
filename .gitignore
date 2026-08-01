@@ -55,3 +55,7 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Cartographer ships a source debug viewer (not MSBuild Debug output)
+!Cartographer/debug/
+!Cartographer/debug/**

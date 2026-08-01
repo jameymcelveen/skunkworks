@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / tooling
+*.swp
+*.swo
+*~
+.idea/
+
+# Local make serve / iOS Simulator state
+.server.pid
+.server.log
+.sim.udid
+
+# Vercel CLI link metadata
+.vercel
+
+# Env / secrets (none required today; keep out if added)
+.env
+.env.*
+!.env.example

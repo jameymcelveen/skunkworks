@@ -1,0 +1,321 @@
+/* iFlame - ambient focus workspace */
+
+:root {
+  --bg: #000000;
+  --ember: #e84d12;
+  --amber: #ffb347;
+  --deep: #7a1508;
+  --tray-fg: #c8b8a8;
+  --tray-muted: #6a5e54;
+  --tray-bg: rgba(8, 6, 4, 0.72);
+  --accent: #ff8c2a;
+  --idle-ms: 600ms;
+  --font: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-ui: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--tray-fg);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+}
+
+.stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  background: var(--bg);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+/* --- Fire visual (subtle) --- */
+
+.fire {
+  width: min(28vw, 180px);
+  opacity: 0.72;
+  filter: blur(0.2px);
+  transform: translateY(4vh);
+}
+
+.fire-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.glow {
+  animation: glowPulse 4.5s ease-in-out infinite;
+  transform-origin: 60px 108px;
+}
+
+.flame-a {
+  animation: flickerA 3.2s ease-in-out infinite;
+  transform-origin: 60px 118px;
+}
+
+.flame-b {
+  animation: flickerB 2.4s ease-in-out infinite;
+  transform-origin: 60px 114px;
+}
+
+.ember {
+  animation: emberPulse 2.8s ease-in-out infinite;
+}
+
+.ember-delay {
+  animation-delay: 0.9s;
+}
+
+.ember-delay2 {
+  animation-delay: 1.6s;
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.06); }
+}
+
+@keyframes flickerA {
+  0%, 100% { transform: scaleY(1) scaleX(1) translateY(0); opacity: 0.85; }
+  30% { transform: scaleY(1.04) scaleX(0.97) translateY(-1px); opacity: 0.95; }
+  55% { transform: scaleY(0.96) scaleX(1.03) translateY(1px); opacity: 0.8; }
+  80% { transform: scaleY(1.02) scaleX(0.99) translateY(-0.5px); opacity: 0.9; }
+}
+
+@keyframes flickerB {
+  0%, 100% { transform: scaleY(1) scaleX(1); opacity: 0.9; }
+  40% { transform: scaleY(1.06) scaleX(0.95); opacity: 1; }
+  70% { transform: scaleY(0.94) scaleX(1.04); opacity: 0.85; }
+}
+
+@keyframes emberPulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.65; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow,
+  .flame-a,
+  .flame-b,
+  .ember {
+    animation: none;
+  }
+
+  .glow {
+    opacity: 0.85;
+  }
+
+  .flame-a,
+  .flame-b {
+    opacity: 0.9;
+  }
+
+  .ember {
+    opacity: 0.45;
+  }
+
+  .tray {
+    transition: none;
+  }
+}
+
+/* --- Control tray --- */
+
+.tray {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.5rem 1.5rem calc(1.5rem + env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(to top, var(--tray-bg), transparent);
+  opacity: 1;
+  transition: opacity var(--idle-ms) ease;
+  z-index: 10;
+}
+
+.tray.is-idle {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ignite {
+  appearance: none;
+  border: 1px solid rgba(255, 140, 42, 0.45);
+  background: rgba(20, 10, 4, 0.85);
+  color: var(--amber);
+  font-family: var(--font);
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  padding: 0.7rem 1.6rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.ignite:hover,
+.ignite:focus-visible {
+  border-color: var(--accent);
+  color: #ffe0b0;
+  outline: none;
+}
+
+.ignite:focus-visible {
+  box-shadow: 0 0 0 2px #000, 0 0 0 4px var(--accent);
+}
+
+.ignite[hidden] {
+  display: none;
+}
+
+.channels {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1.75rem;
+  padding: 0.5rem 1rem 0.25rem;
+}
+
+.channels[hidden] {
+  display: none;
+}
+
+.channel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 3rem;
+}
+
+.channel-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--tray-muted);
+  user-select: none;
+}
+
+/* Vertical range: WebKit + Firefox */
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  writing-mode: vertical-lr;
+  direction: rtl;
+  width: 28px;
+  height: 120px;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to top, var(--deep), var(--ember), var(--amber));
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  margin-left: -5px;
+  border-radius: 50%;
+  background: #ffe0b0;
+  border: 1px solid var(--deep);
+  box-shadow: 0 0 6px rgba(255, 106, 26, 0.35);
+}
+
+input[type="range"]::-moz-range-track {
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to top, var(--deep), var(--ember), var(--amber));
+  border-radius: 2px;
+  border: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ffe0b0;
+  border: 1px solid var(--deep);
+  box-shadow: 0 0 6px rgba(255, 106, 26, 0.35);
+}
+
+input[type="range"]:focus-visible {
+  outline: none;
+}
+
+input[type="range"]:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 2px #000, 0 0 0 4px var(--accent);
+}
+
+input[type="range"]:focus-visible::-moz-range-thumb {
+  box-shadow: 0 0 0 2px #000, 0 0 0 4px var(--accent);
+}
+
+.mute {
+  appearance: none;
+  align-self: center;
+  margin-bottom: 0.35rem;
+  border: 1px solid rgba(200, 184, 168, 0.25);
+  background: transparent;
+  color: var(--tray-muted);
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.55rem 0.75rem;
+  cursor: pointer;
+  border-radius: 2px;
+  min-width: 3.5rem;
+}
+
+.mute:hover,
+.mute:focus-visible {
+  color: var(--tray-fg);
+  border-color: rgba(200, 184, 168, 0.5);
+  outline: none;
+}
+
+.mute:focus-visible {
+  box-shadow: 0 0 0 2px #000, 0 0 0 4px var(--accent);
+}
+
+.mute[aria-pressed="true"] {
+  color: var(--amber);
+  border-color: rgba(255, 140, 42, 0.45);
+}
+
+@media (max-width: 420px) {
+  .channels {
+    gap: 1.1rem;
+  }
+
+  input[type="range"] {
+    height: 100px;
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "version": 8,
+  "name": "Cartographer Sentinel v1",
+  "metadata": {
+    "cartographer:docs": [
+      "LAYER ORDER (bottom to top):",
+      "1. background          -> dirt sentinel (#885533). Unmapped land classifies as dirt.",
+      "2. landcover / landuse area fills: sand, field, grass, trees, swamp",
+      "3. water (polygons + waterway areas) above land fills",
+      "4. dirt_road then paved_road (lines). Width scaled so a road covers >= 1 cell at render zoom.",
+      "5. structure (buildings) above roads",
+      "No labels. No transitions. Flat fills only. Anti-aliasing is absorbed by nearest-sentinel snap."
+    ],
+    "cartographer:sentinels": {
+      "water": "#0000FF",
+      "swamp": "#00FFFF",
+      "trees": "#007700",
+      "grass": "#00FF00",
+      "field": "#AAFF00",
+      "sand": "#FFFF00",
+      "dirt_road": "#AA5500",
+      "paved_road": "#FF00FF",
+      "structure": "#FF0000",
+      "dirt": "#885533"
+    },
+    "cartographer:legal": "OSM-derived via Protomaps. Do not point this style at Mapbox/Google/Bing tiles."
+  },
+  "sources": {
+    "protomaps": {
+      "type": "vector",
+      "url": "pmtiles://PMTILES_URL",
+      "attribution": "Protomaps © OpenStreetMap contributors (ODbL)"
+    }
+  },
+  "glyphs": "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#885533",
+        "background-opacity": 1
+      }
+    },
+    {
+      "id": "sand",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landuse",
+      "filter": ["in", "kind", "sand", "beach", "bare_rock"],
+      "paint": {
+        "fill-color": "#FFFF00",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "sand-landcover",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landcover",
+      "filter": ["==", "kind", "barren"],
+      "paint": {
+        "fill-color": "#FFFF00",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "field",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landuse",
+      "filter": ["in", "kind", "farmland", "orchard", "farmyard"],
+      "paint": {
+        "fill-color": "#AAFF00",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "field-landcover",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landcover",
+      "filter": ["==", "kind", "farmland"],
+      "paint": {
+        "fill-color": "#AAFF00",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "grass",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landuse",
+      "filter": ["in", "kind", "grass", "meadow", "scrub", "park", "garden", "recreation_ground", "pitch", "golf_course"],
+      "paint": {
+        "fill-color": "#00FF00",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "grass-landcover",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landcover",
+      "filter": ["in", "kind", "grassland", "scrub"],
+      "paint": {
+        "fill-color": "#00FF00",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "trees",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landuse",
+      "filter": ["in", "kind", "wood", "forest"],
+      "paint": {
+        "fill-color": "#007700",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "trees-landcover",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landcover",
+      "filter": ["==", "kind", "forest"],
+      "paint": {
+        "fill-color": "#007700",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "swamp",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "landuse",
+      "filter": ["==", "kind", "wetland"],
+      "paint": {
+        "fill-color": "#00FFFF",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "water",
+      "paint": {
+        "fill-color": "#0000FF",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "waterway",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "waterway",
+      "filter": ["==", "$type", "Polygon"],
+      "paint": {
+        "fill-color": "#0000FF",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    },
+    {
+      "id": "dirt-road",
+      "type": "line",
+      "source": "protomaps",
+      "source-layer": "roads",
+      "filter": [
+        "any",
+        ["in", "kind_detail", "track", "path", "bridleway", "footway"],
+        ["all", ["==", "kind", "path"], ["!", ["has", "kind_detail"]]]
+      ],
+      "paint": {
+        "line-color": "#AA5500",
+        "line-width": [
+          "interpolate", ["linear"], ["zoom"],
+          14, 2,
+          16, 6,
+          18, 14,
+          20, 28
+        ],
+        "line-opacity": 1,
+        "line-blur": 0
+      },
+      "layout": {
+        "line-cap": "square",
+        "line-join": "miter"
+      }
+    },
+    {
+      "id": "paved-road",
+      "type": "line",
+      "source": "protomaps",
+      "source-layer": "roads",
+      "filter": [
+        "all",
+        ["!", ["in", "kind_detail", "track", "path", "bridleway", "footway", "steps", "corridor"]],
+        ["in", "kind", "highway", "major_road", "medium_road", "minor_road", "other"]
+      ],
+      "paint": {
+        "line-color": "#FF00FF",
+        "line-width": [
+          "interpolate", ["linear"], ["zoom"],
+          14, 3,
+          16, 8,
+          18, 18,
+          20, 36
+        ],
+        "line-opacity": 1,
+        "line-blur": 0
+      },
+      "layout": {
+        "line-cap": "square",
+        "line-join": "miter"
+      }
+    },
+    {
+      "id": "structure",
+      "type": "fill",
+      "source": "protomaps",
+      "source-layer": "buildings",
+      "paint": {
+        "fill-color": "#FF0000",
+        "fill-antialias": false,
+        "fill-opacity": 1
+      }
+    }
+  ]
+}
