@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>DeerStand.Core</RootNamespace>
+    <AssemblyName>DeerStand.Core</AssemblyName>
+  </PropertyGroup>
+</Project>

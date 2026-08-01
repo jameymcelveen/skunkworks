@@ -1,0 +1,50 @@
+## .NET
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+## Secrets / env
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+
+## IDE / editor
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+## Test / coverage
+[Tt]est[Rr]esult*/
+TestResult.xml
+coverage*/
+*.coverage
+*.coveragexml
+
+## Frontend (milestone 5+)
+node_modules/
+.next/
+out/
+*.pmtiles
+
+## Misc
+*.binlog
+CodeCoverage/
