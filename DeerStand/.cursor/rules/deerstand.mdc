@@ -1,0 +1,39 @@
+---
+description: DeerStand project rules for agents
+alwaysApply: true
+---
+
+# DeerStand
+
+Privacy-first multi-tenant hunting club SaaS. Club is the tenant boundary.
+
+## Stack (do not substitute)
+
+- API: ASP.NET Core 9, EF Core, PostgreSQL
+- Auth: Zitadel OIDC
+- Realtime: SignalR (broadcast-only; mutations via REST)
+- Frontend: Next.js 15 App Router, Tailwind (Slate / Emerald / Olive)
+- Hosting: Railway (API + Postgres), Vercel (frontend)
+- Forbidden: Supabase, Firebase, Prisma, NextAuth
+
+## Layout (mirrors QikLog)
+
+- `src/DeerStand.Core` — domain constants, no IO
+- `src/DeerStand.Infrastructure` — EF, migrations, tenant interceptor, RLS SQL
+- `src/DeerStand.Api` — minimal APIs + SignalR hub
+- Frontend will live under `web/` or `frontend/` when milestone 5 starts
+- Map code only under frontend `src/map/`; screens import `ClubMap` only
+
+## Conventions
+
+- File-scoped namespaces, `sealed` by default, nullable on, warnings as errors
+- xUnit + Shouldly
+- No em dashes in comments, docs, or UI copy
+- Conventional Commits, imperative mood
+- No secrets in repo; connection strings and Zitadel via environment
+- Do not add NuGet/npm packages without asking
+- Milestones are gates: do not implement ahead of the current milestone
+
+## Tenant isolation
+
+EF `HasQueryFilter` on ClubId **and** Postgres RLS via `TenantConnectionInterceptor`. Both, always. Cross-tenant misses return 404, not 403.
