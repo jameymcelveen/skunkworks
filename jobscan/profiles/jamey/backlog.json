@@ -1,130 +1,38 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-03T13:24:32.2849133+00:00",
+  "generated": "2026-08-04T12:25:16.5645232+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 1080,
-    "New": 114,
-    "Rejected": 109
+    "Seen": 1082,
+    "New": 42,
+    "Rejected": 41
   },
   "hits": [
     {
-      "id": "321d8bd0c70d",
-      "score": 67,
+      "id": "7aca169b6a58",
+      "score": 64,
       "priority": false,
       "company": "Christian Tech Jobs",
-      "title": "Senior Software Developer - Full Stack",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-senior-software-developer-full-stack-differential-1745",
+      "title": "Sr. DevOps Engineer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-sr-devops-engineer-compassion-international-1751",
       "location": "",
       "comp": "not stated",
       "day_shape": "build",
       "source": "rss",
       "domain": "mission",
       "why": [
-        "stack 21/35: graphql, node, postgres, postgresql, react, react native",
+        "stack 20/35: architect, aws, kubernetes, python, rag, scala",
         "domain 13/15: mission",
         "level 12/15: senior/lead tier",
         "comp 4/10: not stated, ask",
-        "freshness 7/10: 6d old",
-        "remote 8/10: remote",
+        "freshness 10/10: 0d old",
+        "remote 3/10: hybrid",
         "ai 2/5: neutral"
       ],
       "flags": [
         "check the 990: nonprofit band may be aspirational"
       ]
-    },
-    {
-      "id": "e51cb04d04fc",
-      "score": 55,
-      "priority": false,
-      "company": "Grapefruit Health",
-      "title": "Patient Outreach Specialist",
-      "url": "https://remoteOK.com/remote-jobs/remote-patient-outreach-specialist-grapefruit-health-1135789",
-      "location": "Remote",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 7/35: hipaa, llm, rag, scala",
-        "domain 15/15: healthcare",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 1d old",
-        "remote 8/10: remote",
-        "ai 5/5: AI-positive language"
-      ],
-      "flags": []
-    },
-    {
-      "id": "6b0981267aaa",
-      "score": 53,
-      "priority": false,
-      "company": "BMWL",
-      "title": "Freelance Creative Director",
-      "url": "https://remoteOK.com/remote-jobs/remote-freelance-creative-director-bmwl-1135901",
-      "location": "California, California, United States",
-      "comp": "$150-$150/hr",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 10/35: .net, rag",
-        "domain 7/15: saas",
-        "level 6/15: level unclear from title",
-        "comp 10/10: $150-$150/hr",
-        "freshness 10/10: 2d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    },
-    {
-      "id": "1c8c8c542e46",
-      "score": 52,
-      "priority": false,
-      "company": "SuperPlane",
-      "title": "Product Engineer",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-engineer-superplane-1135739",
-      "location": "Remote",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 15/35: ai agent, react, typescript",
-        "domain 7/15: saas",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 2d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    },
-    {
-      "id": "79b13dc08427",
-      "score": 45,
-      "priority": false,
-      "company": "Pacific Health Group",
-      "title": "Human Resources Coordinator",
-      "url": "https://remoteOK.com/remote-jobs/remote-human-resources-coordinator-pacific-health-group-1135783",
-      "location": "San Diego, San Diego, California, United States",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 5/35: aws, llm, rag, scala",
-        "domain 7/15: saas",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 2d old",
-        "remote 8/10: remote",
-        "ai 5/5: AI-positive language"
-      ],
-      "flags": []
     }
   ]
 }
