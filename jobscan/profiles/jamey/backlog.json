@@ -1,34 +1,34 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-04T12:25:16.5645232+00:00",
+  "generated": "2026-08-05T12:22:55.9918264+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
     "Seen": 1082,
-    "New": 42,
-    "Rejected": 41
+    "New": 45,
+    "Rejected": 44
   },
   "hits": [
     {
-      "id": "7aca169b6a58",
-      "score": 64,
+      "id": "883a23b3191e",
+      "score": 50,
       "priority": false,
       "company": "Christian Tech Jobs",
-      "title": "Sr. DevOps Engineer",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-sr-devops-engineer-compassion-international-1751",
+      "title": "Senior Mobile Engineer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/senior-mobile-engineer-youversion-1753",
       "location": "",
       "comp": "not stated",
       "day_shape": "build",
       "source": "rss",
       "domain": "mission",
       "why": [
-        "stack 20/35: architect, aws, kubernetes, python, rag, scala",
+        "stack 4/35: rag, scala",
         "domain 13/15: mission",
         "level 12/15: senior/lead tier",
         "comp 4/10: not stated, ask",
         "freshness 10/10: 0d old",
-        "remote 3/10: hybrid",
-        "ai 2/5: neutral"
+        "remote 2/10: unclear",
+        "ai 5/5: AI-positive language"
       ],
       "flags": [
         "check the 990: nonprofit band may be aspirational"
