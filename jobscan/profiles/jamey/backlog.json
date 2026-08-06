@@ -1,38 +1,61 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-05T12:22:55.9918264+00:00",
+  "generated": "2026-08-06T12:25:11.2758273+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 1082,
-    "New": 45,
-    "Rejected": 44
+    "Seen": 1087,
+    "New": 107,
+    "Rejected": 105
   },
   "hits": [
     {
-      "id": "883a23b3191e",
-      "score": 50,
+      "id": "044c76629575",
+      "score": 51,
       "priority": false,
       "company": "Christian Tech Jobs",
-      "title": "Senior Mobile Engineer",
-      "url": "https://www.christiantechjobs.io/christian-jobs/senior-mobile-engineer-youversion-1753",
+      "title": "VP of Product",
+      "url": "https://www.christiantechjobs.io/christian-jobs/vp-of-product-asg-1754",
       "location": "",
-      "comp": "not stated",
+      "comp": "$190K-$210K",
       "day_shape": "build",
       "source": "rss",
       "domain": "mission",
       "why": [
-        "stack 4/35: rag, scala",
+        "stack 8/35: electron, rag, saas, scala",
         "domain 13/15: mission",
-        "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
+        "level 6/15: level unclear from title",
+        "comp 10/10: $190,000-$210,000, well over floor",
         "freshness 10/10: 0d old",
         "remote 2/10: unclear",
-        "ai 5/5: AI-positive language"
+        "ai 2/5: neutral"
       ],
       "flags": [
         "check the 990: nonprofit band may be aspirational"
       ]
+    },
+    {
+      "id": "8675729e56a4",
+      "score": 48,
+      "priority": false,
+      "company": "Creative Force ",
+      "title": "Sales Jedi",
+      "url": "https://remotive.com/remote-jobs/sales/sales-jedi-2091088",
+      "location": "Europe",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remotive",
+      "domain": "saas",
+      "why": [
+        "stack 3/35: rag, saas",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 1d old",
+        "remote 10/10: remote-first language",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
     }
   ]
 }
