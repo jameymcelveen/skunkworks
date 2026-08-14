@@ -1,47 +1,45 @@
-# Rejected  (27)
+# Rejected  (28)
 
-Generated 2026-08-13 11:21 UTC. Audit trail for the three-line filter.
+Generated 2026-08-14 11:13 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## location  (22)
+## location  (25)
 
-- **SLB** : Operator <br> `location: onsite in San Fernando, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-operator-slb-1136563
-- **Kanji Sweets** : E commerce <br> `location: onsite in Jaipur, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-e-commerce-kanji-sweets-1136559
-- **ALEH Writing Services (…** : Seeking a job <br> `location: onsite in Winnipeg, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-seeking-a-job-aleh-writing-services-aws-1136558
-- **Tucker's Farm Corporati…** : Live In Nanny Bermuda <br> `location: onsite in Hamilton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-live-in-nanny-bermuda-tuckers-farm-corporation-1136562
-- **Niyukti Systems, Inc** : Project leaders <br> `location: onsite in Visakhapatnam Rural mandal, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-project-leaders-niyukti-systems-inc-1136561
-- **JDE Peet's** : Coffee Roaster Campos Coffee <br> `location: onsite in Banksmeadow, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-coffee-roaster-campos-coffee-jde-peets-1136571
-- **Jobs in Council** : Ganger <br> `location: onsite in Chinchilla, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ganger-jobs-in-council-1136451
-- **Modi's Boutique** : Artificial Intelligence Specialist <br> `location: onsite in Ranchi, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-artificial-intelligence-specialist-modis-boutique-1136555
-- **The Home Depot Canada** : Merchandising Execution Associate MARLBOROU… <br> `location: onsite in Calgary, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-merchandising-execution-associate-marlborough-the-home-depot-canada-1136504
-- **The Home Depot Canada** : Loss Prevention Specialist <br> `location: onsite in Brampton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-loss-prevention-specialist-the-home-depot-canada-1136390
-- **AI Supermarket** : Typefully <br> `location: onsite in Heartâs Content, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-typefully-ai-supermarket-1136391
-- **AI Supermarket** : Apify <br> `location: onsite in Ajmer, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-apify-ai-supermarket-1136554
-- **AI Supermarket** : Aragon AI <br> `location: onsite in Good Design, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-aragon-ai-ai-supermarket-1136388
-- **AI Supermarket** : Beehiiv <br> `location: onsite in Heartâs Content, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-beehiiv-ai-supermarket-1136389
-- **AI Supermarket** : Meshy <br> `location: onsite in Good Design, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-meshy-ai-supermarket-1136386
-- **AI Supermarket** : GetResponse <br> `location: onsite in Rajkot, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-getresponse-ai-supermarket-1136556
-- **Goddard Enterprises Ltd.** : Maintenance Technician <br> `location: onsite in Christ Church, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-maintenance-technician-goddard-enterprises-ltd-1136387
-- **City of Kamloops** : Lifeguard <br> `location: onsite in Kamloops, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-lifeguard-city-of-kamloops-1136557
-- **Warmup PLC** : Your Next Role <br> `location: onsite in London Area, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-your-next-role-warmup-plc-1136448
-- **Syfting** : Strawberry Matcha Dreams &lt;3 <br> `location: onsite in Bedford, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-strawberry-matcha-dreams-lt3-syfting-1136575
-- **Syfting** : Dirt and worms cake <br> `location: onsite in Bedford, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-dirt-and-worms-cake-syfting-1136574
-- **ProFlo** : Expression of Interest â All Field Roles <br> `location: onsite in Naval Base, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-expression-of-interest-all-field-roles-proflo-1136567
-
-## quals  (2)
-
-- **Christian Tech Jobs** : Digital Media Product Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-digital-media-product-manager-ascension-press-1771
-- **Tommy Gun's Original Ba…** : barber <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-barber-tommy-guns-original-barbershop-1136548
+- **TELUS Digital** : Face Deduplication Collection <br> `location: onsite in USA, not remote and not in range` <br> https://remotive.com/remote-jobs/all-others/face-deduplication-collection-2091093
+- **The Security Centre Lim…** : Technician <br> `location: onsite in George Town, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-technician-the-security-centre-limited-1136590
+- **WB Melback Corporation** : All Other Future Considerations <br> `location: onsite in Haileybury, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-all-other-future-considerations-wb-melback-corporation-1136583
+- **ALEH Writing Services (…** : Looking for Job <br> `location: onsite in Brampton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-looking-for-job-aleh-writing-services-aws-1136584
+- **Fairmont Hotels &amp; R…** : Bell Person <br> `location: onsite in Hamilton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-bell-person-fairmont-hotels-amp-resorts-1136591
+- **IBAC** : Title TBD <br> `location: onsite in Montreal, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-title-tbd-ibac-1136572
+- **Stone** : Software Engineer III Mobile <br> `location: onsite in Remoto, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-software-engineer-iii-mobile-stone-1136570
+- **Stone** : Software Engineer II Golang <br> `location: onsite in Remoto, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-software-engineer-ii-golang-stone-1136569
+- **Bybit** : P2P BD Assistant <br> `location: onsite in LATAM, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-p2p-bd-assistant-bybit-1136568
+- **American Bureau of Ship…** : Surveyor I <br> `location: onsite in Port of Spain, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-surveyor-i-american-bureau-of-shipping-abs-1136592
+- **Skanska Costain STRABAG…** : Tunnel Agent <br> `location: onsite in London, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-tunnel-agent-skanska-costain-strabag-joint-venture-1136576
+- **Skanska Costain STRABAG…** : Sub Agent <br> `location: onsite in London, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sub-agent-skanska-costain-strabag-joint-venture-1136585
+- **RecMan.io** : Test Job Title <br> `location: onsite in Noida, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-test-job-title-recman-io-1136578
+- **AI Supermarket** : Jenni AI <br> `location: onsite in Research, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-jenni-ai-ai-supermarket-1136602
+- **liftek Iraq Basra (Ø´Ø±…** : tan tan tan <br> `location: onsite in Holder Siding, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-tan-tan-tan-liftek-iraq-basra-1136603
+- **Energy Crane Service** : GENERAL <br> `location: onsite in Stony Plain, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-general-energy-crane-service-1136668
+- **The Green Solutions Gro…** : JOIN US AND MAKE AN IMPACT ON THE FUTURE <br> `location: onsite in Regional Municipality of York, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-join-us-and-make-an-impact-on-the-future-the-green-solutions-group-1136665
+- **South Shore Holdings Li…** : Alchemy Gold <br> `location: onsite in Gold Coast, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-alchemy-gold-south-shore-holdings-limited-1136601
+- **South Shore Holdings Li…** : Ways of the Qilin <br> `location: onsite in Four Ways, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ways-of-the-qilin-south-shore-holdings-limited-1136599
+- **Napa Valley Country Club** : APPLY TODAY <br> `location: onsite in Gorubathan, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-apply-today-napa-valley-country-club-1136617
+- **DealerRefresh** : What are the highest paying jobs the automo… <br> `location: onsite in Paying, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-what-are-the-highest-paying-jobs-the-automotive-industry-dealerrefresh-1136615
+- **SandForce** : Hiring Process <br> `location: onsite in Hunterganj, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-hiringprocess-sandforce-1136612
+- **Kempsville Building Mat…** : Estimator <br> `location: onsite in Fort Wayne, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-estimator-kempsville-building-materials-1136623
+- **CESCO Limited** : Sales Engineer <br> `location: onsite in Montego Bay, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sales-engineer-cesco-limited-1136587
+- **Sencon** : Sencon . Illinois USA <br> `location: onsite in Greater Rockford Area, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sencon-illinois-usa-sencon-1136620
 
 ## comp  (1)
 
-- **Christian Tech Jobs** : ASP.NET Applications Developer <br> `comp: tops out at $75,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/asp-net-applications-developer-community-bible-study-1770
+- **Christian Tech Jobs** : Sr. Database Administrator <br> `comp: tops out at $120,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/sr-database-administrator-nelnet-business-services-1772
 
-## gap-gated on required quals  (1)
+## score  (1)
 
-- **Evolve** : Staff Software Engineer <br> `gap-gated on required quals: terraform, pulumi` <br> https://remoteOK.com/remote-jobs/remote-staff-software-engineer-evolve-1136447
+- **Resourceful Talent Group** : Product Manager <br> `score: 39, below backlog threshold 45` <br> https://remoteOK.com/remote-jobs/remote-product-manager-resourceful-talent-group-1136579
 
-## level  (1)
+## quals  (1)
 
-- **ATOM Partners** : Junior Crypto Trader <br> `level: 'Junior Crypto Trader' reads junior` <br> https://remoteOK.com/remote-jobs/remote-junior-crypto-trader-atom-partners-1136383
+- **Adaptive Teams** : Customer Service Representative <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-customer-service-representative-adaptive-teams-1136566
 
