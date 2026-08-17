@@ -1,12 +1,36 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-14T11:13:41.0407737+00:00",
+  "generated": "2026-08-17T10:56:46.235878+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 173,
-    "New": 28,
-    "Rejected": 28
+    "Seen": 168,
+    "New": 58,
+    "Rejected": 57
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "d74d17027b6f",
+      "score": 47,
+      "priority": false,
+      "company": "W Hotels",
+      "title": "Porter",
+      "url": "https://remoteOK.com/remote-jobs/remote-porter-w-hotels-1136724",
+      "location": "Sydney, ",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 4/35: aws, rag",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 3d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
+    }
+  ]
 }
