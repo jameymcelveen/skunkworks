@@ -1,33 +1,56 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-17T10:56:46.235878+00:00",
+  "generated": "2026-08-18T10:55:47.6202495+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 168,
-    "New": 58,
-    "Rejected": 57
+    "Seen": 169,
+    "New": 23,
+    "Rejected": 21
   },
   "hits": [
     {
-      "id": "d74d17027b6f",
-      "score": 47,
+      "id": "8a929426cbea",
+      "score": 53,
       "priority": false,
-      "company": "W Hotels",
-      "title": "Porter",
-      "url": "https://remoteOK.com/remote-jobs/remote-porter-w-hotels-1136724",
-      "location": "Sydney, ",
+      "company": "Aftershoot",
+      "title": "Influencer Marketing Lead",
+      "url": "https://remoteOK.com/remote-jobs/remote-influencer-marketing-lead-aftershoot-1136843",
+      "location": "Remote",
       "comp": "not stated",
       "day_shape": "build",
       "source": "remoteok",
       "domain": "saas",
       "why": [
-        "stack 4/35: aws, rag",
+        "stack 4/35: saas",
         "domain 13/15: mission",
+        "level 12/15: senior/lead tier",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 1d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
+    },
+    {
+      "id": "af036d325fc8",
+      "score": 47,
+      "priority": false,
+      "company": "Crystalia Glass LLC",
+      "title": "Engineer Estimator",
+      "url": "https://remoteOK.com/remote-jobs/remote-engineer-estimator-crystalia-glass-llc-1136878",
+      "location": "Bishkek, Bishkek, Bishkek City, Kyrgyzstan",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 3/35: architect",
+        "domain 15/15: healthcare",
         "level 6/15: level unclear from title",
         "comp 4/10: not stated, ask",
-        "freshness 10/10: 3d old",
-        "remote 8/10: remote",
+        "freshness 7/10: 5d old",
+        "remote 10/10: remote-first language",
         "ai 2/5: neutral"
       ],
       "flags": []
