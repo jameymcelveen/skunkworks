@@ -1,35 +1,41 @@
-# Rejected  (21)
+# Rejected  (27)
 
-Generated 2026-08-18 10:55 UTC. Audit trail for the three-line filter.
+Generated 2026-08-19 10:54 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## location  (18)
+## location  (25)
 
-- **Sanya Pharma Pvt Ltd** : Billing Executive <br> `location: onsite in Patna, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-billing-executive-sanya-pharma-pvt-ltd-1136899
-- **Precision Medicine Group** : Senior Contracts and Budget Associate <br> `location: onsite in South Korea, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-contracts-and-budget-associate-precision-medicine-group-1136844
-- **HighLevel** : Lead Product Designer <br> `location: onsite in India, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-lead-product-designer-highlevel-1136841
-- **Saisons Brother Holding** : Compensation Benefits Manager <br> `location: onsite in Phnom Penh, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-compensation-benefits-manager-saisons-brother-holding-1136895
-- **Flurix.AI** : Nexus <br> `location: onsite in Para, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-nexus-flurix-ai-1136845
-- **FroxJob | Executive Job…** : Billing Officer <br> `location: onsite in Kathmandu, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-billing-officer-froxjob-executive-jobs-in-nepal-1136908
-- **MDPI** : English Editor <br> `location: onsite in Singapore, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-english-editor-mdpi-1136891
-- **Costa Coffee Ireland** : Team Member <br> `location: onsite in Londonderry, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-team-member-costa-coffee-ireland-1136848
-- **TwinTopics** : 4 vacatures <br> `location: onsite in Enschede en omgeving, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-4-vacatures-twintopics-1136849
-- **HuntingCube** : Lead Zendesk <br> `location: onsite in Itanagar, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-lead-zendesk-huntingcube-1136852
-- **HK Express** : Flight Attendant <br> `location: onsite in Hong Kong, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-flight-attendant-hk-express-1136903
-- **Hilton** : Polisher Waldorf Astoria Ras Al Khaimah <br> `location: onsite in Ø±Ø£Ø³ Ø§ÙØ®ÙÙØ©, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-polisher-waldorf-astoria-ras-al-khaimah-hilton-1136905
-- **FedEx** : Aviation Maintenance Technician <br> `location: onsite in ìì¸ ì¸ì² ì§ì­, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-aviation-maintenance-technician-fedex-1136922
-- **Hongkong Express** : Flight Attendant <br> `location: onsite in Hong Kong, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-flight-attendant-hongkong-express-1136892
-- **EFL Ltd** : BRICKLAYER <br> `location: onsite in Cambridge, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-bricklayer-efl-ltd-1136924
-- **Marina Bay Sands** : Valet Driver <br> `location: onsite in Singapore, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-valet-driver-marina-bay-sands-1136920
-- **Wipro** : PARTNER TECH &amp; IMPL L1 <br> `location: onsite in Bengaluru, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-partner-tech-amp-impl-l1-wipro-1136853
-- **Market of Choice** : Any Open Position <br> `location: onsite in West Linn, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-any-open-position-market-of-choice-1136872
+- **Christian Care Ministry** : Oncology RN Care Manager <br> `location: onsite in Melbourne, FL | Hybrid, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8083772
+- **Christian Care Ministry** : Oncology RN Care Manager <br> `location: onsite in Orlando, FL | Hybrid, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8105883
+- **Christian Care Ministry** : Senior Clinical Reviewer <br> `location: onsite in Melbourne, FL | Orlando, FL | Hybrid, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8125635
+- **Reliance Industries Lim…** : Team Member Special Assignment <br> `location: onsite in Jamnagar, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-team-member-special-assignment-reliance-industries-limited-1136966
+- **OTR** : Reddy Express Karratha Customer Service Rep… <br> `location: onsite in Karratha, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-reddy-express-karratha-customer-service-representative-otr-1136976
+- **Power FM Bega Bay** : Maintenance Fitter <br> `location: onsite in Moruya, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-maintenance-fitter-power-fm-bega-bay-1136972
+- **Cotton On Group** : Team Member Cotton On Market City Mega <br> `location: onsite in Sydney, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-team-member-cotton-on-market-city-mega-cotton-on-group-1136969
+- **Benchling** : Solutions Delivery Manager <br> `location: onsite in Boston, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-solutions-delivery-manager-benchling-1136937
+- **Rebel Sport** : In Store Visual Merchandiser rebel rCX Chad… <br> `location: onsite in Chadstone, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-in-store-visual-merchandiser-rebel-rcx-chadstone-rebel-sport-1136971
+- **Antojitos Mexicanos La …** : Sales Assistant <br> `location: onsite in Gawler, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sales-assistant-antojitos-mexicanos-la-jefa-1136975
+- **Seed Heritage** : Store Manager Port Macquarie <br> `location: onsite in Port Macquarie, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-store-manager-port-macquarie-seed-heritage-1136974
+- **Plumbers Co-op** : Various <br> `location: onsite in Sydney, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-various-plumbers-co-op-1136932
+- **The iNUA Hotel Collecti…** : Test <br> `location: onsite in Cork, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-test-the-inua-hotel-collection-1136953
+- **Walmart Canada** : General Merchandise Department Manager <br> `location: onsite in Thunder Bay, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-general-merchandise-department-manager-walmart-canada-1136940
+- **First Quantum Minerals** : Expression of Interest with First Quantum <br> `location: onsite in Perth, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-expression-of-interest-with-first-quantum-first-quantum-minerals-1136944
+- **Adani Airport Holdings …** : Fire Fighter <br> `location: onsite in Mangaluru, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-fire-fighter-adani-airport-holdings-ltd-1136926
+- **Department of Education…** : Maintenance and Grounds Officer <br> `location: onsite in Katherine, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-maintenance-and-grounds-officer-department-of-education-and-training-1136946
+- **Baldwin Blueprint** : What should I ask them when they say 'Do yo… <br> `location: onsite in Min Min, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-what-should-i-ask-them-when-they-say-do-you-have-any-questions-for-us-baldwin-blueprint-1136933
+- **Baldwin Blueprint** : What does 'fast paced environment' actually… <br> `location: onsite in Min Min, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-what-does-fast-paced-environment-actually-mean-for-my-day-day-baldwin-blueprint-1136931
+- **Legal Services NYC** : Hotline Paralegal <br> `location: onsite in LSNYC Central Office, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-hotline-paralegal-legal-services-nyc-1136861
+- **Hovis Ltd** : FLM <br> `location: onsite in Belfast, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-flm-hovis-ltd-1136925
+- **Bouygues BÃ¢timent Inte…** : Planner Cayman Islands <br> `location: onsite in George Town, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-planner-cayman-islands-bouygues-batiment-international-1136863
+- **Schwing Stetter India** : Field Services Engineer <br> `location: onsite in Dehradun, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-field-services-engineer-schwing-stetter-india-1136862
+- **Cotton On Group** : Sales Team Member Cotton On Ballina Fair <br> `location: onsite in Ballina, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sales-team-member-cotton-on-ballina-fair-cotton-on-group-1136970
+- **AMX Superstores** : Sales Assistant AMX Bendigo <br> `location: onsite in Bendigo, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sales-assistant-amx-bendigo-amx-superstores-1136973
 
-## quals  (2)
+## quals  (1)
 
-- **AO Garcia Agency** : Work From Home Bilingual Client Services Re… <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-work-from-home-bilingual-client-services-representative-ao-garcia-agency-1136842
-- **SLB** : Real Time Drilling Ops Centre Analyst <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-real-time-drilling-ops-centre-analyst-slb-1136857
+- **Christian Tech Jobs** : Multi-Media Content Producer <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/multi-media-content-producer-holy-trinity-brompton-1775
 
-## comp  (1)
+## gap-gated on required quals  (1)
 
-- **Christian Tech Jobs** : Project Manager III for Information Services <br> `comp: tops out at $70,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-project-manager-iii-for-information-services-liberty-university-1774
+- **Vomela** : Principal Data Engineer <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-principal-data-engineer-vomela-1136860
 
