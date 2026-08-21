@@ -1,12 +1,38 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-20T10:56:50.0585014+00:00",
+  "generated": "2026-08-21T10:57:11.925034+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 171,
-    "New": 24,
-    "Rejected": 24
+    "Seen": 169,
+    "New": 21,
+    "Rejected": 20
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "ea5ac3e81230",
+      "score": 59,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Chief Technology Officer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-chief-technology-officer-givedirectly-1778",
+      "location": "",
+      "comp": "$366K-$518K",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 8/35: architect, rag, scala",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 10/10: $366,000-$518,000, well over floor",
+        "freshness 10/10: 0d old",
+        "remote 10/10: remote-first language",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    }
+  ]
 }
