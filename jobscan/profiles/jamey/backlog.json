@@ -1,12 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-24T11:01:16.9303396+00:00",
+  "generated": "2026-08-25T10:59:03.511957+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
     "Seen": 173,
-    "New": 42,
-    "Rejected": 42
+    "New": 10,
+    "Rejected": 10
   },
   "hits": []
 }
