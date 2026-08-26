@@ -1,24 +1,18 @@
-# Rejected  (10)
+# Rejected  (7)
 
-Generated 2026-08-25 10:59 UTC. Audit trail for the three-line filter.
+Generated 2026-08-26 11:01 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## location  (8)
+## location  (5)
 
-- **Christian Care Ministry** : Executive Assistant <br> `location: onsite in Melbourne, FL, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8120482
-- **Four Seasons** : Bell Captain <br> `location: onsite in Macau, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-bell-captain-four-seasons-1137107
-- **Krannich Solar Australia** : Store person <br> `location: onsite in Brendale, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-store-person-krannich-solar-australia-1137100
-- **Bayer** : GLUCOBAY TASK FORCE <br> `location: onsite in Siliguri, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-glucobay-task-force-bayer-1137102
-- **The Abaco Club** : Residential Technician <br> `location: onsite in Marsh Harbour, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-residential-technician-the-abaco-club-1137096
-- **Territory Generation** : Electrical Tradesperson <br> `location: onsite in Alice Springs, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-electrical-tradesperson-territory-generation-1137092
-- **Dr. Martens Australia /…** : AUS Dr Martens Sales Assistant Expression o… <br> `location: onsite in Canberra, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-aus-dr-martens-sales-assistant-expression-of-interest-dr-martens-australia-new-zealand-1137113
-- **Fronix Services** : Airport Ground Staff Jobs For Freshers <br> `location: onsite in Thiruvananthapuram, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-airport-ground-staff-jobs-for-freshers-fronix-services-1137116
+- **Smokemart &amp; GiftBox** : Smokemart &amp; GiftBox Palmerstone Sales A… <br> `location: onsite in Darwin, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-smokemart-amp-giftbox-palmerstone-sales-assistant-smokemart-amp-giftbox-1137125
+- **Teatro Multiplan Morumb…** : LEGO <br> `location: onsite in Kotalpur, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-lego-teatro-multiplan-morumbishopping-1137112
+- **Vashi Integrated Soluti…** : Executive <br> `location: onsite in Pune Division, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-executive-vashi-integrated-solutions-1137105
+- **Continental Events** : Utility <br> `location: onsite in Chittoor, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-utility-continental-events-1137119
+- **Bass Pro Shops** : Overnight Task Team Lead <br> `location: onsite in Regina, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-overnight-task-team-lead-bass-pro-shops-1137121
 
-## comp  (1)
+## quals  (2)
 
-- **Christian Tech Jobs** : Senior Engineer <br> `comp: tops out at $58,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-engineer-donorbox-1782
-
-## quals  (1)
-
-- **Saasuji** : CDP <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-cdp-saasuji-1137091
+- **Christian Tech Jobs** : Salesforce Systems and Engagement Officer <br> `quals: only adjacent overlap (python), no primary stack` <br> https://www.christiantechjobs.io/christian-jobs/remote-salesforce-systems-and-engagement-officer-edify-1783
+- **Salesforge** : Senior Backend Engineer Build AI Agents <br> `quals: only adjacent overlap (ai agent), no primary stack` <br> https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114
 

@@ -1,12 +1,38 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-25T10:59:03.511957+00:00",
+  "generated": "2026-08-26T11:01:30.8490906+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 173,
-    "New": 10,
-    "Rejected": 10
+    "Seen": 174,
+    "New": 8,
+    "Rejected": 7
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "bd94ae3b0f59",
+      "score": 46,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "NOC Technician II",
+      "url": "https://www.christiantechjobs.io/christian-jobs/noc-technician-ii-k-love-1784",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 8/35: aws, rag, scala",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 3/10: hybrid",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    }
+  ]
 }
