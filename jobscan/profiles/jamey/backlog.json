@@ -1,34 +1,34 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-27T20:39:42.2829291+00:00",
+  "generated": "2026-08-28T21:12:50.4636107+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 175,
-    "New": 34,
-    "Rejected": 33
+    "Seen": 180,
+    "New": 22,
+    "Rejected": 21
   },
   "hits": [
     {
-      "id": "afb1c68875fb",
-      "score": 45,
+      "id": "fa2ab2781348",
+      "score": 50,
       "priority": false,
       "company": "Christian Tech Jobs",
-      "title": "Product Marketing Manager",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-product-marketing-manager-virtuous-1785",
+      "title": "Performance Marketing Strategist",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-performance-marketing-strategist-lifeway-1787",
       "location": "",
       "comp": "not stated",
       "day_shape": "build",
       "source": "rss",
       "domain": "mission",
       "why": [
-        "stack 7/35: eks, rag, saas",
+        "stack 4/35: llm, scala",
         "domain 13/15: mission",
         "level 6/15: level unclear from title",
         "comp 4/10: not stated, ask",
         "freshness 10/10: 0d old",
-        "remote 3/10: hybrid",
-        "ai 2/5: neutral"
+        "remote 8/10: remote",
+        "ai 5/5: AI-positive language"
       ],
       "flags": [
         "check the 990: nonprofit band may be aspirational"
