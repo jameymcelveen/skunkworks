@@ -1,38 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-08-28T21:12:50.4636107+00:00",
+  "generated": "2026-08-31T17:40:29.0002204+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 180,
-    "New": 22,
-    "Rejected": 21
+    "Seen": 178,
+    "New": 30,
+    "Rejected": 30
   },
-  "hits": [
-    {
-      "id": "fa2ab2781348",
-      "score": 50,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Performance Marketing Strategist",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-performance-marketing-strategist-lifeway-1787",
-      "location": "",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
-      "why": [
-        "stack 4/35: llm, scala",
-        "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
-        "remote 8/10: remote",
-        "ai 5/5: AI-positive language"
-      ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
-    }
-  ]
+  "hits": []
 }
