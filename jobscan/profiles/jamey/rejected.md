@@ -1,44 +1,31 @@
-# Rejected  (30)
+# Rejected  (17)
 
-Generated 2026-08-31 17:40 UTC. Audit trail for the three-line filter.
+Generated 2026-09-01 15:02 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## location  (27)
+## location  (15)
 
-- **Guardian Electrical Com…** : Professional PAT Tester <br> `location: onsite in Oxford, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-professional-pat-tester-guardian-electrical-compliance-ltd-1137235
-- **Mr Clutch Autocentres** : MOT Tester <br> `location: onsite in Oxford, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-mot-tester-mr-clutch-autocentres-1137218
-- **Stobart** : Shunter <br> `location: onsite in Northampton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-shunter-stobart-1137216
-- **Thrifty Car and Van Ren…** : Customer Service Agent <br> `location: onsite in Exeter, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-customer-service-agent-thrifty-car-and-van-rental-1137219
-- **Wellburn Care Homes Ltd** : Handyperson <br> `location: onsite in Berwick-Upon-Tweed, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-handyperson-wellburn-care-homes-ltd-1137217
-- **Clarks International** : Assistant Manager <br> `location: onsite in Oxford, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-assistant-manager-clarks-international-1137220
-- **TRANT ENGINEERING LIMIT…** : Wireperson <br> `location: onsite in Southampton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-wireperson-trant-engineering-limited-1137221
-- **Elements Recruitment Au…** : APPLY NOW Send Veritas your Resume DON'T CL… <br> `location: onsite in Clayton, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-apply-now-send-veritas-your-resume-dont-close-website-elements-recruitment-australia-1137201
-- **Acumentis Group** : Residential Valuer <br> `location: onsite in Port Macquarie, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-residential-valuer-acumentis-group-1137214
-- **Localiza&amp;Co** : HIGIENIZADOR DE CARROS MACAÃ RJ <br> `location: onsite in MacaÃ©, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-higienizador-de-carros-macae-rj-localizaampco-1137203
-- **Localiza&amp;Co** : HIGIENIZADOR DE CARROS CURITIBA PR <br> `location: onsite in Curitiba, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-higienizador-de-carros-curitiba-pr-localizaampco-1137204
-- **Hola Moda** : Store Manager <br> `location: onsite in Valencia, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-store-manager-hola-moda-1137206
-- **Hola Moda** : Visual Merchandiser <br> `location: onsite in Valencia, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-visual-merchandiser-hola-moda-1137205
-- **Dart** : Building Maintenance Technician <br> `location: onsite in George Town, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-building-maintenance-technician-dart-1137212
-- **Digest Media** : Test <br> `location: onsite in Newcastle, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-test-digest-media-1137198
-- **Radisson Hotel Group** : Sales Manager <br> `location: onsite in Visakhapatnam Rural mandal, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sales-manager-radisson-hotel-group-1137200
-- **FedEx** : courier <br> `location: onsite in Pembroke, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-courier-fedex-1137195
-- **Stanley Black &amp; Dec…** : åæ <br> `location: onsite in ä¸­å±±å¸, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/
-- **Atreides** : Donât see your role Apply here <br> `location: onsite in Denmark, Denmark, Western Australia, Australia, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-dont-see-your-role-apply-here-atreides-1137186
-- **Pembroke School** : English Teacher <br> `location: onsite in Adelaide, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-english-teacher-pembroke-school-1137182
-- **Hilton Salwa Beach Reso…** : Cdp <br> `location: onsite in ÙØ³ÙØ·, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-cdp-hilton-salwa-beach-resort-amp-villas-1137179
-- **Pete's Frootique** : Meat and Seafood Clerk <br> `location: onsite in Bedford, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-meat-and-seafood-clerk-petes-frootique-1137191
-- **Pete's Frootique** : Receiver <br> `location: onsite in Bedford, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-receiver-petes-frootique-1137192
-- **Crocs, Inc.** : Store Manager <br> `location: onsite in Chatswood, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-store-manager-crocs-inc-1137181
-- **Places for People** : Joiner <br> `location: onsite in Greater Newcastle Area, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-joiner-places-for-people-1137211
-- **Spendless Shoes** : RETAIL STORE MANAGER RIVERLINK <br> `location: onsite in Ipswich, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-retail-store-manager-riverlink-spendless-shoes-1137229
-- **Scape** : Maintenance Operative <br> `location: onsite in Hammersmith, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-maintenance-operative-scape-1137208
-
-## quals  (2)
-
-- **Christian Tech Jobs** : Director, Design Client Experience <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-director-design-client-experience-thrivent-1791
-- **Royal Lepage Icon Realty** : handyman woman <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-handyman-woman-royal-lepage-icon-realty-1137196
+- **Christian Care Ministry** : Director, Compliance & Risk Management <br> `location: onsite in Orlando, FL | Melbourne, FL, not remote and not in range` <br> https://mychristiancare.org/our-ministry/who-we-are/careers/?gh_jid=8170414
+- **Fifth Avenue Properties…** : Estimator <br> `location: onsite in High River, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-estimator-fifth-avenue-properties-fifth-avenue-homes-1137236
+- **Vashi Integrated Soluti…** : Picker <br> `location: onsite in Lucknow, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-picker-vashi-integrated-solutions-1137239
+- **JLL** : Fire Officer <br> `location: onsite in Ludhiana, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-fire-officer-jll-1137230
+- **ITC Limited** : Production Lead <br> `location: onsite in Guntur, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-production-lead-itc-limited-1137233
+- **HARTMANN GROUP Internat…** : Employee <br> `location: onsite in Warangal Rural, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-employee-hartmann-group-international-1137232
+- **AMA Group Ltd** : Parts Person <br> `location: onsite in Tingalpa, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-parts-person-ama-group-ltd-1137250
+- **Coca-Cola Cambodia Beve…** : Manager Rewards Management <br> `location: onsite in Phnom Penh, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-manager-rewards-management-coca-cola-cambodia-beverage-company-ltd-1137227
+- **Jugopetrol AD** : Merchandiser <br> `location: onsite in Podgorica, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-merchandiser-jugopetrol-ad-1137234
+- **Amazon Web Services (AW…** : Cloud Computing <br> `location: onsite in Telangana, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-cloud-computing-amazon-web-services-aws-1137231
+- **Complex Co.** : Commercial Building Estimator <br> `location: onsite in Canberra, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-commercial-building-estimator-complex-co-1137228
+- **Wipro** : ENTERPRISE ARCHITECT L0 <br> `location: onsite in Chennai, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-enterprise-architect-l0-wipro-1137226
+- **Wonderful** : GTM <br> `location: onsite in Bridgetown, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-gtm-wonderful-1137225
+- **Supermercados Mundial** : Ajudante Geral <br> `location: onsite in Rio de Janeiro e RegiÃ£o, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-ajudante-geral-supermercados-mundial-1137252
+- **Power FM Bega Bay** : Centre Cleaner <br> `location: onsite in Broulee, , not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-centre-cleaner-power-fm-bega-bay-1137249
 
 ## gap-gated on required quals  (1)
 
-- **Lemon.io** : Senior React Full-stack Developer <br> `gap-gated on required quals: rust, golang` <br> https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091101
+- **Lemon.io** : Senior QA Engineer <br> `gap-gated on required quals: rust, golang` <br> https://remotive.com/remote-jobs/qa/senior-qa-engineer-2091100
+
+## score  (1)
+
+- **Benzinga** : AI Engineer Data APIs <br> `score: 42, below backlog threshold 45` <br> https://remoteOK.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224
 
