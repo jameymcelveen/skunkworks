@@ -1,33 +1,33 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-02T14:36:40.7403634+00:00",
+  "generated": "2026-09-03T14:40:40.6040672+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 179,
-    "New": 20,
-    "Rejected": 19
+    "Seen": 177,
+    "New": 19,
+    "Rejected": 18
   },
   "hits": [
     {
-      "id": "8c9b40748a67",
-      "score": 49,
+      "id": "01e399aaadb3",
+      "score": 46,
       "priority": false,
       "company": "Christian Tech Jobs",
-      "title": "Manager of Customer Growth, Nurture",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-manager-of-customer-growth-nurture-pushpay-1790",
+      "title": "Data Scientist",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-data-scientist-logos-1794",
       "location": "",
-      "comp": "$140K-$170K",
+      "comp": "not stated",
       "day_shape": "build",
       "source": "rss",
       "domain": "mission",
       "why": [
-        "stack 5/35: architect, saas, scala",
+        "stack 3/35: python, saas",
         "domain 13/15: mission",
         "level 6/15: level unclear from title",
-        "comp 10/10: $140,000-$170,000, well over floor",
+        "comp 4/10: not stated, ask",
         "freshness 10/10: 0d old",
-        "remote 3/10: hybrid",
+        "remote 8/10: remote",
         "ai 2/5: neutral"
       ],
       "flags": [
