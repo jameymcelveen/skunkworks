@@ -1,38 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-03T14:40:40.6040672+00:00",
+  "generated": "2026-09-04T14:28:16.1571692+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 177,
-    "New": 19,
-    "Rejected": 18
+    "Seen": 178,
+    "New": 15,
+    "Rejected": 15
   },
-  "hits": [
-    {
-      "id": "01e399aaadb3",
-      "score": 46,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Data Scientist",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-data-scientist-logos-1794",
-      "location": "",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
-      "why": [
-        "stack 3/35: python, saas",
-        "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
-    }
-  ]
+  "hits": []
 }
