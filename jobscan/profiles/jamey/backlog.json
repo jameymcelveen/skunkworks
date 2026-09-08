@@ -1,36 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-07T15:57:42.7400724+00:00",
+  "generated": "2026-09-08T14:42:14.4047051+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 173,
-    "New": 8,
-    "Rejected": 7
+    "Seen": 175,
+    "New": 1,
+    "Rejected": 1
   },
-  "hits": [
-    {
-      "id": "b6b8c20dd0e9",
-      "score": 52,
-      "priority": false,
-      "company": "SunnyData",
-      "title": "QA Engineer",
-      "url": "https://remoteOK.com/remote-jobs/remote-qa-engineer-sunnydata-1137300",
-      "location": "Remote",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 9/35: architect, ci/cd, rag, scala",
-        "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 3d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    }
-  ]
+  "hits": []
 }
