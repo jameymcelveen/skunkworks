@@ -1,12 +1,36 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-10T14:33:38.7192861+00:00",
+  "generated": "2026-09-11T14:32:40.0043703+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 176,
-    "New": 16,
-    "Rejected": 16
+    "Seen": 172,
+    "New": 18,
+    "Rejected": 17
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "373d76cc844d",
+      "score": 45,
+      "priority": false,
+      "company": "MyIntegra",
+      "title": "Regional Support Coordinator",
+      "url": "https://remoteOK.com/remote-jobs/remote-regional-support-coordinator-myintegra-1135990",
+      "location": "Hobart, ",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 10/35: .net, rag",
+        "domain 15/15: healthcare",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 0/10: 45d old, likely stale",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
+    }
+  ]
 }
