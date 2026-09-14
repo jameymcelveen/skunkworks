@@ -1,36 +1,86 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-11T14:32:40.0043703+00:00",
+  "generated": "2026-09-14T16:26:51.2467485+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 172,
-    "New": 18,
-    "Rejected": 17
+    "Seen": 170,
+    "New": 14,
+    "Rejected": 11
   },
   "hits": [
     {
-      "id": "373d76cc844d",
-      "score": 45,
+      "id": "3b375466dfbf",
+      "score": 63,
       "priority": false,
-      "company": "MyIntegra",
-      "title": "Regional Support Coordinator",
-      "url": "https://remoteOK.com/remote-jobs/remote-regional-support-coordinator-myintegra-1135990",
-      "location": "Hobart, ",
+      "company": "Christian Tech Jobs",
+      "title": "IT Principal Software Engineer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-it-principal-software-engineer-commonspirit-health-1804",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 9/35: architect, rest api",
+        "domain 15/15: healthcare",
+        "level 15/15: principal/staff tier",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 3d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    },
+    {
+      "id": "974dcaa99e5d",
+      "score": 58,
+      "priority": false,
+      "company": "TestGorilla",
+      "title": "Senior People \u0026 Talent Operations Partner",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-people-talent-operations-partner-testgorilla-1137378",
+      "location": "Remote",
       "comp": "not stated",
       "day_shape": "build",
       "source": "remoteok",
       "domain": "saas",
       "why": [
-        "stack 10/35: .net, rag",
+        "stack 5/35: ai agent, eks, rag",
         "domain 15/15: healthcare",
-        "level 6/15: level unclear from title",
+        "level 12/15: senior/lead tier",
         "comp 4/10: not stated, ask",
-        "freshness 0/10: 45d old, likely stale",
-        "remote 8/10: remote",
+        "freshness 10/10: 3d old",
+        "remote 10/10: remote-first language",
         "ai 2/5: neutral"
       ],
       "flags": []
+    },
+    {
+      "id": "5259778cfce6",
+      "score": 47,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Full Stack Engineer (Flutter, Mobile \u0026 Web)",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-full-stack-engineer-flutter-mobile-web-faithonline-1805",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 4/35: architect, node, redis, scala",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 2d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
     }
   ]
 }
