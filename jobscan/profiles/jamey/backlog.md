@@ -1,96 +1,40 @@
 # Backlog
 
-Generated 2026-09-14 16:26 UTC. Sources scanned: 6. Postings seen: 170. Filtered out: 11. New since last run: 14.
+Generated 2026-09-15 15:09 UTC. Sources scanned: 6. Postings seen: 170. Filtered out: 2. New since last run: 3.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
 | # | Score | Company | Role | Comp | Where | Age |
 |---|-------|---------|------|------|-------|-----|
-| 1 | 63 | Christian Tech Jobs | [IT Principal Software Engineer](https://www.christiantechjobs.io/christian-jobs/remote-it-principal-software-engineer-commonspirit-health-1804) | not stated | ? | 3d old |
-| 2 | 58 | TestGorilla | [Senior People & Talent Operations Par…](https://remoteOK.com/remote-jobs/remote-senior-people-talent-operations-partner-testgorilla-1137378) | not stated | Remote | 3d old |
-| 3 | 47 | Christian Tech Jobs | [Full Stack Engineer (Flutter, Mobile …](https://www.christiantechjobs.io/christian-jobs/remote-full-stack-engineer-flutter-mobile-web-faithonline-1805) | not stated | ? | 2d old |
+| 1 | 52 | Prop Firm Match Globa… | [Customer Experience Representative](https://remoteOK.com/remote-jobs/remote-customer-experience-representative-prop-firm-match-global-fzco-1137390) | not stated | Remote | 1d old |
 
 **P** = priority tier (score >= 70).
 
 ---
 
-## 1. Christian Tech Jobs : IT Principal Software Engineer  `63`
+## 1. Prop Firm Match Global â FZCO : Customer Experience Representative  `52`
 
-https://www.christiantechjobs.io/christian-jobs/remote-it-principal-software-engineer-commonspirit-health-1804
-
-- **Comp:** not stated
-- **Location:** not stated
-- **Day shape:** build
-- **Source:** rss
-- **id:** `3b375466dfbf`
-- **FLAG:** check the 990: nonprofit band may be aspirational
-
-**Why this scored:**
-
-- stack 9/35: architect, rest api
-- domain 15/15: healthcare
-- level 15/15: principal/staff tier
-- comp 4/10: not stated, ask
-- freshness 10/10: 3d old
-- remote 8/10: remote
-- ai 2/5: neutral
-
-> CommonSpirit Health — Remote Tags: Software Development • Remote Job Summary and Responsibilities As our Principal Software Engineer, you will create and enhance complex applications, identifying opportunities and implementing solutions that meet end-user needs and business goals. Every day, you will work on multiple high-complexity solutions, troubleshooting and resolving intricate software prob…
-
-**Go:** `make kit ID=3b375466dfbf`
-
----
-
-## 2. TestGorilla : Senior People & Talent Operations Partner  `58`
-
-https://remoteOK.com/remote-jobs/remote-senior-people-talent-operations-partner-testgorilla-1137378
+https://remoteOK.com/remote-jobs/remote-customer-experience-representative-prop-firm-match-global-fzco-1137390
 
 - **Comp:** not stated
 - **Location:** Remote
 - **Day shape:** build
 - **Source:** remoteok
-- **id:** `974dcaa99e5d`
+- **id:** `9e2e0b484855`
 
 **Why this scored:**
 
-- stack 5/35: ai agent, eks, rag
-- domain 15/15: healthcare
-- level 12/15: senior/lead tier
-- comp 4/10: not stated, ask
-- freshness 10/10: 3d old
-- remote 10/10: remote-first language
-- ai 2/5: neutral
-
-> â¡ This one's going to move fast. We're expecting a lot of interest, so we're running this as a focused hiring sprint. Applications and assessments close September 20, with interviews happening over the two weeks after that.Â ð Where do we hire from? Almost everywhere. Check that your country appears on this page . For this role, you'll have at least 4 hours daily overlap with your UK-based m…
-
-**Go:** `make kit ID=974dcaa99e5d`
-
----
-
-## 3. Christian Tech Jobs : Full Stack Engineer (Flutter, Mobile & Web)  `47`
-
-https://www.christiantechjobs.io/christian-jobs/remote-full-stack-engineer-flutter-mobile-web-faithonline-1805
-
-- **Comp:** not stated
-- **Location:** not stated
-- **Day shape:** build
-- **Source:** rss
-- **id:** `5259778cfce6`
-- **FLAG:** check the 990: nonprofit band may be aspirational
-
-**Why this scored:**
-
-- stack 4/35: architect, node, redis, scala
+- stack 4/35: rag, saas, scala
 - domain 13/15: mission
 - level 6/15: level unclear from title
 - comp 4/10: not stated, ask
-- freshness 10/10: 2d old
-- remote 8/10: remote
-- ai 2/5: neutral
+- freshness 10/10: 1d old
+- remote 10/10: remote-first language
+- ai 5/5: AI-positive language
 
-> FaithOnline — Remote Tags: Full Stack • Remote Full Stack Engineer (Flutter, Mobile & Web) FaithOnline is building a gospel-centered app designed to foster meaningful formation, authentic connection, and spiritually grounded community online. We believe technology should serve transformation in Christ, not distraction, addiction, or noise. About FaithOnline FaithOnline is building a Gospel-center…
+> About PFM Prop Firm Match Global FZCO is a leading platform for discovering, comparing, and selecting top proprietary trading firms. We provide traders with tools and features to easily compare challenge details, read verified reviews, see accurate payout data, and much more. We're a fast-moving, fully remote team with members from all around the world caring deeply about the quality of what we b…
 
-**Go:** `make kit ID=5259778cfce6`
+**Go:** `make kit ID=9e2e0b484855`
 
 ---
 
