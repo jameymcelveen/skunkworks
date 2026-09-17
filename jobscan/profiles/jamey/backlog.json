@@ -1,36 +1,84 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-16T15:07:01.1242446+00:00",
+  "generated": "2026-09-17T15:09:42.7573983+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 165,
-    "New": 2,
+    "Seen": 163,
+    "New": 4,
     "Rejected": 1
   },
   "hits": [
     {
-      "id": "0c6d2e61fd04",
-      "score": 62,
+      "id": "6acfef0025da",
+      "score": 64,
       "priority": false,
-      "company": "ExtraHop",
-      "title": "Sr Solutions Architect",
-      "url": "https://remoteOK.com/remote-jobs/remote-sr-solutions-architect-extrahop-1137394",
+      "company": "Sticker Mule",
+      "title": "AI agent engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
+      "location": "Remote",
+      "comp": "$250K-$250K",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 19/35: ai agent, eks, graphql, postgres, typescript",
+        "domain 7/15: saas",
+        "level 6/15: level unclear from title",
+        "comp 10/10: $250,000-$250,000, well over floor",
+        "freshness 10/10: 1d old",
+        "remote 10/10: remote-first language",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
+    },
+    {
+      "id": "3a83e2c9d75b",
+      "score": 54,
+      "priority": false,
+      "company": "DomainTools",
+      "title": "Principal Product Manager",
+      "url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-domaintools-1137396",
       "location": "Remote",
       "comp": "not stated",
       "day_shape": "build",
       "source": "remoteok",
       "domain": "saas",
       "why": [
-        "stack 10/35: architect, python, rest api",
-        "domain 13/15: mission",
+        "stack 5/35: architect, llm, rag",
+        "domain 7/15: saas",
         "level 15/15: principal/staff tier",
         "comp 4/10: not stated, ask",
         "freshness 10/10: 1d old",
         "remote 8/10: remote",
-        "ai 2/5: neutral"
+        "ai 5/5: AI-positive language"
       ],
       "flags": []
+    },
+    {
+      "id": "0030be77b256",
+      "score": 47,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Broadcast Engineer I",
+      "url": "https://www.christiantechjobs.io/christian-jobs/broadcast-engineer-i-liberty-university-1810",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 10/35: architect, aws, azure, rag, scala",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 2/10: unclear",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
     }
   ]
 }
