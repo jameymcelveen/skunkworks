@@ -1,9 +1,9 @@
 # Rejected  (1)
 
-Generated 2026-09-17 15:09 UTC. Audit trail for the three-line filter.
+Generated 2026-09-18 14:35 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## quals  (1)
+## gap-gated on required quals  (1)
 
-- **iMerit Technology** : AI Trainer Image QA Evaluator <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-ai-trainer-image-qa-evaluator-imerit-technology-1137398
+- **Lemon.io** : Senior Data Scientist <br> `gap-gated on required quals: databricks, rust, golang` <br> https://remotive.com/remote-jobs/data/senior-data-scientist-2091129
 
