@@ -1,63 +1,82 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-18T14:35:29.5984225+00:00",
+  "generated": "2026-09-21T16:32:15.7746359+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 66,
-    "New": 3,
-    "Rejected": 1
+    "Seen": 160,
+    "New": 14,
+    "Rejected": 11
   },
   "hits": [
     {
-      "id": "86e229581e59",
-      "score": 54,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Sr. Director, Global Fan Engagement",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-sr-director-global-fan-engagement-the-chosen-1812",
-      "location": "",
-      "comp": "not stated",
+      "id": "19ffab18f03c",
+      "score": 84,
+      "priority": true,
+      "company": "Sanctuary Computer",
+      "title": "Senior Shopify Developer",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405",
+      "location": "Remote",
+      "comp": "$40-$120/hr",
       "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
+      "source": "remoteok",
+      "domain": "saas",
       "why": [
-        "stack 5/35: architect, rag, scala",
-        "domain 13/15: mission",
+        "stack 35/35: architect, eks, etl, graphql, node, postgres, postgresql, rag",
+        "domain 7/15: saas",
         "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
+        "comp 10/10: $40-$120/hr",
+        "freshness 10/10: 3d old",
         "remote 8/10: remote",
         "ai 2/5: neutral"
       ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
+      "flags": []
     },
     {
-      "id": "486fdb03b9d1",
-      "score": 50,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Senior Product Designer",
-      "url": "https://www.christiantechjobs.io/christian-jobs/senior-product-designer-take-command-health-1813",
-      "location": "",
+      "id": "8915ec98be12",
+      "score": 76,
+      "priority": true,
+      "company": "OkWhen",
+      "title": "Senior .NET Software Engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-net-software-engineer-okwhen-1137411",
+      "location": "Remote",
       "comp": "not stated",
       "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
+      "source": "remoteok",
+      "domain": "saas",
       "why": [
-        "stack 4/35: rag, react",
-        "domain 13/15: mission",
+        "stack 35/35: .net, angular, asp.net, aws, azure, c#, ci/cd, rest api",
+        "domain 7/15: saas",
         "level 12/15: senior/lead tier",
         "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
-        "remote 2/10: unclear",
+        "freshness 10/10: 1d old",
+        "remote 3/10: hybrid",
         "ai 5/5: AI-positive language"
       ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
+      "flags": []
+    },
+    {
+      "id": "42e7995eb967",
+      "score": 54,
+      "priority": false,
+      "company": "JumpCloud",
+      "title": "Customer Success Manager Mexico",
+      "url": "https://remoteOK.com/remote-jobs/remote-customer-success-manager-mexico-jumpcloud-1137406",
+      "location": "Mexico City, Mexico - Remote",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 9/35: ai agent, architect, rag, saas, scala",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 2d old",
+        "remote 10/10: remote-first language",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
     }
   ]
 }
