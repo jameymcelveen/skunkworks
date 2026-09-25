@@ -1,14 +1,14 @@
 # Rejected  (3)
 
-Generated 2026-09-24 15:22 UTC. Audit trail for the three-line filter.
+Generated 2026-09-25 15:24 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## location  (2)
+## quals  (2)
 
-- **Bjak** : Technical Product Manager AI Stockbroking A… <br> `location: onsite in Germany, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-technical-product-manager-ai-stockbroking-app-bjak-1137421
-- **Bjak** : Frontend Engineer <br> `location: onsite in Singapore, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-frontend-engineer-bjak-1137420
+- **Workana** : MecÃ¡nico Automotriz DiagnÃ³stico y Presupu… <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-mecanico-automotriz-diagnostico-y-presupuestos-workana-1137429
+- **iMerit Technology** : Video Data Annotator <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-video-data-annotator-imerit-technology-1137428
 
-## quals  (1)
+## gap-gated on required quals  (1)
 
-- **Prenosis** : Software Engineer <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-software-engineer-prenosis-1137427
+- **Christian Tech Jobs** : Director, Operations <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/director-operations-the-chosen-1818
 
