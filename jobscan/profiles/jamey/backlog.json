@@ -1,38 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-25T15:24:24.6455338+00:00",
+  "generated": "2026-09-28T18:13:20.8484591+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 154,
+    "Seen": 152,
     "New": 4,
-    "Rejected": 3
+    "Rejected": 4
   },
-  "hits": [
-    {
-      "id": "6c74155f4a6e",
-      "score": 56,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Senior Vice President, Software Engineering",
-      "url": "https://www.christiantechjobs.io/christian-jobs/senior-vice-president-software-engineering-ministry-brands-1817",
-      "location": "",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
-      "why": [
-        "stack 10/35: architect, rag, saas, scala",
-        "domain 15/15: healthcare",
-        "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
-        "remote 3/10: hybrid",
-        "ai 2/5: neutral"
-      ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
-    }
-  ]
+  "hits": []
 }
