@@ -1,38 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-09-29T16:35:23.0278924+00:00",
+  "generated": "2026-09-30T16:27:54.344496+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 151,
-    "New": 1,
-    "Rejected": 0
+    "Seen": 152,
+    "New": 2,
+    "Rejected": 2
   },
-  "hits": [
-    {
-      "id": "bf59594719ce",
-      "score": 49,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Technical Project Coordinator",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-technical-project-coordinator-exploregod-1822",
-      "location": "",
-      "comp": "not stated",
-      "day_shape": "run",
-      "source": "rss",
-      "domain": "mission",
-      "why": [
-        "stack 4/35: saas, scala",
-        "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
-        "remote 10/10: remote-first language",
-        "ai 2/5: neutral"
-      ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
-    }
-  ]
+  "hits": []
 }
