@@ -1,6 +1,6 @@
 # Backlog
 
-Generated 2026-10-06 16:53 UTC. Sources scanned: 6. Postings seen: 159. Filtered out: 3. New since last run: 3.
+Generated 2026-10-07 17:29 UTC. Sources scanned: 6. Postings seen: 158. Filtered out: 1. New since last run: 1.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
