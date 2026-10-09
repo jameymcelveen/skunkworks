@@ -1,21 +1,9 @@
-# Rejected  (4)
+# Rejected  (1)
 
-Generated 2026-10-08 17:28 UTC. Audit trail for the three-line filter.
+Generated 2026-10-09 17:07 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## gap-gated on required quals  (1)
+## score  (1)
 
-- **Christian Tech Jobs** : Head of Product Marketing <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/remote-head-of-product-marketing-donorbox-1837
-
-## comp  (1)
-
-- **Christian Tech Jobs** : Technology Support Specialist <br> `comp: tops out at $55,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/technology-support-specialist-tyndale-house-publishers-1836
-
-## quals  (1)
-
-- **Tierarzt Plus Partner** : Telefondienst fÃ¼r Tierarztpraxis Neuruppin… <br> `quals: only adjacent overlap (rag), no primary stack` <br> https://remoteOK.com/remote-jobs/remote-telefondienst-fur-tierarztpraxis-neuruppin-o-tierarzt-plus-partner-1137469
-
-## location  (1)
-
-- **Spiralyze** : Project Manager <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-project-manager-spiralyze-1137466
+- **Christian Tech Jobs** : Product Marketing Manager <br> `score: 42, below backlog threshold 45` <br> https://www.christiantechjobs.io/christian-jobs/product-marketing-manager-remodel-health-1838
 
