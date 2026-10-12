@@ -1,12 +1,84 @@
 {
   "profile": "jamey",
-  "generated": "2026-10-09T17:07:09.7778236+00:00",
+  "generated": "2026-10-12T19:55:12.5688019+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 159,
-    "New": 1,
-    "Rejected": 1
+    "Seen": 151,
+    "New": 11,
+    "Rejected": 8
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "05bef2c360e3",
+      "score": 56,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Contract Frontend Engineer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-contract-frontend-engineer-guidelight-technology-solutions-1840",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 13/35: ci/cd, eks, react, saas, typescript",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    },
+    {
+      "id": "f7d8cab0fdce",
+      "score": 51,
+      "priority": false,
+      "company": "Fuel50",
+      "title": "Product Design Lead",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474",
+      "location": "Remote",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 3/35: rag, saas",
+        "domain 7/15: saas",
+        "level 12/15: senior/lead tier",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 3d old",
+        "remote 10/10: remote-first language",
+        "ai 5/5: AI-positive language"
+      ],
+      "flags": []
+    },
+    {
+      "id": "0a2b507f19e6",
+      "score": 50,
+      "priority": false,
+      "company": "Tether Operations Limited",
+      "title": "Product Engineering Lead",
+      "url": "https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478",
+      "location": "Remote",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 4/35: llm, react",
+        "domain 7/15: saas",
+        "level 12/15: senior/lead tier",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 2d old",
+        "remote 8/10: remote",
+        "ai 5/5: AI-positive language"
+      ],
+      "flags": []
+    }
+  ]
 }
