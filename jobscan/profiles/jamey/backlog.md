@@ -1,95 +1,67 @@
 # Backlog
 
-Generated 2026-10-12 19:55 UTC. Sources scanned: 6. Postings seen: 151. Filtered out: 8. New since last run: 11.
+Generated 2026-10-13 17:42 UTC. Sources scanned: 6. Postings seen: 154. Filtered out: 3. New since last run: 5.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
 | # | Score | Company | Role | Comp | Where | Age |
 |---|-------|---------|------|------|-------|-----|
-| 1 | 56 | Christian Tech Jobs | [Contract Frontend Engineer](https://www.christiantechjobs.io/christian-jobs/remote-contract-frontend-engineer-guidelight-technology-solutions-1840) | not stated | ? | 0d old |
-| 2 | 51 | Fuel50 | [Product Design Lead](https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474) | not stated | Remote | 3d old |
-| 3 | 50 | Tether Operations Lim… | [Product Engineering Lead](https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478) | not stated | Remote | 2d old |
+| 1 | 61 | SimSpace Corporation | [Senior Sales Executive Central Region](https://remoteOK.com/remote-jobs/remote-senior-sales-executive-central-region-simspace-corporation-1137498) | $220K-$220K | Remote | 1d old |
+| 2 | 57 | Sticker Mule | [SI agent engineer](https://remoteOK.com/remote-jobs/remote-si-agent-engineer-sticker-mule-1137399) | $250K-$250K | Remote | 27d old |
 
 **P** = priority tier (score >= 70).
 
 ---
 
-## 1. Christian Tech Jobs : Contract Frontend Engineer  `56`
+## 1. SimSpace Corporation : Senior Sales Executive Central Region  `61`
 
-https://www.christiantechjobs.io/christian-jobs/remote-contract-frontend-engineer-guidelight-technology-solutions-1840
+https://remoteOK.com/remote-jobs/remote-senior-sales-executive-central-region-simspace-corporation-1137498
 
-- **Comp:** not stated
-- **Location:** not stated
+- **Comp:** $220K-$220K
+- **Location:** Remote
 - **Day shape:** build
-- **Source:** rss
-- **id:** `05bef2c360e3`
-- **FLAG:** check the 990: nonprofit band may be aspirational
+- **Source:** remoteok
+- **id:** `b879965ddc24`
 
 **Why this scored:**
 
-- stack 13/35: ci/cd, eks, react, saas, typescript
+- stack 6/35: aws, rag, saas
 - domain 13/15: mission
-- level 6/15: level unclear from title
-- comp 4/10: not stated, ask
-- freshness 10/10: 0d old
+- level 12/15: senior/lead tier
+- comp 10/10: $220,000-$220,000, well over floor
+- freshness 10/10: 1d old
 - remote 8/10: remote
 - ai 2/5: neutral
 
-> Guidelight Technology Solutions — Remote Tags: Front End • Remote Contract Frontend Engineer Engagement Type Contractor for frontend development. Remote. Hours and Availability October–December 2026: Estimated 20–30 hours per week, including onboarding and prioritized feature work. Ongoing: Estimated 5–10 hours per week. Work will be prioritized with the Guidelight project manager. Occasional add…
+> SimSpace serves as an AI Proving Ground where organizations can confidently train, test, and outmaneuver adversaries in any environment. Trusted by allied governments, militaries, enterprises, and research institutions worldwide, SimSpace enables adaptive, AI-ready defenses that stay ahead of evolving threats. Founded in 2015 by experts from U.S. Cyber Command and MIT Lincoln Laboratory, the plat…
 
-**Go:** `make kit ID=05bef2c360e3`
+**Go:** `make kit ID=b879965ddc24`
 
 ---
 
-## 2. Fuel50 : Product Design Lead  `51`
+## 2. Sticker Mule : SI agent engineer  `57`
 
-https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474
+https://remoteOK.com/remote-jobs/remote-si-agent-engineer-sticker-mule-1137399
 
-- **Comp:** not stated
+- **Comp:** $250K-$250K
 - **Location:** Remote
 - **Day shape:** build
 - **Source:** remoteok
-- **id:** `f7d8cab0fdce`
+- **id:** `e981814cda3b`
 
 **Why this scored:**
 
-- stack 3/35: rag, saas
+- stack 18/35: eks, graphql, postgres, typescript
 - domain 7/15: saas
-- level 12/15: senior/lead tier
-- comp 4/10: not stated, ask
-- freshness 10/10: 3d old
+- level 6/15: level unclear from title
+- comp 10/10: $250,000-$250,000, well over floor
+- freshness 4/10: 27d old
 - remote 10/10: remote-first language
-- ai 5/5: AI-positive language
+- ai 2/5: neutral
 
-> Fuel50 is a workforce transformation platform helping organisations understand workforce capability, build skills and enable internal mobility in an AI-driven world. Our products combine skills intelligence, talent marketplace experiences and responsible AI to help people and organisations take their next step.Â We are looking for a Product Design Lead to shape the next chapter of our product exp…
+> Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and super intelligence in one stack. We're hiring an engineer to build, run and manage a team of SI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department lead…
 
-**Go:** `make kit ID=f7d8cab0fdce`
-
----
-
-## 3. Tether Operations Limited : Product Engineering Lead  `50`
-
-https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478
-
-- **Comp:** not stated
-- **Location:** Remote
-- **Day shape:** build
-- **Source:** remoteok
-- **id:** `0a2b507f19e6`
-
-**Why this scored:**
-
-- stack 4/35: llm, react
-- domain 7/15: saas
-- level 12/15: senior/lead tier
-- comp 4/10: not stated, ask
-- freshness 10/10: 2d old
-- remote 8/10: remote
-- ai 5/5: AI-positive language
-
-> Join Tether and Shape the Future of Digital Finance At Tether, weâre not just building products, weâre pioneering a global financial revolution. Our cutting-edge solutions empower businessesâfrom exchanges and wallets to payment processors and ATMsâto seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to stor…
-
-**Go:** `make kit ID=0a2b507f19e6`
+**Go:** `make kit ID=e981814cda3b`
 
 ---
 

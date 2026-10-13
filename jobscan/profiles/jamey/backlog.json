@@ -1,82 +1,57 @@
 {
   "profile": "jamey",
-  "generated": "2026-10-12T19:55:12.5688019+00:00",
+  "generated": "2026-10-13T17:42:23.4976772+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 151,
-    "New": 11,
-    "Rejected": 8
+    "Seen": 154,
+    "New": 5,
+    "Rejected": 3
   },
   "hits": [
     {
-      "id": "05bef2c360e3",
-      "score": 56,
+      "id": "b879965ddc24",
+      "score": 61,
       "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Contract Frontend Engineer",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-contract-frontend-engineer-guidelight-technology-solutions-1840",
-      "location": "",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
-      "why": [
-        "stack 13/35: ci/cd, eks, react, saas, typescript",
-        "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
-    },
-    {
-      "id": "f7d8cab0fdce",
-      "score": 51,
-      "priority": false,
-      "company": "Fuel50",
-      "title": "Product Design Lead",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-design-lead-fuel50-1137474",
+      "company": "SimSpace Corporation",
+      "title": "Senior Sales Executive Central Region",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-sales-executive-central-region-simspace-corporation-1137498",
       "location": "Remote",
-      "comp": "not stated",
+      "comp": "$220K-$220K",
       "day_shape": "build",
       "source": "remoteok",
       "domain": "saas",
       "why": [
-        "stack 3/35: rag, saas",
-        "domain 7/15: saas",
+        "stack 6/35: aws, rag, saas",
+        "domain 13/15: mission",
         "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 3d old",
-        "remote 10/10: remote-first language",
-        "ai 5/5: AI-positive language"
+        "comp 10/10: $220,000-$220,000, well over floor",
+        "freshness 10/10: 1d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
       ],
       "flags": []
     },
     {
-      "id": "0a2b507f19e6",
-      "score": 50,
+      "id": "e981814cda3b",
+      "score": 57,
       "priority": false,
-      "company": "Tether Operations Limited",
-      "title": "Product Engineering Lead",
-      "url": "https://remoteOK.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478",
+      "company": "Sticker Mule",
+      "title": "SI agent engineer",
+      "url": "https://remoteOK.com/remote-jobs/remote-si-agent-engineer-sticker-mule-1137399",
       "location": "Remote",
-      "comp": "not stated",
+      "comp": "$250K-$250K",
       "day_shape": "build",
       "source": "remoteok",
       "domain": "saas",
       "why": [
-        "stack 4/35: llm, react",
+        "stack 18/35: eks, graphql, postgres, typescript",
         "domain 7/15: saas",
-        "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 2d old",
-        "remote 8/10: remote",
-        "ai 5/5: AI-positive language"
+        "level 6/15: level unclear from title",
+        "comp 10/10: $250,000-$250,000, well over floor",
+        "freshness 4/10: 27d old",
+        "remote 10/10: remote-first language",
+        "ai 2/5: neutral"
       ],
       "flags": []
     }
