@@ -1,67 +1,40 @@
 # Backlog
 
-Generated 2026-10-13 17:42 UTC. Sources scanned: 6. Postings seen: 154. Filtered out: 3. New since last run: 5.
+Generated 2026-10-14 15:20 UTC. Sources scanned: 6. Postings seen: 153. Filtered out: 4. New since last run: 5.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
 | # | Score | Company | Role | Comp | Where | Age |
 |---|-------|---------|------|------|-------|-----|
-| 1 | 61 | SimSpace Corporation | [Senior Sales Executive Central Region](https://remoteOK.com/remote-jobs/remote-senior-sales-executive-central-region-simspace-corporation-1137498) | $220K-$220K | Remote | 1d old |
-| 2 | 57 | Sticker Mule | [SI agent engineer](https://remoteOK.com/remote-jobs/remote-si-agent-engineer-sticker-mule-1137399) | $250K-$250K | Remote | 27d old |
+| 1 | 68 | Thyme Care | [Principal Product Manager Strategic I…](https://remoteOK.com/remote-jobs/remote-principal-product-manager-strategic-initiatives-thyme-care-1137510) | $195K-$230K | Remote | 1d old |
 
 **P** = priority tier (score >= 70).
 
 ---
 
-## 1. SimSpace Corporation : Senior Sales Executive Central Region  `61`
+## 1. Thyme Care : Principal Product Manager Strategic Initiatives  `68`
 
-https://remoteOK.com/remote-jobs/remote-senior-sales-executive-central-region-simspace-corporation-1137498
+https://remoteOK.com/remote-jobs/remote-principal-product-manager-strategic-initiatives-thyme-care-1137510
 
-- **Comp:** $220K-$220K
+- **Comp:** $195K-$230K
 - **Location:** Remote
 - **Day shape:** build
 - **Source:** remoteok
-- **id:** `b879965ddc24`
+- **id:** `135b7179405b`
 
 **Why this scored:**
 
-- stack 6/35: aws, rag, saas
-- domain 13/15: mission
-- level 12/15: senior/lead tier
-- comp 10/10: $220,000-$220,000, well over floor
+- stack 5/35: architect, llm, rag
+- domain 15/15: healthcare
+- level 15/15: principal/staff tier
+- comp 10/10: $195,500-$230,000, well over floor
 - freshness 10/10: 1d old
 - remote 8/10: remote
-- ai 2/5: neutral
+- ai 5/5: AI-positive language
 
-> SimSpace serves as an AI Proving Ground where organizations can confidently train, test, and outmaneuver adversaries in any environment. Trusted by allied governments, militaries, enterprises, and research institutions worldwide, SimSpace enables adaptive, AI-ready defenses that stay ahead of evolving threats. Founded in 2015 by experts from U.S. Cyber Command and MIT Lincoln Laboratory, the plat…
+> OUR MISSION We exist to create a more connected, compassionate, and confident experience for people with cancer and those who care for them. We make it easier to get answers, access high-quality care quickly, and feel supported throughout treatment and beyond. Today, Thyme Care is a market-leading value-based oncology care enabler, partnering with national and regional health plans, providers, an…
 
-**Go:** `make kit ID=b879965ddc24`
-
----
-
-## 2. Sticker Mule : SI agent engineer  `57`
-
-https://remoteOK.com/remote-jobs/remote-si-agent-engineer-sticker-mule-1137399
-
-- **Comp:** $250K-$250K
-- **Location:** Remote
-- **Day shape:** build
-- **Source:** remoteok
-- **id:** `e981814cda3b`
-
-**Why this scored:**
-
-- stack 18/35: eks, graphql, postgres, typescript
-- domain 7/15: saas
-- level 6/15: level unclear from title
-- comp 10/10: $250,000-$250,000, well over floor
-- freshness 4/10: 27d old
-- remote 10/10: remote-first language
-- ai 2/5: neutral
-
-> Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and super intelligence in one stack. We're hiring an engineer to build, run and manage a team of SI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department lead…
-
-**Go:** `make kit ID=e981814cda3b`
+**Go:** `make kit ID=135b7179405b`
 
 ---
 

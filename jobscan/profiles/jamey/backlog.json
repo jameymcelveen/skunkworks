@@ -1,57 +1,34 @@
 {
   "profile": "jamey",
-  "generated": "2026-10-13T17:42:23.4976772+00:00",
+  "generated": "2026-10-14T15:20:00.1402716+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 154,
+    "Seen": 153,
     "New": 5,
-    "Rejected": 3
+    "Rejected": 4
   },
   "hits": [
     {
-      "id": "b879965ddc24",
-      "score": 61,
+      "id": "135b7179405b",
+      "score": 68,
       "priority": false,
-      "company": "SimSpace Corporation",
-      "title": "Senior Sales Executive Central Region",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-sales-executive-central-region-simspace-corporation-1137498",
+      "company": "Thyme Care",
+      "title": "Principal Product Manager Strategic Initiatives",
+      "url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-strategic-initiatives-thyme-care-1137510",
       "location": "Remote",
-      "comp": "$220K-$220K",
+      "comp": "$195K-$230K",
       "day_shape": "build",
       "source": "remoteok",
       "domain": "saas",
       "why": [
-        "stack 6/35: aws, rag, saas",
-        "domain 13/15: mission",
-        "level 12/15: senior/lead tier",
-        "comp 10/10: $220,000-$220,000, well over floor",
+        "stack 5/35: architect, llm, rag",
+        "domain 15/15: healthcare",
+        "level 15/15: principal/staff tier",
+        "comp 10/10: $195,500-$230,000, well over floor",
         "freshness 10/10: 1d old",
         "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    },
-    {
-      "id": "e981814cda3b",
-      "score": 57,
-      "priority": false,
-      "company": "Sticker Mule",
-      "title": "SI agent engineer",
-      "url": "https://remoteOK.com/remote-jobs/remote-si-agent-engineer-sticker-mule-1137399",
-      "location": "Remote",
-      "comp": "$250K-$250K",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 18/35: eks, graphql, postgres, typescript",
-        "domain 7/15: saas",
-        "level 6/15: level unclear from title",
-        "comp 10/10: $250,000-$250,000, well over floor",
-        "freshness 4/10: 27d old",
-        "remote 10/10: remote-first language",
-        "ai 2/5: neutral"
+        "ai 5/5: AI-positive language"
       ],
       "flags": []
     }
