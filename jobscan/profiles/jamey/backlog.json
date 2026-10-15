@@ -1,36 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-10-14T15:20:00.1402716+00:00",
+  "generated": "2026-10-15T15:11:41.4049683+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 153,
+    "Seen": 155,
     "New": 5,
-    "Rejected": 4
+    "Rejected": 5
   },
-  "hits": [
-    {
-      "id": "135b7179405b",
-      "score": 68,
-      "priority": false,
-      "company": "Thyme Care",
-      "title": "Principal Product Manager Strategic Initiatives",
-      "url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-strategic-initiatives-thyme-care-1137510",
-      "location": "Remote",
-      "comp": "$195K-$230K",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 5/35: architect, llm, rag",
-        "domain 15/15: healthcare",
-        "level 15/15: principal/staff tier",
-        "comp 10/10: $195,500-$230,000, well over floor",
-        "freshness 10/10: 1d old",
-        "remote 8/10: remote",
-        "ai 5/5: AI-positive language"
-      ],
-      "flags": []
-    }
-  ]
+  "hits": []
 }
