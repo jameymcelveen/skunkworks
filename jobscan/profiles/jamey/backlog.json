@@ -1,36 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-10-16T14:58:09.6148319+00:00",
+  "generated": "2026-10-19T17:04:22.9151616+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 156,
-    "New": 7,
-    "Rejected": 6
+    "Seen": 151,
+    "New": 17,
+    "Rejected": 17
   },
-  "hits": [
-    {
-      "id": "ca5d8daa125b",
-      "score": 47,
-      "priority": false,
-      "company": "Somnio Software",
-      "title": "Sr REACT NATIVE",
-      "url": "https://remoteOK.com/remote-jobs/remote-sr-react-native-somnio-software-1137523",
-      "location": "Remote",
-      "comp": "not stated",
-      "day_shape": "unclear",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 10/35: node, python, react, react native",
-        "domain 7/15: saas",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 1d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    }
-  ]
+  "hits": []
 }
