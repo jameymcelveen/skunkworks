@@ -1,12 +1,36 @@
 {
   "profile": "jamey",
-  "generated": "2026-10-20T15:16:13.9681583+00:00",
+  "generated": "2026-10-21T15:28:26.8580681+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
     "Seen": 150,
-    "New": 4,
-    "Rejected": 4
+    "New": 2,
+    "Rejected": 1
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "60bbd3e93957",
+      "score": 51,
+      "priority": false,
+      "company": "Pavago",
+      "title": "Risk Analyst",
+      "url": "https://remoteOK.com/remote-jobs/remote-risk-analyst-pavago-1137548",
+      "location": "Remote",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 4/35: hipaa, python, saas, scala",
+        "domain 15/15: healthcare",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 1d old",
+        "remote 10/10: remote-first language",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
+    }
+  ]
 }
