@@ -1,15 +1,22 @@
-# Rejected  (4)
+# Rejected  (8)
 
-Generated 2026-10-23 15:20 UTC. Audit trail for the three-line filter.
+Generated 2026-10-26 16:51 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## quals  (2)
+## comp  (4)
 
-- **Christian Tech Jobs** : Tech & A/V Lead <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/tech-a-v-lead-christ-covenant-church-1853
-- **scvsdv** : lkjlkjxcv <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-lkjlkjxcv-scvsdv-1137553
+- **Christian Tech Jobs** : Software Support Specialist <br> `comp: tops out at $35,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-software-support-specialist-compassion-international-1854
+- **Klardaten** : Senior Software Engineer <br> `comp: tops out at $100,000, floor is $135,000` <br> https://remoteOK.com/remote-jobs/remote-senior-software-engineer-klardaten-1137571
+- **Getlabs** : Field Phlebotomy Supervisor Northern Califo… <br> `comp: tops out at $105,000, floor is $135,000` <br> https://remoteOK.com/remote-jobs/remote-field-phlebotomy-supervisor-northern-california-getlabs-1137569
+- **Aisles &amp; Abroad** : Travel Support Specialist <br> `comp: tops out at $65,000, floor is $135,000` <br> https://remoteOK.com/remote-jobs/remote-travel-support-specialist-aisles-amp-abroad-1137559
 
-## gap-gated on required quals  (2)
+## quals  (3)
 
-- **Lemon.io** : Senior DevOps Engineer <br> `gap-gated on required quals: terraform, pulumi, rust, golang` <br> https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-lemon-io-1137557
-- **Political Asylum Lawyers** : Accounting & Finance Manager <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-accounting-finance-manager-political-asylum-lawyers-1137555
+- **Christian Tech Jobs** : Graphic Designer II <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/graphic-designer-ii-lincoln-christian-school-1855
+- **iMerit Technology** : AI Trainer - Video Annotation <br> `quals: no load-bearing stack overlap in requirements` <br> https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161
+- **Aprio** : Accounting and Implementation Manager <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-accounting-and-implementation-manager-aprio-1137560
+
+## score  (1)
+
+- **Huzzle** : Sales Development Representative German Spe… <br> `score: 36, below backlog threshold 45` <br> https://remoteOK.com/remote-jobs/remote-sales-development-representative-german-speaking-huzzle-1137563
 
