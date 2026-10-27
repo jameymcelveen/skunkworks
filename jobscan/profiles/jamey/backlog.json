@@ -1,59 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-10-26T16:51:50.1421481+00:00",
+  "generated": "2026-10-27T15:56:52.0336919+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 149,
-    "New": 10,
-    "Rejected": 8
+    "Seen": 150,
+    "New": 3,
+    "Rejected": 3
   },
-  "hits": [
-    {
-      "id": "02886831e427",
-      "score": 67,
-      "priority": false,
-      "company": "Onebrief",
-      "title": "Solutions Engineer",
-      "url": "https://remoteOK.com/remote-jobs/remote-solutions-engineer-onebrief-1137568",
-      "location": "Remote",
-      "comp": "$220K-$220K",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 16/35: architect, aws, azure, docker, kubernetes, python, scala",
-        "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 10/10: $220,000-$220,000, well over floor",
-        "freshness 10/10: 2d old",
-        "remote 10/10: remote-first language",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    },
-    {
-      "id": "885cd5b418c2",
-      "score": 64,
-      "priority": false,
-      "company": "B2spin",
-      "title": "Senior Frontend Engineer",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-frontend-engineer-b2spin-1137562",
-      "location": "Remote",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 21/35: architect, react, scala, typescript",
-        "domain 7/15: saas",
-        "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 3d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    }
-  ]
+  "hits": []
 }
