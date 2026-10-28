@@ -1,14 +1,13 @@
-# Rejected  (3)
+# Rejected  (2)
 
-Generated 2026-10-27 15:56 UTC. Audit trail for the three-line filter.
+Generated 2026-10-28 16:45 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## gap-gated on required quals  (2)
+## comp  (1)
 
-- **Christian Tech Jobs** : Director, Digital Product <br> `gap-gated on required quals: rust` <br> https://www.christiantechjobs.io/christian-jobs/director-digital-product-praxis-1856
-- **Wagmo** : Senior Software Engineer LATAM <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572
+- **Christian Tech Jobs** : Senior Manager, Marketing Strategy & Operat… <br> `comp: tops out at $120,750, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/remote-senior-manager-marketing-strategy-operations-givedirectly-1857
 
-## score  (1)
+## location  (1)
 
-- **Huzzle** : Account Executive <br> `score: 43, below backlog threshold 45` <br> https://remoteOK.com/remote-jobs/remote-account-executive-huzzle-1137573
+- **Lemon.io** : Head of Engineering <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remotive.com/remote-jobs/software-development/head-of-engineering-2091134
 
