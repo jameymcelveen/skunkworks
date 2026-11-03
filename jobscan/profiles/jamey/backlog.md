@@ -1,41 +1,40 @@
 # Backlog
 
-Generated 2026-11-02 20:27 UTC. Sources scanned: 6. Postings seen: 152. Filtered out: 11. New since last run: 12.
+Generated 2026-11-03 17:58 UTC. Sources scanned: 6. Postings seen: 148. Filtered out: 4. New since last run: 5.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
 | # | Score | Company | Role | Comp | Where | Age |
 |---|-------|---------|------|------|-------|-----|
-| 1 | 49 | Christian Tech Jobs | [System Administrator](https://www.christiantechjobs.io/christian-jobs/system-administrator-seed-company-1866) | not stated | ? | 0d old |
+| 1 | 48 | Capmo | [Team Lead Account Executive](https://remoteOK.com/remote-jobs/remote-team-lead-account-executive-capmo-1137613) | not stated | Remote | 1d old |
 
 **P** = priority tier (score >= 70).
 
 ---
 
-## 1. Christian Tech Jobs : System Administrator  `49`
+## 1. Capmo : Team Lead Account Executive  `48`
 
-https://www.christiantechjobs.io/christian-jobs/system-administrator-seed-company-1866
+https://remoteOK.com/remote-jobs/remote-team-lead-account-executive-capmo-1137613
 
 - **Comp:** not stated
-- **Location:** not stated
+- **Location:** Remote
 - **Day shape:** build
-- **Source:** rss
-- **id:** `25402a660d64`
-- **FLAG:** check the 990: nonprofit band may be aspirational
+- **Source:** remoteok
+- **id:** `5411c3f68b23`
 
 **Why this scored:**
 
-- stack 6/35: aws, rag, saas, scala
-- domain 13/15: mission
-- level 6/15: level unclear from title
+- stack 5/35: rag, saas
+- domain 7/15: saas
+- level 12/15: senior/lead tier
 - comp 4/10: not stated, ask
-- freshness 10/10: 0d old
+- freshness 10/10: 1d old
 - remote 8/10: remote
 - ai 2/5: neutral
 
-> Seed Company — Arlington, TX Tags: Customer Support Scope The purpose of this role is to keep technology and all end users, both internal and external, working with as much uptime as possible and with minimal interruptions caused by technology issues. When a technical issue arises, the candidate responds quickly and effectively to staff while providing excellent customer service. This role serves…
+> Deine Rolle Unser Account Executive Team ist der Wachstumsmotor von Capmo â und du sorgst dafÃ¼r, dass er noch schneller und effizienter lÃ¤uft. Als Team Lead Account Executive (m/w/*) fÃ¼hrst du unser bestehendes AE-Team im Daily Business, Ã¼bersetzt unsere Sales-Strategie in konkrete MaÃnahmen und entwickelst unsere Prozesse kontinuierlich weiter. Du bist Sparringspartner, Coach und erste An…
 
-**Go:** `make kit ID=25402a660d64`
+**Go:** `make kit ID=5411c3f68b23`
 
 ---
 
