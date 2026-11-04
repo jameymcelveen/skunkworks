@@ -1,36 +1,86 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-03T17:58:17.5567687+00:00",
+  "generated": "2026-11-04T18:09:34.2862125+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 148,
-    "New": 5,
-    "Rejected": 4
+    "Seen": 151,
+    "New": 9,
+    "Rejected": 6
   },
   "hits": [
     {
-      "id": "5411c3f68b23",
-      "score": 48,
-      "priority": false,
-      "company": "Capmo",
-      "title": "Team Lead Account Executive",
-      "url": "https://remoteOK.com/remote-jobs/remote-team-lead-account-executive-capmo-1137613",
+      "id": "001bb7c3187d",
+      "score": 84,
+      "priority": true,
+      "company": "Ringbook Limited",
+      "title": "Tech lead",
+      "url": "https://remoteOK.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673",
       "location": "Remote",
-      "comp": "not stated",
+      "comp": "$400K-$400K",
       "day_shape": "build",
       "source": "remoteok",
       "domain": "saas",
       "why": [
-        "stack 5/35: rag, saas",
+        "stack 35/35: architect, aws, postgres, postgresql, react, scala, typescript",
         "domain 7/15: saas",
         "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
+        "comp 10/10: $400,000-$400,000, well over floor",
         "freshness 10/10: 1d old",
         "remote 8/10: remote",
         "ai 2/5: neutral"
       ],
       "flags": []
+    },
+    {
+      "id": "7d7b3ba893c0",
+      "score": 57,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Sr. Product Designer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-sr-product-designer-tithe-ly-1874",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 6/35: architect, saas",
+        "domain 13/15: mission",
+        "level 12/15: senior/lead tier",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 10/10: remote-first language",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    },
+    {
+      "id": "39f79bac29f2",
+      "score": 50,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Sr Front End Engineer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-sr-front-end-engineer-angel-studios-1880",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 13/35: architect, ci/cd, graphql, rag, react",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 2/10: unclear",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
     }
   ]
 }
