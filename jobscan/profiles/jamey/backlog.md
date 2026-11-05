@@ -1,96 +1,40 @@
 # Backlog
 
-Generated 2026-11-04 18:09 UTC. Sources scanned: 6. Postings seen: 151. Filtered out: 6. New since last run: 9.
+Generated 2026-11-05 18:10 UTC. Sources scanned: 6. Postings seen: 149. Filtered out: 1. New since last run: 2.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
 | # | Score | Company | Role | Comp | Where | Age |
 |---|-------|---------|------|------|-------|-----|
-| 1 **P** | 84 | Ringbook Limited | [Tech lead](https://remoteOK.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673) | $400K-$400K | Remote | 1d old |
-| 2 | 57 | Christian Tech Jobs | [Sr. Product Designer](https://www.christiantechjobs.io/christian-jobs/remote-sr-product-designer-tithe-ly-1874) | not stated | ? | 0d old |
-| 3 | 50 | Christian Tech Jobs | [Sr Front End Engineer](https://www.christiantechjobs.io/christian-jobs/remote-sr-front-end-engineer-angel-studios-1880) | not stated | ? | 0d old |
+| 1 **P** | 79 | Claims | [Software Engineer](https://remoteOK.com/remote-jobs/remote-software-engineer-claims-1137685) | $300K-$300K | Remote | 1d old |
 
 **P** = priority tier (score >= 70).
 
 ---
 
-## 1. Ringbook Limited : Tech lead  `84`
+## 1. Claims : Software Engineer  `79`
 
-https://remoteOK.com/remote-jobs/remote-tech-lead-ringbook-limited-1137673
+https://remoteOK.com/remote-jobs/remote-software-engineer-claims-1137685
 
-- **Comp:** $400K-$400K
+- **Comp:** $300K-$300K
 - **Location:** Remote
 - **Day shape:** build
 - **Source:** remoteok
-- **id:** `001bb7c3187d`
+- **id:** `335028c26830`
 
 **Why this scored:**
 
-- stack 35/35: architect, aws, postgres, postgresql, react, scala, typescript
+- stack 31/35: ai agent, docker, eks, github actions, linux, llm, postgres, postgresql
 - domain 7/15: saas
-- level 12/15: senior/lead tier
-- comp 10/10: $400,000-$400,000, well over floor
-- freshness 10/10: 1d old
-- remote 8/10: remote
-- ai 2/5: neutral
-
-> What Youâll Do ãDesign the architecture of the application and make key technical decisions. ãBuild and maintain scalable features across the Ringbook web application. ãIntegrate AI capabilities throughout the platform to create innovative features. ãDevelop clean, responsive, and intuitive frontend interfaces. ãDesign and optimize backend APIs, database schemas, and data pipelines. ã…
-
-**Go:** `make kit ID=001bb7c3187d`
-
----
-
-## 2. Christian Tech Jobs : Sr. Product Designer  `57`
-
-https://www.christiantechjobs.io/christian-jobs/remote-sr-product-designer-tithe-ly-1874
-
-- **Comp:** not stated
-- **Location:** not stated
-- **Day shape:** build
-- **Source:** rss
-- **id:** `7d7b3ba893c0`
-- **FLAG:** check the 990: nonprofit band may be aspirational
-
-**Why this scored:**
-
-- stack 6/35: architect, saas
-- domain 13/15: mission
-- level 12/15: senior/lead tier
-- comp 4/10: not stated, ask
-- freshness 10/10: 0d old
-- remote 10/10: remote-first language
-- ai 2/5: neutral
-
-> Tithe.ly — Remote Tags: Design • Remote As a Senior Product Designer , you’ll lead design from research through launch, helping turn complex church workflows into clear, connected experiences. You’ll partner with product managers and engineers, guide design decisions across products, and mentor fellow designers. Primary Responsibilities of the Role Own design work end-to-end from discovery throug…
-
-**Go:** `make kit ID=7d7b3ba893c0`
-
----
-
-## 3. Christian Tech Jobs : Sr Front End Engineer  `50`
-
-https://www.christiantechjobs.io/christian-jobs/remote-sr-front-end-engineer-angel-studios-1880
-
-- **Comp:** not stated
-- **Location:** not stated
-- **Day shape:** build
-- **Source:** rss
-- **id:** `39f79bac29f2`
-- **FLAG:** check the 990: nonprofit band may be aspirational
-
-**Why this scored:**
-
-- stack 13/35: architect, ci/cd, graphql, rag, react
-- domain 13/15: mission
 - level 6/15: level unclear from title
-- comp 4/10: not stated, ask
-- freshness 10/10: 0d old
-- remote 2/10: unclear
-- ai 2/5: neutral
+- comp 10/10: $300,000-$300,000, well over floor
+- freshness 10/10: 1d old
+- remote 10/10: remote-first language
+- ai 5/5: AI-positive language
 
-> Angel Studios — Remote Tags: Front End • Remote Description Angel Studios is seeking an expert React.js developer to build front-end web applications as a member of a fully-remote engineering team. Expectations at Angel Studios: Amplify light in every action. How do we define light? We build things that are true, honest, noble, just, authentic, lovely, admirable, and excellent. As the owner of yo…
+> ð Build the data layer AI needs to do science Application deadline: 16 Nov 2026 23:59 CET About Claims AI ate the Internet, but it can't digest science yet. A paper is thousands of words of prose written for humans, but an AI agent doing research needs to know what was claimed, what evidence supports it, and how far to trust it. Claims turns the scientific literature into exactly that: every c…
 
-**Go:** `make kit ID=39f79bac29f2`
+**Go:** `make kit ID=335028c26830`
 
 ---
 
