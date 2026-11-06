@@ -1,36 +1,63 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-05T18:10:33.2813867+00:00",
+  "generated": "2026-11-06T17:37:36.0060927+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 149,
-    "New": 2,
-    "Rejected": 1
+    "Seen": 153,
+    "New": 9,
+    "Rejected": 7
   },
   "hits": [
     {
-      "id": "335028c26830",
-      "score": 79,
-      "priority": true,
-      "company": "Claims",
-      "title": "Software Engineer",
-      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-claims-1137685",
-      "location": "Remote",
-      "comp": "$300K-$300K",
+      "id": "34727bb569eb",
+      "score": 54,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Quality Engineer- Mobile, Audience Experience",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-quality-engineer-mobile-audience-experience-bibleproject-1882",
+      "location": "",
+      "comp": "not stated",
       "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
+      "source": "rss",
+      "domain": "mission",
       "why": [
-        "stack 31/35: ai agent, docker, eks, github actions, linux, llm, postgres, postgresql",
-        "domain 7/15: saas",
+        "stack 8/35: ci/cd, eks, rag, scala",
+        "domain 13/15: mission",
         "level 6/15: level unclear from title",
-        "comp 10/10: $300,000-$300,000, well over floor",
-        "freshness 10/10: 1d old",
-        "remote 10/10: remote-first language",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 8/10: remote",
         "ai 5/5: AI-positive language"
       ],
-      "flags": []
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    },
+    {
+      "id": "cbc4022b2cb5",
+      "score": 53,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Mgr, Engineering - Identity Governance and Administration",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-mgr-engineering-identity-governance-and-administration-thrivent-1881",
+      "location": "",
+      "comp": "$188K-$188K",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 4/35: architect, rag, scala",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 10/10: $188,676-$188,676, well over floor",
+        "freshness 10/10: 0d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
     }
   ]
 }
