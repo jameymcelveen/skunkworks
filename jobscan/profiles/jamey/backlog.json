@@ -1,63 +1,36 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-06T17:37:36.0060927+00:00",
+  "generated": "2026-11-09T20:55:51.5296468+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 153,
-    "New": 9,
-    "Rejected": 7
+    "Seen": 154,
+    "New": 13,
+    "Rejected": 12
   },
   "hits": [
     {
-      "id": "34727bb569eb",
-      "score": 54,
+      "id": "9fb425e0e3c0",
+      "score": 56,
       "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Quality Engineer- Mobile, Audience Experience",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-quality-engineer-mobile-audience-experience-bibleproject-1882",
-      "location": "",
-      "comp": "not stated",
+      "company": "Harvey",
+      "title": "Account Executive Enterprise",
+      "url": "https://remoteOK.com/remote-jobs/remote-account-executive-enterprise-harvey-1137703",
+      "location": "Remote",
+      "comp": "$420K-$420K",
       "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
+      "source": "remoteok",
+      "domain": "saas",
       "why": [
-        "stack 8/35: ci/cd, eks, rag, scala",
+        "stack 4/35: saas",
         "domain 13/15: mission",
         "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 0d old",
+        "comp 10/10: $420,000-$420,000, well over floor",
+        "freshness 10/10: 1d old",
         "remote 8/10: remote",
         "ai 5/5: AI-positive language"
       ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
-    },
-    {
-      "id": "cbc4022b2cb5",
-      "score": 53,
-      "priority": false,
-      "company": "Christian Tech Jobs",
-      "title": "Mgr, Engineering - Identity Governance and Administration",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-mgr-engineering-identity-governance-and-administration-thrivent-1881",
-      "location": "",
-      "comp": "$188K-$188K",
-      "day_shape": "build",
-      "source": "rss",
-      "domain": "mission",
-      "why": [
-        "stack 4/35: architect, rag, scala",
-        "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 10/10: $188,676-$188,676, well over floor",
-        "freshness 10/10: 0d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": [
-        "check the 990: nonprofit band may be aspirational"
-      ]
+      "flags": []
     }
   ]
 }
