@@ -1,36 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-10T18:03:39.2330602+00:00",
+  "generated": "2026-11-11T17:58:25.0253612+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 155,
-    "New": 7,
-    "Rejected": 6
+    "Seen": 152,
+    "New": 2,
+    "Rejected": 2
   },
-  "hits": [
-    {
-      "id": "5042260a594d",
-      "score": 68,
-      "priority": false,
-      "company": "Extend Your Team",
-      "title": "HIL Support Specialist",
-      "url": "https://remoteOK.com/remote-jobs/remote-hil-support-specialist-extend-your-team-1137711",
-      "location": "Remote",
-      "comp": "$250K-$250K",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 22/35: azure, c#, eks, llm, rag, scala",
-        "domain 7/15: saas",
-        "level 6/15: level unclear from title",
-        "comp 10/10: $250,000-$250,000, well over floor",
-        "freshness 10/10: 1d old",
-        "remote 8/10: remote",
-        "ai 5/5: AI-positive language"
-      ],
-      "flags": []
-    }
-  ]
+  "hits": []
 }
