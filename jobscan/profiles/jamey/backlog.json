@@ -1,12 +1,36 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-11T17:58:25.0253612+00:00",
+  "generated": "2026-11-12T18:29:47.3101705+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
     "Seen": 152,
-    "New": 2,
-    "Rejected": 2
+    "New": 7,
+    "Rejected": 6
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "bcddbd34d675",
+      "score": 51,
+      "priority": false,
+      "company": "Boston Scientific",
+      "title": "Patient Care Specialist I",
+      "url": "https://remoteOK.com/remote-jobs/remote-patient-care-specialist-i-boston-scientific-1137719",
+      "location": "Remote",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 6/35: eks, rag",
+        "domain 15/15: healthcare",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 1d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
+    }
+  ]
 }
