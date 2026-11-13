@@ -1,40 +1,41 @@
 # Backlog
 
-Generated 2026-11-12 18:29 UTC. Sources scanned: 6. Postings seen: 152. Filtered out: 6. New since last run: 7.
+Generated 2026-11-13 17:57 UTC. Sources scanned: 6. Postings seen: 155. Filtered out: 4. New since last run: 5.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
 | # | Score | Company | Role | Comp | Where | Age |
 |---|-------|---------|------|------|-------|-----|
-| 1 | 51 | Boston Scientific | [Patient Care Specialist I](https://remoteOK.com/remote-jobs/remote-patient-care-specialist-i-boston-scientific-1137719) | not stated | Remote | 1d old |
+| 1 | 67 | Christian Tech Jobs | [Senior AWS Platform Engineer](https://www.christiantechjobs.io/christian-jobs/remote-senior-aws-platform-engineer-compassion-international-1890) | $147K-$147K | ? | 0d old |
 
 **P** = priority tier (score >= 70).
 
 ---
 
-## 1. Boston Scientific : Patient Care Specialist I  `51`
+## 1. Christian Tech Jobs : Senior AWS Platform Engineer  `67`
 
-https://remoteOK.com/remote-jobs/remote-patient-care-specialist-i-boston-scientific-1137719
+https://www.christiantechjobs.io/christian-jobs/remote-senior-aws-platform-engineer-compassion-international-1890
 
-- **Comp:** not stated
-- **Location:** Remote
+- **Comp:** $147K-$147K
+- **Location:** not stated
 - **Day shape:** build
-- **Source:** remoteok
-- **id:** `bcddbd34d675`
+- **Source:** rss
+- **id:** `7e6d6261da33`
+- **FLAG:** check the 990: nonprofit band may be aspirational
 
 **Why this scored:**
 
-- stack 6/35: eks, rag
-- domain 15/15: healthcare
-- level 6/15: level unclear from title
-- comp 4/10: not stated, ask
-- freshness 10/10: 1d old
-- remote 8/10: remote
+- stack 20/35: architect, aws, kubernetes, python, rag, scala
+- domain 13/15: mission
+- level 12/15: senior/lead tier
+- comp 7/10: $147,702-$147,702, clears floor
+- freshness 10/10: 0d old
+- remote 3/10: hybrid
 - ai 2/5: neutral
 
-> Additional Location(s): N/A Diversity - Innovation - Caring - Global Collaboration - Winning Spirit - High Performance At Boston Scientific, weâll give you the opportunity to harness all thatâs within you by working in teams of diverse and high-performing employees, tackling some of the most important health industry challenges. With access to the latest tools, information and training, weâ…
+> Compassion International — Remote Tags: Information Technology • Remote The expected salary range for this position is $125,710.00 - $147,702.20. Employees in specific high cost of labor locations in the United States (such as San Francisco, CA and Seattle, WA) may qualify for a geographic differential. Compassion International is not responsible for third parties who omit this information when c…
 
-**Go:** `make kit ID=bcddbd34d675`
+**Go:** `make kit ID=7e6d6261da33`
 
 ---
 
