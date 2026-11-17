@@ -1,36 +1,63 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-16T20:37:29.2780435+00:00",
+  "generated": "2026-11-17T19:16:09.2142197+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 151,
-    "New": 5,
-    "Rejected": 4
+    "Seen": 152,
+    "New": 2,
+    "Rejected": 0
   },
   "hits": [
     {
-      "id": "f7c411ddb5ad",
-      "score": 59,
+      "id": "a3048fb6d5d1",
+      "score": 56,
       "priority": false,
-      "company": "Supabase",
-      "title": "Software Engineer AI Tooling",
-      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-tooling-supabase-1137793",
-      "location": "Remote",
+      "company": "Christian Tech Jobs",
+      "title": "Product Engineer, Full Stack",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-product-engineer-full-stack-come-and-see-foundation-1892",
+      "location": "",
       "comp": "not stated",
       "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
+      "source": "rss",
+      "domain": "mission",
       "why": [
-        "stack 17/35: mcp, postgres, rag, typescript",
-        "domain 7/15: saas",
+        "stack 10/35: ci/cd, typescript",
+        "domain 13/15: mission",
         "level 6/15: level unclear from title",
         "comp 4/10: not stated, ask",
-        "freshness 10/10: 3d old",
-        "remote 10/10: remote-first language",
+        "freshness 10/10: 0d old",
+        "remote 8/10: remote",
         "ai 5/5: AI-positive language"
       ],
-      "flags": []
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    },
+    {
+      "id": "bbe5faae0806",
+      "score": 56,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "QA Automation Engineer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-qa-automation-engineer-come-and-see-foundation-1893",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 10/35: architect, ci/cd, rag",
+        "domain 13/15: mission",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 8/10: remote",
+        "ai 5/5: AI-positive language"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
     }
   ]
 }
