@@ -1,33 +1,33 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-17T19:16:09.2142197+00:00",
+  "generated": "2026-11-18T18:57:36.4432032+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 152,
-    "New": 2,
-    "Rejected": 0
+    "Seen": 154,
+    "New": 5,
+    "Rejected": 2
   },
   "hits": [
     {
-      "id": "a3048fb6d5d1",
-      "score": 56,
+      "id": "046ef81145e7",
+      "score": 65,
       "priority": false,
       "company": "Christian Tech Jobs",
-      "title": "Product Engineer, Full Stack",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-product-engineer-full-stack-come-and-see-foundation-1892",
+      "title": "Senior AI Platform Engineer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-senior-ai-platform-engineer-university-of-the-cumberlands-1894",
       "location": "",
       "comp": "not stated",
       "day_shape": "build",
       "source": "rss",
       "domain": "mission",
       "why": [
-        "stack 10/35: ci/cd, typescript",
+        "stack 18/35: architect, ci/cd, docker, kubernetes, linux, llm, python, rag",
         "domain 13/15: mission",
-        "level 6/15: level unclear from title",
+        "level 12/15: senior/lead tier",
         "comp 4/10: not stated, ask",
         "freshness 10/10: 0d old",
-        "remote 8/10: remote",
+        "remote 3/10: hybrid",
         "ai 5/5: AI-positive language"
       ],
       "flags": [
@@ -35,29 +35,52 @@
       ]
     },
     {
-      "id": "bbe5faae0806",
-      "score": 56,
+      "id": "b7e034ec70ea",
+      "score": 60,
       "priority": false,
       "company": "Christian Tech Jobs",
-      "title": "QA Automation Engineer",
-      "url": "https://www.christiantechjobs.io/christian-jobs/remote-qa-automation-engineer-come-and-see-foundation-1893",
+      "title": "Senior AI Engineer",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-senior-ai-engineer-harpercollins-christian-publishing-1895",
       "location": "",
-      "comp": "not stated",
+      "comp": "$130K-$165K",
       "day_shape": "build",
       "source": "rss",
       "domain": "mission",
       "why": [
-        "stack 10/35: architect, ci/cd, rag",
+        "stack 10/35: architect, llm, node, rag",
         "domain 13/15: mission",
-        "level 6/15: level unclear from title",
-        "comp 4/10: not stated, ask",
+        "level 12/15: senior/lead tier",
+        "comp 7/10: $130,000-$165,000, clears floor",
         "freshness 10/10: 0d old",
-        "remote 8/10: remote",
+        "remote 3/10: hybrid",
         "ai 5/5: AI-positive language"
       ],
       "flags": [
         "check the 990: nonprofit band may be aspirational"
       ]
+    },
+    {
+      "id": "726a2ac22d03",
+      "score": 52,
+      "priority": false,
+      "company": "PatientPoint",
+      "title": "Engineering Manager Network Engineering",
+      "url": "https://remoteOK.com/remote-jobs/remote-engineering-manager-network-engineering-patientpoint-1137797",
+      "location": "Remote",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 7/35: architect, aws, scala",
+        "domain 15/15: healthcare",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 1d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
     }
   ]
 }
