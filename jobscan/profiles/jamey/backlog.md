@@ -1,96 +1,94 @@
 # Backlog
 
-Generated 2026-11-18 18:57 UTC. Sources scanned: 6. Postings seen: 154. Filtered out: 2. New since last run: 5.
+Generated 2026-11-19 19:05 UTC. Sources scanned: 6. Postings seen: 153. Filtered out: 3. New since last run: 6.
 
 Review, then say go on the ones worth a kit. Kits are never automatic.
 
 | # | Score | Company | Role | Comp | Where | Age |
 |---|-------|---------|------|------|-------|-----|
-| 1 | 65 | Christian Tech Jobs | [Senior AI Platform Engineer](https://www.christiantechjobs.io/christian-jobs/remote-senior-ai-platform-engineer-university-of-the-cumberlands-1894) | not stated | ? | 0d old |
-| 2 | 60 | Christian Tech Jobs | [Senior AI Engineer](https://www.christiantechjobs.io/christian-jobs/remote-senior-ai-engineer-harpercollins-christian-publishing-1895) | $130K-$165K | ? | 0d old |
-| 3 | 52 | PatientPoint | [Engineering Manager Network Engineeri…](https://remoteOK.com/remote-jobs/remote-engineering-manager-network-engineering-patientpoint-1137797) | not stated | Remote | 1d old |
+| 1 | 66 | Treatwell | [SEO Full Stack Engineer](https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805) | not stated | Remote | 1d old |
+| 2 | 61 | Gravie | [Manager EDI](https://remoteOK.com/remote-jobs/remote-manager-edi-gravie-1137804) | $147K-$147K | Remote | 1d old |
+| 3 | 57 | Stedi | [Legal Engineering Counsel](https://remoteOK.com/remote-jobs/remote-legal-engineering-counsel-stedi-1137803) | $142K-$142K | Remote | 1d old |
 
 **P** = priority tier (score >= 70).
 
 ---
 
-## 1. Christian Tech Jobs : Senior AI Platform Engineer  `65`
+## 1. Treatwell : SEO Full Stack Engineer  `66`
 
-https://www.christiantechjobs.io/christian-jobs/remote-senior-ai-platform-engineer-university-of-the-cumberlands-1894
-
-- **Comp:** not stated
-- **Location:** not stated
-- **Day shape:** build
-- **Source:** rss
-- **id:** `046ef81145e7`
-- **FLAG:** check the 990: nonprofit band may be aspirational
-
-**Why this scored:**
-
-- stack 18/35: architect, ci/cd, docker, kubernetes, linux, llm, python, rag
-- domain 13/15: mission
-- level 12/15: senior/lead tier
-- comp 4/10: not stated, ask
-- freshness 10/10: 0d old
-- remote 3/10: hybrid
-- ai 5/5: AI-positive language
-
-> University of the Cumberlands — Remote Tags: Information Technology • Remote Get Set for Cumberlands! Join our team of student-focused individuals working together in order to encourage intellectual and spiritual growth, leadership and service. CURRENT STUDENT or EMPLOYEE? Please log into Workday and use the Career Tile to find and apply to jobs from our internal career sites. Senior AI Platform …
-
-**Go:** `make kit ID=046ef81145e7`
-
----
-
-## 2. Christian Tech Jobs : Senior AI Engineer  `60`
-
-https://www.christiantechjobs.io/christian-jobs/remote-senior-ai-engineer-harpercollins-christian-publishing-1895
-
-- **Comp:** $130K-$165K
-- **Location:** not stated
-- **Day shape:** build
-- **Source:** rss
-- **id:** `b7e034ec70ea`
-- **FLAG:** check the 990: nonprofit band may be aspirational
-
-**Why this scored:**
-
-- stack 10/35: architect, llm, node, rag
-- domain 13/15: mission
-- level 12/15: senior/lead tier
-- comp 7/10: $130,000-$165,000, clears floor
-- freshness 10/10: 0d old
-- remote 3/10: hybrid
-- ai 5/5: AI-positive language
-
-> HarperCollins Christian Publishing — Remote Tags: Software Development • Remote Overview As Senior AI Engineer, you will design, build and operate the AI systems behind Bible Gateway, from retrieval pipelines and model integrations to evaluations and guardrails. You will collaborate with product, UX, research, and engineering to evaluate and ship the AI experiences that serve users who want to en…
-
-**Go:** `make kit ID=b7e034ec70ea`
-
----
-
-## 3. PatientPoint : Engineering Manager Network Engineering  `52`
-
-https://remoteOK.com/remote-jobs/remote-engineering-manager-network-engineering-patientpoint-1137797
+https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805
 
 - **Comp:** not stated
 - **Location:** Remote
 - **Day shape:** build
 - **Source:** remoteok
-- **id:** `726a2ac22d03`
+- **id:** `be63cf26be48`
 
 **Why this scored:**
 
-- stack 7/35: architect, aws, scala
-- domain 15/15: healthcare
+- stack 24/35: architect, aws, ci/cd, kubernetes, postgres, postgresql, react, typescript
+- domain 7/15: saas
 - level 6/15: level unclear from title
 - comp 4/10: not stated, ask
 - freshness 10/10: 1d old
+- remote 10/10: remote-first language
+- ai 5/5: AI-positive language
+
+> We're looking for a full-stack engineer to join our Product Engineering team, reporting to one of the Engineering Managers of the Marketplace area, with a dotted line to the Marketing SEO Manager, focused on supporting the Growth and Marketing area. This role will have a 60% focus on Front End, and 40% focus on Back End. You'll work on Treatwellâs Marketplace products and help Treatwell be disc…
+
+**Go:** `make kit ID=be63cf26be48`
+
+---
+
+## 2. Gravie : Manager EDI  `61`
+
+https://remoteOK.com/remote-jobs/remote-manager-edi-gravie-1137804
+
+- **Comp:** $147K-$147K
+- **Location:** Remote
+- **Day shape:** build
+- **Source:** remoteok
+- **id:** `b179abafa262`
+
+**Why this scored:**
+
+- stack 10/35: eks, fhir, hipaa, llm, rag, scala
+- domain 15/15: healthcare
+- level 6/15: level unclear from title
+- comp 7/10: $147,000-$147,000, clears floor
+- freshness 10/10: 1d old
 - remote 8/10: remote
-- ai 2/5: neutral
+- ai 5/5: AI-positive language
 
-> Join PatientPoint to be part of a dynamic team creating change in and around the doctorâs office. As a leading digital health company, we innovate to positively impact patient behaviors. Our purpose-driven approach offers an inspirational career opportunity where you can contribute to improving health outcomes for millions of patients nationwide. Location: Remote (Must reside in the United Stat…
+> Hi, weâre Gravie. Our mission is to create health benefits that actually benefit small and midsize businesses and their employees. Our innovative benefit solutions and services are developed and delivered by a diverse group of unique people. We encourage you to be your authentic self - we like you that way. A Little More About The Role: Weâre looking for an Manager, EDI to own how Gravie exch…
 
-**Go:** `make kit ID=726a2ac22d03`
+**Go:** `make kit ID=b179abafa262`
+
+---
+
+## 3. Stedi : Legal Engineering Counsel  `57`
+
+https://remoteOK.com/remote-jobs/remote-legal-engineering-counsel-stedi-1137803
+
+- **Comp:** $142K-$142K
+- **Location:** Remote
+- **Day shape:** build
+- **Source:** remoteok
+- **id:** `d58e45eaa46b`
+
+**Why this scored:**
+
+- stack 6/35: ai agent, rag, saas, scala
+- domain 15/15: healthcare
+- level 6/15: level unclear from title
+- comp 7/10: $142,000-$142,000, clears floor
+- freshness 10/10: 1d old
+- remote 8/10: remote
+- ai 5/5: AI-positive language
+
+> We're building a new healthcare clearinghouse Stedi is the only headless clearinghouse and RCM engine. Headless means every part of our product is accessible via API. Developers and AI agents build their own interface on top of it. By offering modern, AI-ready APIs alongside traditional real-time and batch EDI processes, we enable both healthcare technology businesses and established players to e…
+
+**Go:** `make kit ID=d58e45eaa46b`
 
 ---
 
