@@ -1,80 +1,59 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-19T19:05:50.5167327+00:00",
+  "generated": "2026-11-20T18:42:14.2853891+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 153,
-    "New": 6,
-    "Rejected": 3
+    "Seen": 155,
+    "New": 46,
+    "Rejected": 44
   },
   "hits": [
     {
-      "id": "be63cf26be48",
-      "score": 66,
+      "id": "31e5c6f7b3c9",
+      "score": 50,
       "priority": false,
-      "company": "Treatwell",
-      "title": "SEO Full Stack Engineer",
-      "url": "https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805",
-      "location": "Remote",
+      "company": "Christian Tech Jobs",
+      "title": "Oracle Cloud Applications Developer-Fusion",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-oracle-cloud-applications-developer-fusion-lifeway-1901",
+      "location": "",
       "comp": "not stated",
       "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
+      "source": "rss",
+      "domain": "mission",
       "why": [
-        "stack 24/35: architect, aws, ci/cd, kubernetes, postgres, postgresql, react, typescript",
-        "domain 7/15: saas",
+        "stack 4/35: architect, llm, oracle",
+        "domain 13/15: mission",
         "level 6/15: level unclear from title",
         "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 8/10: remote",
+        "ai 5/5: AI-positive language"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    },
+    {
+      "id": "781d1d538963",
+      "score": 48,
+      "priority": false,
+      "company": "Storyblok",
+      "title": "Velocity, Sales Director - USA \u0026 Europe",
+      "url": "https://remoteOK.com/remote-jobs/remote-velocity-sales-director-usa-europe-storyblok-1137845",
+      "location": "Worldwide",
+      "comp": "$173K-$225K",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 3/35: rag, saas",
+        "domain 7/15: saas",
+        "level 6/15: level unclear from title",
+        "comp 10/10: $173,800-$225,000, well over floor",
         "freshness 10/10: 1d old",
         "remote 10/10: remote-first language",
-        "ai 5/5: AI-positive language"
-      ],
-      "flags": []
-    },
-    {
-      "id": "b179abafa262",
-      "score": 61,
-      "priority": false,
-      "company": "Gravie",
-      "title": "Manager EDI",
-      "url": "https://remoteOK.com/remote-jobs/remote-manager-edi-gravie-1137804",
-      "location": "Remote",
-      "comp": "$147K-$147K",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 10/35: eks, fhir, hipaa, llm, rag, scala",
-        "domain 15/15: healthcare",
-        "level 6/15: level unclear from title",
-        "comp 7/10: $147,000-$147,000, clears floor",
-        "freshness 10/10: 1d old",
-        "remote 8/10: remote",
-        "ai 5/5: AI-positive language"
-      ],
-      "flags": []
-    },
-    {
-      "id": "d58e45eaa46b",
-      "score": 57,
-      "priority": false,
-      "company": "Stedi",
-      "title": "Legal Engineering Counsel",
-      "url": "https://remoteOK.com/remote-jobs/remote-legal-engineering-counsel-stedi-1137803",
-      "location": "Remote",
-      "comp": "$142K-$142K",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 6/35: ai agent, rag, saas, scala",
-        "domain 15/15: healthcare",
-        "level 6/15: level unclear from title",
-        "comp 7/10: $142,000-$142,000, clears floor",
-        "freshness 10/10: 1d old",
-        "remote 8/10: remote",
-        "ai 5/5: AI-positive language"
+        "ai 2/5: neutral"
       ],
       "flags": []
     }
