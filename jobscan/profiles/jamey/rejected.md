@@ -1,58 +1,64 @@
-# Rejected  (44)
+# Rejected  (95)
 
-Generated 2026-11-20 18:42 UTC. Audit trail for the three-line filter.
+Generated 2026-11-23 22:09 UTC. Audit trail for the three-line filter.
 If something good is in here, the filter is wrong. Fix `profile.jsonc`, not the posting.
 
-## location  (34)
+## location  (89)
 
-- **TELUS Digital** : Content Reviewer - United States <br> `location: onsite in USA, not remote and not in range` <br> https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091177
-- **Airbnb** : Senior Software Engineer Guest & Host <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-software-engineer-guest-host-airbnb-1137849
-- **Airbnb** : Engineering Manager, External Search & AI O… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-engineering-manager-external-search-ai-optimization-airbnb-1137848
-- **Lattice** : Engineering Manager, Product Engineering <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-engineering-manager-product-engineering-lattice-1137847
-- **Airbnb** : Senior Data Engineer Tech Foundations <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-data-engineer-tech-foundations-airbnb-1137846
-- **Netlify** : Staff Software Engineer (Interfaces) <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-staff-software-engineer-interfaces-netlify-1137844
-- **Tebra** : Senior Sales Training and Enablement Manager <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-sales-training-and-enablement-manager-tebra-1137842
-- **Abnormal** : Director, Enterprise Sales <br> `location: onsite in Europe, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-director-enterprise-sales-abnormal-1137841
-- **Collibra** : Senior Account Executive II <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-account-executive-ii-collibra-1137840
-- **Bybit** : Business Development Assistant <br> `location: onsite in Europe, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-business-development-assistant-bybit-1137836
-- **Ping Identity** : Enterprise Account Executive <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-ping-identity-1137834
-- **BeyondTrust** : Front-End Engineer, UX/UI <br> `location: onsite in Canada Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-front-end-engineer-ux-ui-beyondtrust-1137833
-- **Rubrik Job Board** : Global Head of GSI Solutions Architecture <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-global-head-of-gsi-solutions-architecture-rubrik-job-board-1137832
-- **Everpure** : Regional MSP Partner Manager, Benelux <br> `location: onsite in Europe, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-regional-msp-partner-manager-benelux-everpure-1137831
-- **Rubrik Job Board** : GSI Specialty Seller, Identity Resilience (… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-gsi-specialty-seller-identity-resilience-global-rubrik-job-board-1137830
-- **Abnormal** : Integrated Marketing Manager, Global Progra… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-integrated-marketing-manager-global-programs-abnormal-1137829
-- **Rubrik Job Board** : Manager, WW Distribution <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-manager-ww-distribution-rubrik-job-board-1137828
-- **Everpure** : Account Executive, Enterprise (Atlanta/Tenn… <br> `location: onsite in US Only, outside 75mi and not remote` <br> https://remoteOK.com/remote-jobs/remote-account-executive-enterprise-atlanta-tennessee-everpure-1137827
-- **Glean** : Enterprise Solutions Engineer, East <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-enterprise-solutions-engineer-east-glean-1137826
-- **Legion** : Revenue Enablement Manager <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-revenue-enablement-manager-legion-1137825
-- **Bitwarden** : Sales Development Representative <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sales-development-representative-bitwarden-1137824
-- **BeyondTrust** : Enterprise Customer Success Manager <br> `location: onsite in North America, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-enterprise-customer-success-manager-beyondtrust-1137823
-- **Ping Identity** : Customer Success Manager <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-customer-success-manager-ping-identity-1137822
-- **Abnormal** : L1 Technical Support Engineer (Spanish-Spea… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-l1-technical-support-engineer-spanish-speaking-abnormal-1137821
-- **Glean** : Designated Technical Support Engineer - West <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-designated-technical-support-engineer-west-glean-1137820
-- **Airtable** : Customer Success Manager <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-customer-success-manager-airtable-1137818
-- **Tines** : Paralegal <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-paralegal-tines-1137817
-- **GitLab** : Customer Success Engineer, India <br> `location: onsite in Asia, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-customer-success-engineer-india-gitlab-1137815
-- **GitLab** : Customer Success Engineer, Singapore <br> `location: onsite in Asia, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-customer-success-engineer-singapore-gitlab-1137814
-- **GitLab** : Customer Success Architect - West <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-customer-success-architect-west-gitlab-1137813
-- **Stripe** : Briefing Content Strategist <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-briefing-content-strategist-stripe-1137812
-- **6sense** : Agency Partnerships Director <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-agency-partnerships-director-6sense-1137811
-- **Tebra** : Senior Analytics Engineer <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-analytics-engineer-tebra-1137809
-- **Everpure** : Regional Marketing Manager, Southeast <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-regional-marketing-manager-southeast-everpure-1137810
-
-## quals  (6)
-
-- **Christian Tech Jobs** : Chief of Staff (Fractional) <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/remote-chief-of-staff-fractional-faithonline-1900
-- **Christian Tech Jobs** : Communications Designer <br> `quals: no load-bearing stack overlap in requirements` <br> https://www.christiantechjobs.io/christian-jobs/communications-designer-eastview-church-1897
-- **NIKI Digital Engineering** : Engineer Software Defined Vehicle Simulatio… <br> `quals: only adjacent overlap (python), no primary stack` <br> https://remoteOK.com/remote-jobs/remote-engineer-software-defined-vehicle-simulation-and-development-niki-digital-engineering-1137839
-- **NIKI Digital Engineering** : Marketing and Communications Officer <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-marketing-and-communications-officer-niki-digital-engineering-1137838
-- **NIKI Digital Engineering** : Postdoc PhD PhD cand. Physics Computer Scie… <br> `quals: only adjacent overlap (python), no primary stack` <br> https://remoteOK.com/remote-jobs/remote-postdoc-phd-phd-cand-physics-computer-science-niki-digital-engineering-1137837
-- **Talkspace** : Community Moderator - Wisdo (1099) <br> `quals: no load-bearing stack overlap in requirements` <br> https://remoteOK.com/remote-jobs/remote-community-moderator-wisdo-1099-talkspace-1137819
+- **Lemon.io** : Senior Back-end Developerusa <br> `location: onsite in Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia, not remote and not in range` <br> https://remotive.com/remote-jobs/software-development/senior-back-end-developerusa-2091135
+- **Reddit** : Product Manager, Developer Ecosystem <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-product-manager-developer-ecosystem-reddit-1137977
+- **ÅURA** : Manager, Technical Accounting and Equity Re… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-manager-technical-accounting-and-equity-reporting-oura-1137976
+- **Clover Health** : DRG Inpatient Coding Validator <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-drg-inpatient-coding-validator-clover-health-1137973
+- **Clover Health** : DRG Validation Auditor <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-drg-validation-auditor-clover-health-1137972
+- **Natera** : Sr. Forward Deployed Data Engineer <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sr-forward-deployed-data-engineer-natera-1137970
+- **Natera** : Senior Clinical Trials Systems Manager <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-clinical-trials-systems-manager-natera-1137967
+- **Natera** : Supv, Prior Authorization <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-supv-prior-authorization-natera-1137966
+- **GitLab** : Business Development Representative, SLED -… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-business-development-representative-sled-west-gitlab-1137965
+- **GitLab** : Regional Sales Director, Canada <br> `location: onsite in Canada Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-regional-sales-director-canada-gitlab-1137964
+- **GitLab** : Strategic Account Executive - Spain <br> `location: onsite in Europe, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-strategic-account-executive-spain-gitlab-1137963
+- **BeyondTrust** : Sr Analyst, Analytics & Insights <br> `location: onsite in North America, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sr-analyst-analytics-insights-beyondtrust-1137962
+- **Mixpanel** : Deal Desk Analyst (Eastern Time Zone Prefer… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-deal-desk-analyst-eastern-time-zone-preferred-mixpanel-1137961
+- **6sense** : Director, Revenue Accounting <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-director-revenue-accounting-6sense-1137960
+- **Carrot** : Corporate Counsel, Commercial <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-corporate-counsel-commercial-carrot-1137959
+- **LaunchDarkly** : Release Strategist, Professional Services <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-release-strategist-professional-services-launchdarkly-1137958
+- **Bitwarden** : Senior Database Engineer <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-database-engineer-bitwarden-1137957
+- **Airbnb** : Staff Data Scientist - Martech Platform (ML… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-staff-data-scientist-martech-platform-ml-algos-airbnb-1137956
+- **Airbnb** : Senior Software Engineer, Partner Integrati… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-software-engineer-partner-integrations-airbnb-1137954
+- **6sense** : Vice President, Storytelling & Communicatio… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-vice-president-storytelling-communications-6sense-1137953
+- **Healthie** : Private Practice Enablement Specialist (PST) <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-private-practice-enablement-specialist-pst-healthie-1137952
+- **Contentstack** : Revenue Operations Leader, Strategy & Plann… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-revenue-operations-leader-strategy-planning-contentstack-1137951
+- **Ping Identity** : VP, Customer Experience Operations <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-vp-customer-experience-operations-ping-identity-1137949
+- **Abnormal** : Senior Software Engineer - Behavioral Secur… <br> `location: onsite in UK Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-software-engineer-behavioral-security-products-abnormal-1137948
+- **ÅURA** : Senior Manager, Financial Reporting <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-manager-financial-reporting-oura-1137947
+- **Reddit** : Engineering Manager, Ranking Platform <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-engineering-manager-ranking-platform-reddit-1137946
+- **Reddit** : Principal Software Engineer, Infrastructure <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-principal-software-engineer-infrastructure-reddit-1137945
+- **Clover Health** : Enterprise Performance Lead <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-enterprise-performance-lead-clover-health-1137944
+- **Ensono** : Global Tax Intern <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-global-tax-intern-ensono-1137943
+- **Databricks** : Sr. Technology Partner Director, Product Pa… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sr-technology-partner-director-product-partnerships-databricks-1137941
+- **Natera** : Lead, Office of Software Assurance <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-lead-office-of-software-assurance-natera-1137940
+- **Ping Identity** : Business Services Assistant <br> `location: onsite in UK Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-business-services-assistant-ping-identity-1137936
+- **ÅURA** : Senior Financial Analyst <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-financial-analyst-oura-1137935
+- **Clover Health** : In-Home Care Admin Coordinator <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-in-home-care-admin-coordinator-clover-health-1137934
+- **Clover Health** : Associate Counsel, Vendor and Provider Cont… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-associate-counsel-vendor-and-provider-contracting-clover-health-1137933
+- **Reddit** : Senior Staff Machine Learning Engineer, Ads… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932
+- **Bitwarden** : Sr. Product Marketing Manager, Secrets Mana… <br> `location: onsite in US Only, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sr-product-marketing-manager-secrets-manager-bitwarden-1137931
+- **Carrot** : Sr. Security Operations Manager <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-sr-security-operations-manager-carrot-1137930
+- **LastPass** : Senior Product Design Manager <br> `location: onsite in Europe, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-senior-product-design-manager-lastpass-1137928
+- **Carrot** : Manager, Product Design <br> `location: onsite in Worldwide, not remote and not in range` <br> https://remoteOK.com/remote-jobs/remote-manager-product-design-carrot-1137927
+- _...and 49 more_
 
 ## gap-gated on required quals  (4)
 
-- **Bitwarden** : Vice President, Public Sector <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-vice-president-public-sector-bitwarden-1137843
-- **Norm** : Technical Lead Norm Compliance <br> `gap-gated on required quals: terraform` <br> https://remoteOK.com/remote-jobs/remote-technical-lead-norm-compliance-norm-1137835
-- **Salesloft** : Head of Channel Sales & Alliances <br> `gap-gated on required quals: salesforce` <br> https://remoteOK.com/remote-jobs/remote-head-of-channel-sales-alliances-salesloft-1137816
-- **Askable** : Software Engineer AI Coding Tasks <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137808
+- **Reddit** : Senior SRE, Site Experience <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-senior-sre-site-experience-reddit-1137975
+- **Reddit** : Senior Staff SRE, Site Experience <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-senior-staff-sre-site-experience-reddit-1137974
+- **Princeton10** : Account Director <br> `gap-gated on required quals: rust` <br> https://remoteOK.com/remote-jobs/remote-account-director-princeton10-1137913
+- **Arbor Education** : Senior Product Engineer <br> `gap-gated on required quals: helm, rust` <br> https://remoteOK.com/remote-jobs/remote-senior-product-engineer-arbor-education-1137865
+
+## comp  (1)
+
+- **Christian Tech Jobs** : AI Enablement & Implementation Specialist <br> `comp: tops out at $80,000, floor is $135,000` <br> https://www.christiantechjobs.io/christian-jobs/ai-enablement-implementation-specialist-hope-international-1902
+
+## level  (1)
+
+- **Cribl** : International People Ops Analyst, Benefits <br> `level: 'International People Ops Analyst, Benefits' reads junior` <br> https://remoteOK.com/remote-jobs/remote-international-people-ops-analyst-benefits-cribl-1137875
 
