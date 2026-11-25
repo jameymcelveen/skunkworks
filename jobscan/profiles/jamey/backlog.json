@@ -1,12 +1,157 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-24T20:45:05.6463856+00:00",
+  "generated": "2026-11-25T20:01:39.5500128+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
-    "Seen": 154,
-    "New": 6,
-    "Rejected": 6
+    "Seen": 156,
+    "New": 26,
+    "Rejected": 20
   },
-  "hits": []
+  "hits": [
+    {
+      "id": "b04e0b9ca609",
+      "score": 77,
+      "priority": true,
+      "company": "Cribl",
+      "title": "Staff Software Engineer, Control Plane",
+      "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-control-plane-cribl-1138092",
+      "location": "US Only",
+      "comp": "$240K-$240K",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 14/35: aws, azure, node, saas, scala, typescript",
+        "domain 13/15: mission",
+        "level 15/15: principal/staff tier",
+        "comp 10/10: $240,000-$240,000, well over floor",
+        "freshness 10/10: 1d old",
+        "remote 10/10: remote-first language",
+        "ai 5/5: AI-positive language"
+      ],
+      "flags": [
+        "agentic-primary: AI fleet is the qualification here"
+      ]
+    },
+    {
+      "id": "29e3aef829d1",
+      "score": 65,
+      "priority": false,
+      "company": "Reddit",
+      "title": "Senior Software Engineer, AI \u0026 Science Platform",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-ai-science-platform-reddit-1138093",
+      "location": "US Only",
+      "comp": "$267K-$267K",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 13/35: ci/cd, llm, mcp, python, react, typescript",
+        "domain 7/15: saas",
+        "level 12/15: senior/lead tier",
+        "comp 10/10: $267,100-$267,100, well over floor",
+        "freshness 10/10: 1d old",
+        "remote 8/10: remote",
+        "ai 5/5: AI-positive language"
+      ],
+      "flags": [
+        "agentic-primary: AI fleet is the qualification here"
+      ]
+    },
+    {
+      "id": "6145caa72c18",
+      "score": 61,
+      "priority": false,
+      "company": "Salesloft",
+      "title": "Senior Corporate Accountant - Tax",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-corporate-accountant-tax-salesloft-1138099",
+      "location": "US Only",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 5/35: rag, saas",
+        "domain 15/15: healthcare",
+        "level 12/15: senior/lead tier",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 1d old",
+        "remote 10/10: remote-first language",
+        "ai 5/5: AI-positive language"
+      ],
+      "flags": []
+    },
+    {
+      "id": "075f7fe0b91c",
+      "score": 54,
+      "priority": false,
+      "company": "Christian Tech Jobs",
+      "title": "Senior Software Engineer (Smart TV Developer)",
+      "url": "https://www.christiantechjobs.io/christian-jobs/remote-senior-software-engineer-smart-tv-developer-angel-studios-1904",
+      "location": "",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "rss",
+      "domain": "mission",
+      "why": [
+        "stack 11/35: rag, react, typescript",
+        "domain 13/15: mission",
+        "level 12/15: senior/lead tier",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 0d old",
+        "remote 2/10: unclear",
+        "ai 2/5: neutral"
+      ],
+      "flags": [
+        "check the 990: nonprofit band may be aspirational"
+      ]
+    },
+    {
+      "id": "4ed6c8e72fe3",
+      "score": 54,
+      "priority": false,
+      "company": "Doximity",
+      "title": "Regional Vice President, Biddable",
+      "url": "https://remoteOK.com/remote-jobs/remote-regional-vice-president-biddable-doximity-1138097",
+      "location": "US Only",
+      "comp": "$192K-$313K",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 3/35: aws",
+        "domain 15/15: healthcare",
+        "level 6/15: level unclear from title",
+        "comp 10/10: $192,500-$313,833, well over floor",
+        "freshness 10/10: 1d old",
+        "remote 8/10: remote",
+        "ai 2/5: neutral"
+      ],
+      "flags": []
+    },
+    {
+      "id": "e8568960d2b3",
+      "score": 47,
+      "priority": false,
+      "company": "Augment",
+      "title": "Revenue Operations Analyst",
+      "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081",
+      "location": "Remote",
+      "comp": "not stated",
+      "day_shape": "build",
+      "source": "remoteok",
+      "domain": "saas",
+      "why": [
+        "stack 7/35: aws, rag, saas",
+        "domain 7/15: saas",
+        "level 6/15: level unclear from title",
+        "comp 4/10: not stated, ask",
+        "freshness 10/10: 1d old",
+        "remote 8/10: remote",
+        "ai 5/5: AI-positive language"
+      ],
+      "flags": []
+    }
+  ]
 }
