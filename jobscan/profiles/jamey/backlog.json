@@ -1,59 +1,12 @@
 {
   "profile": "jamey",
-  "generated": "2026-11-26T19:44:50.8817094+00:00",
+  "generated": "2026-11-27T19:34:12.1945404+00:00",
   "priority_min": 70,
   "stats": {
     "Sources": 6,
     "Seen": 154,
     "New": 45,
-    "Rejected": 43
+    "Rejected": 45
   },
-  "hits": [
-    {
-      "id": "bafbd374c14a",
-      "score": 57,
-      "priority": false,
-      "company": "Veeva Systems",
-      "title": "Senior Implementation Consultant - Pharmacovigilance Reporting (Remote)",
-      "url": "https://remoteOK.com/remote-jobs/remote-senior-implementation-consultant-pharmacovigilance-reporting-remote-veeva-systems-1138115",
-      "location": "UK Only",
-      "comp": "not stated",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 8/35: aws, oracle, saas, scala, snowflake",
-        "domain 13/15: mission",
-        "level 12/15: senior/lead tier",
-        "comp 4/10: not stated, ask",
-        "freshness 10/10: 1d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    },
-    {
-      "id": "b6325fd5f8f8",
-      "score": 48,
-      "priority": false,
-      "company": "Vendavo",
-      "title": "North America Alliance and Partnerships Director (Remote)",
-      "url": "https://remoteOK.com/remote-jobs/remote-north-america-alliance-and-partnerships-director-remote-vendavo-1138124",
-      "location": "US Only",
-      "comp": "$172K-$172K",
-      "day_shape": "build",
-      "source": "remoteok",
-      "domain": "saas",
-      "why": [
-        "stack 5/35: eks, rag, saas",
-        "domain 7/15: saas",
-        "level 6/15: level unclear from title",
-        "comp 10/10: $172,000-$172,000, well over floor",
-        "freshness 10/10: 1d old",
-        "remote 8/10: remote",
-        "ai 2/5: neutral"
-      ],
-      "flags": []
-    }
-  ]
+  "hits": []
 }
